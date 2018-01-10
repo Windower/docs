@@ -1,6 +1,5 @@
 ---
-layout: home
-author_profile: false
+layout: splash
 ---
 
 Welcome to the Windower wiki.
