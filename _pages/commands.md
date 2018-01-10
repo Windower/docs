@@ -105,6 +105,7 @@ title: Windower Commands
 * `mouse_blockinput #` - Blocks mouse input
     * `0` = unblock
     * `1` = block (MAJOR PROBLEMS)
+
 |---
 | Command | Parameters | Description |
 | :--- | :--- | :--- |
