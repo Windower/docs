@@ -1,3 +1,6 @@
-name: Windower Documentation (v4)
+name: Windower Documentation Team
 #theme: jekyll-theme-minimal
 remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_theme: "dark"
+title: "Windower Documentation (v4)"
+description: "Documentation for using and customizing Windower v4"
