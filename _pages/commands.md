@@ -110,9 +110,9 @@ title: Windower Commands
 | Command | Parameters | Description |
 | :--- | :--- | :--- |
 |---
-| mouse_blockinput | `#` | Blocks mouse input
+| mouse_blockinput | `#` | Blocks mouse input |
 | | | * `0` = unblock |
-| | | * `1` = block (MAJOR PROBLEMS)
+| | | * `1` = block (MAJOR PROBLEMS) |
 |---
 
 ## Plugin Commands
