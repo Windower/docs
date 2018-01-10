@@ -23,7 +23,6 @@ Windower commands can be used in several ways.
 | [Alias](alias/) | Create Windower pseudo-commands that can be used in the same way as built-in commands. |
 | [Console](console/) | Control the appearance and behavior of the Windower console. |
 | [Game](game/) | Control various aspects of the game rendering engine. |
-| [Keyboard](keyboard/) | Create keybinds and manage the behavior of the keyboard. |
-| [Mouse](mouse/) | Control the behavior of the mouse. |
+| [Input](input/) | Create keybinds and manage the behavior of the keyboard and mouse. |
 | [Plugin](plugin/) | Load and unload Windower plugins. |
 | [Addon](addon/) | Load, unload, and interact with Windower addons. |
