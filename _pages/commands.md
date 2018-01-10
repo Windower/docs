@@ -11,6 +11,7 @@ showfps [#]
 Shows or hides the framerate display.
 
 ##### Accepted Values
+
 | Value | Description |
 |:---|:---|
 | `0` | Framerate display hidden |
