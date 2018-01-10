@@ -107,11 +107,11 @@ title: Windower Commands
     * `1` = block (MAJOR PROBLEMS)
 
 <table>
-    <th>
-        <td>Command</td>
-        <td>Parameters</td>
-        <td>Description</td>
-    </th>
+    <tr>
+        <th>Command</th>
+        <th>Parameters</th>
+        <th>Description</th>
+    </tr>
     <tr>
         <td>mouse_blockinput</td>
         <td> `#` </td>
