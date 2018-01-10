@@ -29,12 +29,9 @@ Repositions the framerate display.
 ```
 screenshot <format> [hide]
 ```
-Takes a screenshot.
+Takes a screenshot in the specified format.
 
-Available formats:
-* `bmp`
-* `jpg`
-* `png`
+Supported formats: `bmp`, `jpg`, `png`
 
 If specified, the optional `hide` parameter hides Windower objects from the screenshot.
 
@@ -102,16 +99,43 @@ The command may fail if you have more than 40 aliases.
     * `1` = enable
 
 ## Game Commands
-* `game_forceambientlight #` - Forces using specified ambient light
-    * `0` = ignore
-    * `1` = force
-* `game_ambientlight A R G B` - Set game ambient light
-    * Alpha (Optional) Red Green Blue
-* `fillmode #` - Set rendering mode
-    * `0` = normal
-    * `1` = wireframe
-    * `2` = point fill
-    * No argument to toggle between normal and wireframe
+
+### game_forceambientlight
+```
+game_forceambientlight <#>
+```
+Forces the game engine to use a specified ambient light setting.
+
+#### Accepted Values
+
+| Value | Description |
+|:---|:---|
+| `0` | Ignores specified ambient light setting. |
+| `1` | Forces use of the ambient light setting. |
+
+### game_ambientlight
+```
+game_ambientlight [A] <R> <G> <B>
+```
+Defines the game ambient light color in RGB format with optional alpha channel.
+
+### fillmode
+```
+fillmode <#>
+```
+Sets the game engine rendering mode.
+
+#### Supported Modes
+
+| Mode | Description |
+|:---|:---|
+| `0` | Normal rendering |
+| `1` | Wireframe-only rendering |
+| `2` | Point-fill rendering |
+
+Using `fillmode` with no argument toggles between normal and wireframe-only rendering.
+
+
 * `game_gamma #` - Sets game gamma
     * `0`-`100`, Default = `50`
 * `game_allowsetcursorpos #` - Sets whether the game is allowed to set the cursor position
@@ -137,15 +161,21 @@ bind [modifier][state]<key> [up] <command>
 Binds a command to a key. By default, binds on key press; specify `up` to bind on key release.
 Multiple keys can be assigned in the same statement by using `|` between keys.
 
-Use an optional modifier to bind the key only while pressing Shift, Alt, Ctrl, Apps, or Win:
-* `^`: Ctrl
-* `!`: Alt
-* `@`: Windows
-* `#`: Apps
+#### Supported Modifiers
 
-Optionally specify a state to indicate whether the bind is valid with the FFXI input line active or inactive:
-* `$`: Valid while FFXI input line is active
-* `%`: Valid while FFXI input line is inactive
+| Modifier | Description |
+|:---|:---|
+| `^` | Ctrl |
+| `!` | Alt |
+| `@` | Windows |
+| `#` | Apps |
+
+#### Supported Chatlog States
+
+| State | Description |
+|:---|:---|
+| `$` | Valid while FFXI input line is active |
+| `%` | Valid while FFXI input line is inactive |
 
 For an exhaustive list of bindable keys, see [[Key Mapping]].
 
