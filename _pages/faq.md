@@ -22,7 +22,7 @@ If the plugin name is **Find**, you have 3 options:
 * In game type `//load Find`
 
 ### Is there a list of commands to use?
-Check the [[Command Listing]]
+See the [Windower Commands](/commands/) section.
 
 ### I don't want to use any plugins how do I get rid of them?
 Don't check any in the launcher
@@ -38,7 +38,9 @@ Refer to the [[Scripting Section]].
 Edit `settings.xml` in your Windower directory, you can set the supersampling multiplier to anything you want.  Values less than 1 will undersample, which can speed up performance on low-powered PCs.
 
 ### My Windower will not load (Crashes on Play)!
-Check the [FFXIAH Forums](http://www.ffxiah.com/forum/forum/170/support/) and search for any issues on the [Bug Tracker](https://github.com/Windower/Issues/issues)
+Search for your issue in the following locations:
+* [Windower Support on FFXIAH Forums](http://www.ffxiah.com/forum/forum/170/support/)
+* [Windower Bug Tracker on GitHub](https://github.com/Windower/Issues/issues)
 
 ### I get an error when running launcher and PlayOnline does not open!
 Check the windower directory for a crash log, and create an issue on the [Bug Tracker](https://github.com/Windower/Issues/issues) with the crash log attached.
@@ -51,7 +53,7 @@ Check the windower directory for a crash log, and create an issue on the [Bug Tr
 If you set your fontsize in windows to something other than 100%, the console will not place the input line in the correct place. Set your windows font size to 100% (not 125%).
 
 ### My Launcher will only install Windower and will not load. Keeps asking me to Allow/Don't Allow before loading.
-Simply go to Control Panel>User Account>UAC and un-check the box that says User Account Control and RESTART computer.
+Simply go to **Control Panel** > **User Account** > **UAC** and un-check the box that says User Account Control and RESTART computer.
 
 ## Contacting the Dev Team
 ### Why was my forum post locked or deleted shortly after making it?
