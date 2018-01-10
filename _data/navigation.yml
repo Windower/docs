@@ -19,8 +19,8 @@ sidenav:
     children:
       - title: "Welcome"
         url: /welcome/
-      - title: "Getting Started"
-        url: /getting-started/
+      - title: "Windower Commands"
+        url: /commands/
       - title: "FAQ"
         url: /faq/
   - title: Addons

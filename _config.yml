@@ -257,3 +257,14 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      toc: true
+      sidebar:
+        nav: sidenav
+      toc_label: Contents
+      toc_icon: "align-justified"
