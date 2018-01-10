@@ -24,7 +24,7 @@ Binds a command to a key. By default, binds on key press; specify `up` to bind o
 | `@` | **Win** |
 | `#` | **Apps** |
 
-#### Supported Chatlog States
+#### Supported Chat Input States
 
 | State | Description |
 |:---|:---|
