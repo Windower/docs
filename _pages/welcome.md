@@ -1,7 +1,9 @@
 ---
 permalink: /welcome/
 layout: single
-toc: true
+toc: false
+sidebar:
+    nav: sidenav
 ---
 
 Welcome to the Windower wiki.

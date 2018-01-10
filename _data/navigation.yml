@@ -10,3 +10,12 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+# navigation sidebar
+sidenav:
+  - title: Windower 4
+    children:
+      - title: "Welcome"
+        url: /welcome/
+      - title: "Getting Started"
+        url: /getting-started/
