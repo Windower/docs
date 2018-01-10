@@ -22,7 +22,7 @@ If the plugin name is **Find**, you have 3 options:
 * In game type `//load Find`
 
 ### Is there a list of commands to use?
-See the [Windower Commands](commands/) section.
+See the [Windower Commands](../commands/) section.
 
 ### I don't want to use any plugins how do I get rid of them?
 Don't check any in the launcher
