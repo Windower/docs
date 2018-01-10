@@ -38,15 +38,15 @@ Sets the game engine rendering mode.
 | `1` | Wireframe-only rendering |
 | `2` | Point-fill rendering |
 
-**Tip:** Use `fillmode` with no argument to toggle between normal and wireframe-only rendering.
+**Tip:** Use **fillmode** with no argument to toggle between normal and wireframe-only rendering.
 {: .notice--info}
 
 ### game_gamma
 ```
 game_gamma #
 ```
-Sets the game gamma value.
-Integer values between `0` and `100` are allowed. The default value is `50`.
+Sets the game gamma value.<br>
+Integer values between `0` and `100` are allowed. Default: `50`
 
 ### game_allowsetcursorpos
 ```
@@ -71,7 +71,7 @@ Minimizes the game to the Windows taskbar.
 ```
 game_exit
 ```
-Exits the game and returns to to PlayOnline
+Exits the game and returns to PlayOnline.
 
 **Note:** Your character remains in world like going LD.
 {: .notice--warning}
@@ -96,9 +96,9 @@ Controls the resizing restriction on the game window.
 | Value | Description |
 |:---|:---|
 | `0` | The default window resizing restriction applies |
-| `1` | The game window can be proportionally resized without holding down `Alt` or `Ctrl` |
+| `1` | The game window can be proportionally resized without holding down **Alt** or **Ctrl** |
 
-**Note:** You must still hold `Shift` to resize the game windowwithout proportion restrictions.
+**Note:** You must still hold **Shift** to resize the game windowwithout proportion restrictions.
 {: .notice}
 
 ### game_exitprompt
