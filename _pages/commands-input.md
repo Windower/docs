@@ -126,4 +126,4 @@ Blocks mouse input.
 | Value | Description |
 |:---|:---|
 | `0` | Allows mouse input |
-| `1` | Blocks mouse input (MAJOR PROBLEMS |
+| `1` | Blocks mouse input (MAJOR PROBLEMS) |
