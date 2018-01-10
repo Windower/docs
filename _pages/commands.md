@@ -108,7 +108,7 @@ title: Windower Commands
 
 | Command | Parameters | Description |
 | :--- | :--- | :--- |
-| mouse_blockinput | *#* | Blocks mouse input <ul><li>`0` = unblock</li><li>`1` = block (MAJOR PROBLEMS)</li></ul> |
+| mouse_blockinput | *#* | Blocks mouse input<br> <ul><li>`0` = unblock</li><li>`1` = block (MAJOR PROBLEMS)</li></ul> |
 
 ## Plugin Commands
 * `load <plugin>` - Loads a plugin dll (.dll is optional, and case is irrelevant)
