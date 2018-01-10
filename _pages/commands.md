@@ -111,7 +111,7 @@ title: Windower Commands
 | mouse_blockinput | *#* | Blocks mouse input. Accepted values:<br> `0` = unblock<br> `1` = block (MAJOR PROBLEMS) |
 
 ### mouse_blockinput
-```shell
+```
 mouse_blockinput <#>
 ```
 Blocks mouse input. Accepted values:
@@ -121,9 +121,23 @@ Blocks mouse input. Accepted values:
 ## Plugin Commands
 
 ### load
-```bash
+Loads a plugin. The plugin name is not case-sensitive.
+```
 load <plugin>
 ```
+
+### unload
+Unloads the specified plugin.
+```
+unload <plugin>
+```
+
+### toggle
+Toggles the specified plugin. Designed to be bound to a key to turn a plugin on or off with a keystroke.
+```
+toggle <plugin>
+```
+
 * `load <plugin>` - Loads a plugin dll (.dll is optional, and case is irrelevant)
 * `unload <plugin>` - Unloads a plugin dll
 * `toggle <plugin>` - Will toggle a plugin. Designed to be bound to a key to turn off or on a plugin on a keystroke
