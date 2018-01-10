@@ -267,4 +267,4 @@ defaults:
       sidebar:
         nav: sidenav
       toc_label: Contents
-      toc_icon: "align-justified"
+      toc_icon: "align-justify"
