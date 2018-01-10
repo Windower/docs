@@ -3,17 +3,56 @@ permalink: /commands/
 title: Windower Commands
 ---
 ## General Commands
-* `showfps #` - Shows or hides FPS counter
-    * `0` = hidden
-    * `1` = visible
-    * no parameter to toggle
-* `fps_position x y` - Repositions the FPS Counter.
-* `screenshot <format> [hide]` - Takes a screenshot, specifying hide hides Windower from the screenshot.
-    * format can be `bmp`/`jpg`/`png`
-* `video start <xRes> <yRes> <fps> <quality>` - Starts a video using specified parameters
-* `video stop` - Stop recording
-* `wait #` - Pauses execution of a command/bind/alias/script for given seconds. Can be decimal.
-* `pause #`
+
+### showfps
+```
+showfps [#]
+```
+Shows or hides the framerate display.
+
+Accepted values:
+* `0` = hidden
+* `1` = visible
+
+Using `showfps` without a parameter toggles visibility.
+
+### fps_position
+```
+fps_position <x> <y>
+```
+Repositions the framerate display.
+
+### screenshot
+```
+screenshot <format> [hide]
+```
+Takes a screenshot.
+
+Available formats:
+* `bmp`
+* `jpg`
+* `png`
+
+If specified, the optional `hide` parameter hides Windower objects from the screenshot.
+
+### video start
+```
+video start <xres> <yres> <fps> <quality>
+```
+Starts recording a video with the specified parameters.
+
+### video stop
+```
+video stop
+```
+Stops video recording.
+
+### wait / pause
+```
+wait <#>
+pause <#>
+```
+Pauses execution of a command, bind, alias, or script for the given number of seconds. Decimal values may be used.
 
 ## Alias Commands
 
@@ -22,6 +61,7 @@ title: Windower Commands
 alias <alias> <command>
 ```
 Creates a pseudo console command that can be typed into the console or used in a script or key bind.
+
 For example: `alias blah wait 5;echo hello` creates the `blah` pseudo-command.
 
 ### clearaliases
