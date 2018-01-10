@@ -16,9 +16,26 @@ title: Windower Commands
 * `pause #`
 
 ## Alias Commands
-* `alias <alias> command` - e.g. `alias blah wait 5;echo hello` will create a pseudo console command `blah` can be typed in the console, used in a script, or even put into a bind
-* `clearaliases` - Clears all currently defined aliases.
-* `listaliases` - Lists all currently created aliases. (Command will fail if you have more than 40 aliases)
+
+### alias
+```
+alias <alias> <command>
+```
+Creates a pseudo console command that can be typed into the console or used in a script or key bind.
+For example: `alias blah wait 5;echo hello` creates the `blah` pseudo-command.
+
+### clearaliases
+```
+clearaliases
+```
+Clears all currently-defined aliases.
+
+### listaliases
+```
+listaliases
+```
+Lists all currently-defined aliases.
+The command may fail if you have more than 40 aliases.
 
 ## Console Commands
 * `console_toggle` - Toggles the visibilty of the console
@@ -71,7 +88,7 @@ title: Windower Commands
 ## Keyboard Commands
 
 ### bind
-```Powershell
+```
 bind [modifier][state]<key> [up] <command>
 ```
 Binds a command to a key. By default, binds on key press; specify `up` to bind on key release.
@@ -90,7 +107,7 @@ Optionally specify a state to indicate whether the bind is valid with the FFXI i
 For an exhaustive list of bindable keys, see [[Key Mapping]].
 
 ### unbind
-```powershell
+```
 unbind <key> [up]
 ```
 Removes an existing key binding. By default, unbinds from key press; specify `up` to unbind from key release.
