@@ -118,7 +118,7 @@ Controls the confirmation dialog that appears before exiting when clicking the `
 ```
 game_exittype <#>
 ```
-Sets the exit type for the game. Terminate or Exit to POL (`1` for Terminate).
+Sets the exit type for the game.
 
 #### Allowed Values
 
