@@ -114,6 +114,11 @@ title: Windower Commands
 * `reload <plugin>` - Unloads and reloads a plugin.
 * `unloadall` - Unload all plugins.
 
+| Command | Parameters | Description |
+| :--- | :--- | :--- |
+| `load` | *plugin_name* | Loads a DLL plugin. The plugin name is not case-sensitive.<br> ``` load ffxidb ``` |
+| `unload` | *plugin_name* | Unloads a DLL plugin.<br> ``` unload ffxidb ``` |
+
 ## Addon Commands
 * `lua **l**oad <addon>` - Loads an addon
 * `lua **u**nload <addon>` - Unloads an addon
