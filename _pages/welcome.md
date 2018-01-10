@@ -1,8 +1,8 @@
-___
+---
+permalink: /welcome/
 layout: single
 toc: true
-permalink: /welcome/
-___
+---
 
 Welcome to the Windower wiki.
 
