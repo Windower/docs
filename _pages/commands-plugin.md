@@ -26,7 +26,7 @@ toggle <plugin>
 ```
 Toggles the specified plugin.
 
-**Tip:** Designed to be used with a [keybind](../input/#bind--keyboard_bind) to turn a plugin on or off with a single keystroke.
+**Tip:** Designed to be used with a [keybind](../input/#bind--keyboard_bind) to turn a plugin on or off by keystroke.
 {: .notice--info}
 
 ### plugin_list
