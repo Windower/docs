@@ -3,12 +3,14 @@ permalink: /faq/
 layout: single
 title: Frequently Asked Questions
 toc: true
+toc_label: Contents
+toc_icon: "question-circle"
 sidebar:
     nav: sidenav
 ---
 ## Using Windower
 ### How do I use the Windower?
-Read the [[ReadMe]]
+See [[Getting Started]].
 
 ### What is true fullscreen?
 It disables Windower in terms of Windowing the game. You cant alt tab. It only gives you plugins.
@@ -20,7 +22,7 @@ If the plugin name is **Find**, you have 3 options:
 * In game type `//load Find`
 
 ### Is there a list of commands to use?
-Check the [Command Listing]
+Check the [[Command Listing]]
 
 ### I don't want to use any plugins how do I get rid of them?
 Don't check any in the launcher
@@ -29,7 +31,7 @@ Don't check any in the launcher
 Simply rerun the Launcher a 2nd time, you do not need to make copies of Windower to load twice.
 
 ### How do I use scripting?
-Refer to the [[scripting|Scripting Section]].
+Refer to the [[Scripting Section]].
 
 ## Errors and Problems
 ### FFXI runs terribly with the launcher graphical settings, how can I lower them further?
@@ -59,7 +61,7 @@ Because your topic was stupid and you didn't search the forums.
 Because no developer has an answer for you any different than what's already said on the topic in other threads.
 
 ### How can I contact the developer team directly?
-Yes, you may come on IRC by [[http://client00.chat.mibbit.com/?server=ffochat.com&channel=%23windower|WebClient]] or IRC by [[irc://ffochat.com/windower|Real Client]]
+You can stop by our [Discord](https://discord.gg/v6pk6uy) server.
 
 ### How can I make addons for Windower?
 See the [Windower Lua wiki](https://github.com/Windower/Lua/wiki) on GitHub.
