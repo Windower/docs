@@ -1,9 +1,9 @@
 ---
-permalink: /commands/keyboard/
+permalink: /commands/input/
 title: Keyboard Commands
 ---
 
-Keyboard commands allow you to control how Windower interacts with keyboard input, such as copy & paste and keybinds.
+Input commands allow you to control how Windower interacts with keyboard and mouse input, such as copy & paste and keybinds.
 
 ### bind / keyboard_bind
 ```
@@ -114,3 +114,16 @@ Most key names can be easily guessed, but there is probably an official mapping 
 |:---|:---|
 | `down` | Key pressed down |
 | `up` | Key released |
+
+### mouse_blockinput
+```
+mouse_blockinput <#>
+```
+Blocks mouse input.
+
+#### Allowed Values
+
+| Value | Description |
+|:---|:---|
+| `0` | Allows mouse input |
+| `1` | Blocks mouse input (MAJOR PROBLEMS |
