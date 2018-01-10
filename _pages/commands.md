@@ -71,23 +71,29 @@ title: Windower Commands
 ## Keyboard Commands
 
 ### bind
-```
+```Powershell
 bind [modifier][state]<key> [up] <command>
 ```
-Binds a command to a key. By default, binds on key down; specify `up` to bind on key release.
+Binds a command to a key. By default, binds on key press; specify `up` to bind on key release.
 Multiple keys can be assigned in the same statement by using `|` between keys.
 
-Use an optional modifier to bind the key only while pressing Shift, Alt, Ctrl, Apps, or Win.
+Use an optional modifier to bind the key only while pressing Shift, Alt, Ctrl, Apps, or Win:
 * `^`: Ctrl
 * `!`: Alt
 * `@`: Windows
 * `#`: Apps
 
-Optionally specify a state to indicate whether the bind is valid with the FFXI input line active or inactive.
+Optionally specify a state to indicate whether the bind is valid with the FFXI input line active or inactive:
 * `$`: Valid while FFXI input line is active
 * `%`: Valid while FFXI input line is inactive
 
 For an exhaustive list of bindable keys, see [[Key Mapping]].
+
+### unbind
+```powershell
+unbind <key> [up]
+```
+Removes an existing key binding. By default, unbinds from key press; specify `up` to unbind from key release.
 
 * `bind [modifier][state]key [up] command` - Binds a command to a key. Down is assumed, specify up for bind on release of key. Multiple keys can be assigned in the same bind statement, using `|` between keys. Use a modifier to bind the key only while also pressing one of the Shift, Alt, Ctrl, Apps, or Windows keys (Note use of the apps or windows key modifiers is not compatible with macros which use the windows or apps key by themselves as a bind). Use the optional state if you want to indicate the bind is valid only with the FFXI input line active/inactive.
     * `^` - Ctrl key
