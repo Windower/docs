@@ -89,23 +89,23 @@ Forces a hard exit to the Windows desktop.
 ```
 game_allowresize <#>
 ```
-Controls the restriction on Window resizing.
+Controls the resizing restriction on the game window.
 
 #### Allowed Values
 
 | Value | Description |
 |:---|:---|
-| `0` | The default Window resizing restriction applies |
+| `0` | The default window resizing restriction applies |
 | `1` | The game window can be proportionally resized without holding down `Alt` or `Ctrl` |
 
-**Note:** You must still hold `Shift` to resize without proportion restrictions.
+**Note:** You must still hold `Shift` to resize the game windowwithout proportion restrictions.
 {: .notice}
 
 ### game_exitprompt
 ```
 game_exitprompt <#>
 ```
-Controls the confirmation dialog that appears before exiting when clicking the `X` button on the game window.
+Controls the confirmation dialog that appears before exiting when clicking the **X** button on the game window.
 
 #### Allowed Values
 
