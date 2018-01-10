@@ -10,7 +10,8 @@ Input commands allow you to control how Windower interacts with keyboard and mou
 bind [modifier][state]<key> [up] <command>
 keyboard_bind [modifier][state]<key> [up] <command>
 ```
-Binds a command to a key. By default, binds on key press; specify `up` to bind on key release.
+Binds a command to a key.<br>
+By default, binds activate on key press; specify `up` to bind on key release.
 
 **Tip:** You can assign a command to multiple keys in a single statement by separating each key with a pipe (`|`) character.
 {: .notice--info}
