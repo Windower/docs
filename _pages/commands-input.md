@@ -29,7 +29,7 @@ Multiple keys can be assigned in the same statement by using `|` between keys.
 | `$` | Keybind is valid while the game input line is active |
 | `%` | Keybind is valid while the game input line is inactive |
 
-For an exhaustive list of bindable keys, see [[Key Mapping]].
+For an exhaustive list of bindable keys, see the [Key Mappings]() section.
 
 ### unbind / keyboard_unbind
 ```
@@ -64,7 +64,7 @@ keyboard_type "<string>"
 ```
 Types a string of text into the game chat input bar.
 
-**Note:** This is older functionality and has been replaced for most purposes by the **input** command.
+**Note:** This is older functionality and has been replaced for most purposes by the **[input](#input--keyboard_sendstring)** command.
 {: .notice}
 
 ### keyboard_blockinput
