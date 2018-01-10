@@ -1,6 +1,6 @@
 ---
 permalink: /commands/input/
-title: Keyboard Commands
+title: Input Commands
 ---
 
 Input commands allow you to control how Windower interacts with keyboard and mouse input, such as copy & paste and keybinds.
