@@ -11,7 +11,9 @@ bind [modifier][state]<key> [up] <command>
 keyboard_bind [modifier][state]<key> [up] <command>
 ```
 Binds a command to a key. By default, binds on key press; specify `up` to bind on key release.
-Multiple keys can be assigned in the same statement by using `|` between keys.
+
+**Tip:** Multiple keys can be assigned in the same statement by using `|` between keys.
+{: .notice--info}
 
 #### Supported Modifiers
 
