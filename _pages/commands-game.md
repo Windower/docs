@@ -1,5 +1,5 @@
 ---
-permalink: /commmands/game/
+permalink: /commands/game/
 title: Game Commands
 ---
 
