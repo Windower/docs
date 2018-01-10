@@ -15,6 +15,21 @@ Windower commands can be used in several ways.
 | Game Chatlog | In the game chatlog, prefix the command with `//`.<br> For example: `//showfps 1` |
 | Game Macros | In your macro, prefix the command with `/console `.<br> For example: `/console showfps 1` |
 
+## Command Syntax
+The commands in this section adhere to the following syntax.
+
+| Element | Description |
+|:---|:---|
+| `plain text` | Elements written in plain text should be entered as-is. |
+| `<angle brackets>` | Required parameter. Replace with an appropriate value. |
+| `[square brackets]` | Optional parameter. Replace with an appropriate value. Or don't! |
+  
+#### Example
+```
+bind [modifier][state]<key> [up] <command>
+```
+The **bind** command supports two required parameters (**key**, **command**) and three optional parameters (**modifier**, **state**, **up**).
+
 ## Command Categories
 
 | Category | Description |
