@@ -30,6 +30,7 @@ console_displayactivity <#>
 Sets whether the console displays automatically on new text.
 
 #### Allowed Values
+
 | Value | Description |
 |:---|:---|
 | `0` | Disable automatic display |
@@ -72,6 +73,7 @@ console_chatopen <#>
 Manages the behavior of the console key when the FFXI input line is active.
 
 #### Allowed Values
+
 | Value | Description |
 |:---|:---|
 | `0` | Disable the console key when the input line is active |
@@ -90,6 +92,7 @@ console_log <#>
 Controls logging of console output.
 
 #### Allowed Values
+
 | Value | Description |
 |:---|:---|
 | `0` | Disable console logging |
