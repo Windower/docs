@@ -116,8 +116,12 @@ title: Windower Commands
 
 | Command | Parameters | Description |
 | :--- | :--- | :--- |
-| load | *plugin_name* | Loads a DLL plugin. The plugin name is not case-sensitive.<br> load ffxidb{: .notice--success} |
-| unload | *plugin_name* | Unloads a DLL plugin.<br> ``` unload ffxidb ``` |
+| load | *plugin_name* | Loads a plugin. The plugin name is not case-sensitive.<br> **Ex:** `load ffxidb` |
+| unload | *plugin_name* | Unloads the specified plugin.<br> **Ex:** `unload ffxidb` |
+| toggle | *plugin_name* | Toggle a plugin. Designed to be bound to a key to turn a plugin on or off with a keystroke.<br> **Ex:** `toggle ffxidb` |
+| plugin_list | | Lists all loaded plugins in the game chatlog. |
+| reload | *plugin_name* | Unloads and reloads the specified plugin.<br> **Ex:** `reload ffxidb` |
+| unloadall | | Unloads all plugins. |
 
 ## Addon Commands
 * `lua **l**oad <addon>` - Loads an addon
