@@ -39,21 +39,102 @@ Sets the game engine rendering mode.
 | `2` | Point-fill rendering |
 
 **Tip:** Use `fillmode` with no argument to toggle between normal and wireframe-only rendering.
+{: .notice--info}
+
+### game_gamma
+```
+game_gamma #
+```
+Sets the game gamma value.
+Integer values between `0` and `100` are allowed. The default value is `50`.
+
+### game_allowsetcursorpos
+```
+game_allowsetcursorpos <#>
+```
+Sets whether the game is allowed to set the cursor position.
+
+#### Allowed Values
+
+| Value | Description |
+|:---|:---|
+| `0` | The game cannot set the cursor position |
+| `1` | The game is allowed to set the cursor position |
+
+### game_minimize
+```
+game_minimize
+```
+Minimizes the game to the Windows taskbar.
+
+### game_exit
+```
+game_exit
+```
+Exits the game and returns to to PlayOnline
+
+**Note:** Your character remains in world like going LD.
+{: .notice--warning}
+
+### terminate
+```
+terminate
+```
+Forces a hard exit to the Windows desktop.
+
+**Caution:** This command is not recommended.
+{: .notice--danger}
+
+### game_allowresize
+```
+game_allowresize <#>
+```
+Controls the restriction on Window resizing.
+
+#### Allowed Values
+
+| Value | Description |
+|:---|:---|
+| `0` | The default Window resizing restriction applies |
+| `1` | The game window can be proportionally resized without holding down `Alt` or `Ctrl` |
+
+**Note:** You must still hold `Shift` to resize without proportion restrictions.
 {: .notice}
 
+### game_exitprompt
+```
+game_exitprompt <#>
+```
+Controls the confirmation dialog that appears before exiting when clicking the `X` button on the game window.
 
-* `game_gamma #` - Sets game gamma
-    * `0`-`100`, Default = `50`
-* `game_allowsetcursorpos #` - Sets whether the game is allowed to set the cursor position
-    * `0` = false
-    * `1` = true
-* `game_minimize` - Minimizes the game to the taskbar
-* `game_exit` - Exits the game to POL (character remains in world like going LD)
-* `terminate` - Hard exits the game to desktop (not recommended)
-* `game_allowresize` - This command, when set to `1`, will disable the resizing restriction and you may freely resize the window proportionally without holding down Alt or Control. The shift key is still required to resize without proportion restrictions (`1` for allowing resize without holding alt or control)
-* `game_exitprompt #` - Enable confirmation dialoge before exiting when clicking the 'X' button on the FFXI window.
-    * `0` = disable
-    * `1` = enable
-* `game_exittype` - This sets the exit type for the game, Terminate or Exit to POL (`1` for Terminate).
-* `window_toggleframe` - Toggles window frame on/off.
-* `window_togglefullscreen` - Sets game to psudeo-fullscreen mode
+#### Allowed Values
+
+| Value | Description |
+|:---|:---|
+| `0` | Disables the confirmation dialog |
+| `1` | Enables the confirmation dialog |
+
+### game_exittype
+```
+game_exittype <#>
+```
+Sets the exit type for the game. Terminate or Exit to POL (`1` for Terminate).
+
+#### Allowed Values
+
+| Value | Description |
+|:---|:---|
+| `0` | Hard terminates to the Windows desktop |
+| `1` | Exits the PlayOnline |
+
+### window_toggleframe
+```
+window_toggleframe
+```
+Toggles the game window frame on and off.
+
+### window_togglefullscreen
+```
+window_togglefullscreen
+```
+Toggles pseudo-fullscreen mode for the game.
