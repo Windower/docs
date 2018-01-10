@@ -1,5 +1,6 @@
 ___
-layout: default
+layout: single
+toc: true
 permalink: /welcome/
 ___
 

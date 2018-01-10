@@ -1,5 +1,6 @@
 ---
 layout: splash
+permalink: /
 ---
 
 Welcome to the Windower wiki.
