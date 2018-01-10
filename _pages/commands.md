@@ -110,10 +110,11 @@ title: Windower Commands
 | :--- | :--- | :--- |
 | mouse_blockinput | *#* | Blocks mouse input. Accepted values:<br> `0` = unblock<br> `1` = block (MAJOR PROBLEMS) |
 
-#### mouse_blockinput #
+### mouse_blockinput \#
 Blocks mouse input. Accepted values:
 * `0` = unblock
 * `1` = block (MAJOR PROBLEMS)
+
 ```shell
 mouse_blockinput 1
 ```
