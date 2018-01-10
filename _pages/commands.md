@@ -106,6 +106,22 @@ title: Windower Commands
     * `0` = unblock
     * `1` = block (MAJOR PROBLEMS)
 
+<table>
+    <th>
+        <td>Command</td>
+        <td>Parameters</td>
+        <td>Description</td>
+    </th>
+    <tr>
+        <td>mouse_blockinput</td>
+        <td> `#` </td>
+        <td>Blocks mouse input<br>
+            0 = unblock
+            1 = block (MAJOR PROBLEMS)
+        </td>
+    </tr>
+</table>
+
 ## Plugin Commands
 * `load <plugin>` - Loads a plugin dll (.dll is optional, and case is irrelevant)
 * `unload <plugin>` - Unloads a plugin dll
