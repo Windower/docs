@@ -19,7 +19,7 @@ Windower commands can be used in several ways.
 
 | Category | Description |
 |:---|:---|
-| [General](commands/general/) | Commands for controlling basic Windower features such as screenshots. |
+| [General](general/) | Commands for controlling basic Windower features such as screenshots. |
 
 
 ## General Commands
