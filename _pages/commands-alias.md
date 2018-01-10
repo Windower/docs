@@ -23,5 +23,5 @@ listaliases
 ```
 Lists all currently-defined aliases.
 
-This command may fail if you have more than 40 aliases.
+**Warning:** This command may fail if you have more than 40 aliases.
 {: .notice--danger}
