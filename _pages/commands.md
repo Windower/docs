@@ -10,9 +10,11 @@ showfps [#]
 ```
 Shows or hides the framerate display.
 
-Accepted values:
-* `0` = hidden
-* `1` = visible
+##### Accepted Values
+| Value | Description |
+|:---|:---|
+| `0` | Framerate display hidden |
+| `1` | Framerate display visible |
 
 Using `showfps` without a parameter toggles visibility.
 
