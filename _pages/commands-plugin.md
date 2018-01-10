@@ -3,6 +3,8 @@ permalink: /commands/plugin/
 title: Plugin Commands
 ---
 
+Plugin commands allow you to control the loading and unloading of Windower plugins.
+
 ### load
 ```
 load <plugin>
