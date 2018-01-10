@@ -17,7 +17,8 @@ Shows or hides the framerate display.
 | `0` | Framerate display hidden |
 | `1` | Framerate display visible |
 
-Using `showfps` without a parameter toggles visibility.
+**Tip:** Using `showfps` without a parameter toggles visibility.
+{: .notice--info}
 
 ### fps_position
 ```
