@@ -3,6 +3,8 @@ permalink: /commands/general/
 title: General Commands
 ---
 
+General commands control basic Windower functionality such as the framerate display and screenshots.
+
 ### showfps
 ```
 showfps [#]
@@ -16,7 +18,7 @@ Shows or hides the framerate display.
 | `0` | Framerate display hidden |
 | `1` | Framerate display visible |
 
-**Tip:** Using `showfps` without a parameter toggles visibility.
+**Tip:** Use `showfps` without a parameter to toggle visibility.
 {: .notice--info}
 
 ### fps_position
@@ -33,7 +35,8 @@ Takes a screenshot in the specified format.
 
 Supported formats: `bmp`, `jpg`, `png`
 
-If specified, the optional `hide` parameter hides Windower objects from the screenshot.
+**Tip:** Use the optional `hide` parameter to hide Windower objects from the screenshot.
+{: .notice--info}
 
 ### video start
 ```
