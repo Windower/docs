@@ -19,3 +19,6 @@ sidenav:
         url: /welcome/
       - title: "Getting Started"
         url: /getting-started/
+      - title: "FAQ"
+        url: /faq/
+  - title: Addons
