@@ -24,11 +24,11 @@ The commands in this section adhere to the following syntax.
 | `<angle brackets>` | Required parameter. Replace with an appropriate value. |
 | `[square brackets]` | Optional parameter. Replace with an appropriate value. Or don't! |
   
-#### Example
+#### Example: bind
 ```
 bind [modifier][state]<key> [up] <command>
 ```
-The **bind** command supports two required parameters (**key**, **command**) and three optional parameters (**modifier**, **state**, **up**).
+The **[bind](input/#bind--keyboard_bind)** command supports two required parameters (**key**, **command**) and three optional parameters (**modifier**, **state**, **up**).
 
 ## Command Categories
 
