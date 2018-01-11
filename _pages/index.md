@@ -1,6 +1,6 @@
 ---
 permalink: /
-layout: Getting Started with Windower
+title: Getting Started with Windower
 ---
 
 Welcome to the Windower wiki.
