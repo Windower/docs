@@ -12,7 +12,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 title                    : "Windower Documentation"
-title_separator          : "/"
+title_separator          : "::"
 name                     : "Windower Documentation Team"
 description              : "Information about how to configure and use Windower v4."
 url                      : "https://windower.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
