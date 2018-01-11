@@ -1,25 +1,17 @@
 # main links
 main:
-  - title: "Welcome"
-    url: /welcome/
+  - title: "Home"
+    url: /
   - title: "FAQ"
     url: /faq/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
 
 # navigation sidebar
 sidenav:
   - title: Windower 4
     children:
-      - title: "Welcome"
-        url: /welcome/
-      - title: "Windower Commands"
+      - title: "Home"
+        url: /
+      - title: "Commands"
         url: /commands/
       - title: "FAQ"
         url: /faq/
