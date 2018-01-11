@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: "Home"
+  - title: "Getting Started"
     url: /
   - title: "FAQ"
     url: /faq/
@@ -8,11 +8,17 @@ main:
 # navigation sidebar
 sidenav:
   - title: Windower 4
+    url: /
     children:
-      - title: "Home"
+      - title: "Getting Started"
         url: /
+      - title: "Profiles"
+        url: /profiles/
       - title: "Commands"
         url: /commands/
       - title: "FAQ"
         url: /faq/
   - title: Addons
+    url: /addons/
+  - title: Plugins
+    url: /plugins/
