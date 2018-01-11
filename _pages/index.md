@@ -1,6 +1,6 @@
 ---
 permalink: /
-layout: splash
+layout: Getting Started with Windower
 ---
 
 Welcome to the Windower wiki.
