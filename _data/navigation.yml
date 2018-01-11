@@ -2,16 +2,16 @@
 main:
   - title: "Getting Started"
     url: /
+  - title: "Addons"
+    url: /addons/
   - title: "FAQ"
     url: /faq/
 
 # navigation sidebar
 sidenav:
-  - title: Windower 4
+  - title: "Getting Started"
     url: /
     children:
-      - title: "Getting Started"
-        url: /
       - title: "Profiles"
         url: /profiles/
       - title: "Commands"
