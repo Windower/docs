@@ -17,32 +17,44 @@ To assist in the micromanaging of equipment!
 **Abbreviation:** `gs`
 
 ### c 
-```gs c <string>```
+```
+gs c <string>
+```
 
 Passes the `<string>` to the `self_command()` user function.
 
 ### equip 
-```gs equip <string>```
+```
+gs equip <string>
+```
 
 Attempts to interpret the `<string>` as an index of the sets table and equip that set. Will ignore "sets" if the string starts with it.
 
 ### equip naked
-```gs equip naked```
+```
+gs equip naked
+```
 
 This equips the default set "naked," which is just a bunch of empty slots. If you remake sets (`sets={}`) in your `get_sets()`, this will not work.
 
 ### debugmode
-```gs debugmode```
+```
+gs debugmode
+```
 
 Activates GearSwap's Debug Mode, which prints out why specific gear equipping attempts failed, shows you when you're entering events, and enables the eval command.
 
 ### eval 
-```gs eval <string>```
+```
+gs eval <string>
+```
 
 This command evaluates the `<string>` as Lua code in the global gearswap environment (not the user environment, which is in the `user_env` table). It is only available when **debugmode** is on.
 
 ### showswaps
-```gs showswaps```
+```
+gs showswaps
+```
 
 Shows when your gear successfully changes and what it changes to.
 
@@ -64,27 +76,37 @@ Attempts to load the first version of `<string>` found, assuming it is a file pa
 * `..Windower/addons/libs/<string>`
 
 ### reload
-```gs reload```
+```
+gs reload
+```
 
 Reloads the current user file.
 
 ### export 
-```gs export <options>```
+```
+gs export <options>
+```
 
 Exports your currently equipped gear, inventory, or all the items in your current Lua files' sets into GearSwap .lua or spellcast .xml format. Takes options "inventory", "sets", and "xml." Defaults to currently equipped gear and lua otherwise. Also exports appropriate advanced set tables with augments for currently equipped gear and inventory.
 
 ### enable
-```gs enable <slot>```
+```
+gs enable <slot>
+```
 
 Enables equip commands targeting a specified slot. "All" will allow all equip commands. Providing no slot argument will enable user GearSwap file execution, if it was disabled.
 
 ### disable
-```gs disable <slot>```
+```
+gs disable <slot>
+```
 
 Disables equip commands targeting a given slot. "All" will prevent all equip commands. Providing no second argument will disable user GearSwap file execution, although registered events will still run.
 
 ### validate
-```gs validate <sets|inv> <filter>```
+```
+gs validate <sets|inv> <filter>
+```
 
 This command checks to see whether the equipment in the sets table also exists in your inventory (default), or (by passing "inv") whether the equipment in your inventory exists in your sets table. <filter> is an optional list of words that restricts the output to only those items that contain text from one of the filter's words.
 
@@ -92,4 +114,4 @@ This command checks to see whether the equipment in the sets table also exists i
 There is no settings file for GearSwap.
 
 ## Additional Assistance
-The `Windower/addons/GearSwap/beta_examples_and_information` folder has a file in it named `Variables.xlsx` that gives more specific information. If that is insufficient, you can go to BlueGartr's FFXI section or FFXIAH and ask for more assistance .
+The `Windower/addons/GearSwap/beta_examples_and_information` folder has a file in it named `Variables.xlsx` that gives more specific information. If that is insufficient, you can go to BlueGartr's FFXI section or FFXIAH and ask for more assistance.
