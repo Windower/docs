@@ -269,7 +269,7 @@ defaults:
       toc_icon: "align-justify"
   # _pages/plugins
   - scope:
-      path: "plugins"
+      path: "_pages/plugins"
       type: pages
     values:
       layout: single
