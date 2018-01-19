@@ -50,3 +50,6 @@ For example:
 ```
 
 Suggested notice types are: `success`, `info`, `warning`, `danger`
+
+### Navigation
+New pages do not automatically appear in the navigation section on the left side. If you want your page to appear there, you need to add the appropriate entry to the `defaults` section in `_data/_navigation.yml`.
