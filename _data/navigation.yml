@@ -4,10 +4,12 @@ main:
     url: /
   - title: "Addons"
     url: /addons/
+  - title: "Plugins"
+    url: /plugins/
   - title: "FAQ"
     url: /faq/
 
-# Navigation Sidebar: Main
+# Navigation Sidebar: Getting Started
 sidenav:
   - title: "Getting Started"
     url: /
@@ -23,17 +25,22 @@ sidenav:
   - title: Plugins
     url: /plugins/
 
+# Navigation Sidebar: Addons
+pluginnav:
+  - title: "Getting Started"
+    url: /
+  - title: Addons
+    url: /addons/
+    children:
+      - title: "GearSwap"
+        url: /addons/gearswap/
+  - title: Plugins
+    url: /plugins/
+
 # Navigation Sidebar: Plugins
 pluginnav:
   - title: "Getting Started"
     url: /
-    children:
-      - title: "Profiles"
-        url: /profiles/
-      - title: "Commands"
-        url: /commands/
-      - title: "FAQ"
-        url: /faq/
   - title: Addons
     url: /addons/
   - title: Plugins
