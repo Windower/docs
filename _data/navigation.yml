@@ -22,3 +22,6 @@ sidenav:
     url: /addons/
   - title: Plugins
     url: /plugins/
+    children:
+      - title: "Binder"
+        url: /plugins/binder/
