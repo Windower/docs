@@ -52,4 +52,21 @@ For example:
 Suggested notice types are: `success`, `info`, `warning`, `danger`
 
 ### Navigation
-New pages do not automatically appear in the navigation section on the left side. If you want your page to appear there, you need to add the appropriate entry to the `defaults` section in `_data/_navigation.yml`.
+New pages do not automatically appear in the navigation section on the left side. If you want your page to appear there, you need to add the appropriate entry to the defaults section in `_data/navigation.yml`.
+
+Most frequently, this will involve adding a new child node in the Addons nav bar:
+```yaml
+# Navigation Sidebar: Addons
+addonnav:
+  - title: "Getting Started"
+    url: /
+  - title: Addons
+    url: /addons/
+    children:
+      - title: "Clock"
+        url: /addons/clock/
+      - title: "GearSwap"
+        url: /addons/gearswap/
+  - title: Plugins
+    url: /plugins/
+ ```
