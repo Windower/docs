@@ -1,6 +1,8 @@
 ---
 permalink: /addons/
 title: Windower Addons
+nav: addonnav
+toc: false
 ---
 
 Addons allow you to extend the basic functionality of Windower and are written in Lua.
