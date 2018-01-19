@@ -7,8 +7,24 @@ main:
   - title: "FAQ"
     url: /faq/
 
-# navigation sidebar
+# Navigation Sidebar: Main
 sidenav:
+  - title: "Getting Started"
+    url: /
+    children:
+      - title: "Profiles"
+        url: /profiles/
+      - title: "Commands"
+        url: /commands/
+      - title: "FAQ"
+        url: /faq/
+  - title: Addons
+    url: /addons/
+  - title: Plugins
+    url: /plugins/
+
+# Navigation Sidebar: Plugins
+pluginnav:
   - title: "Getting Started"
     url: /
     children:
