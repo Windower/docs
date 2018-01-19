@@ -14,7 +14,7 @@ In many cases, plugin functionality has been ported into newer addons and someti
 The following noteworthy plugins are deprecated and no longer supported. 
 
 **Note:** This table is not exhaustive as over the years, many plugins and plugin authors have come and gone. If you have a question about a specific plugin not listed, contact us on Discord.
-{: .notice--info}
+{: .notice--warning}
 
 | Plugin | Replacement |
 |:---|:---|
