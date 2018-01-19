@@ -36,7 +36,7 @@ For example, if you wanted to create a page for a plugin that does not display t
 ---
 permalink: /plugins/coolplugin/
 title: Cool Plugin
-toc: no
+toc: false
 ---
 ```
 
