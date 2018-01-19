@@ -1,7 +1,8 @@
 ---
 permalink: /addons/
 title: Windower Addons
-nav: addonnav
+sidebar:
+  nav: addonnav
 toc: false
 ---
 
