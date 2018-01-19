@@ -92,4 +92,4 @@ This command checks to see whether the equipment in the sets table also exists i
 There is no settings file for GearSwap.
 
 ## Additional Assistance
-The `Windower/addons/GearSwap/beta_examples_and_information` folder has a file in it named `Variables.xlsx` that gives more specific information. If that is insufficient, you can go to BlueGartr's FFXI section or FFXIAH and ask for more assistance.
+The `Windower/addons/GearSwap/beta_examples_and_information` folder has a file in it named `Variables.xlsx` that gives more specific information. If that is insufficient, you can go to BlueGartr's FFXI section or FFXIAH and ask for more assistance .
