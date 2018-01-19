@@ -3,7 +3,10 @@ permalink: /plugins/
 title: Windower Plugins
 ---
 
-In contrast to Addons, Windower Plugins are delivered as compiled DLL files.
+Plugins add additional functionality to Windower. While addons are written in Lua, Windower plugins are compiled from source code, usually C++, and delivered as DLL files.
+
+**Note:** [Addons](../addons/) are now the preferred method of extending Windower functionality. 
+{: .notice--info}
 
 ## Deprecated Plugins
 
