@@ -267,6 +267,18 @@ defaults:
         nav: sidenav
       toc_label: Contents
       toc_icon: "align-justify"
+  # _pages/addons
+  - scope:
+      path: "_pages/addons"
+      type: pages
+    values:
+      layout: single
+      toc: true
+      sidebar:
+        nav: addonnav
+      toc_label: Contents
+      toc_icon: "align-justify"
+      
   # _pages/plugins
   - scope:
       path: "_pages/plugins"
