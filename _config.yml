@@ -277,8 +277,7 @@ defaults:
       sidebar:
         nav: addonnav
       toc_label: Contents
-      toc_icon: "align-justify"
-      
+      toc_icon: "align-justify"   
   # _pages/plugins
   - scope:
       path: "_pages/plugins"
