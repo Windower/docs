@@ -29,5 +29,6 @@ The following noteworthy plugins are deprecated and no longer supported.
 | Find | [findAll](https://github.com/Windower/Lua/tree/live/addons/findAll) |
 | Itemizer | [itemizer](https://github.com/Windower/Lua/tree/live/addons/itemizer) |
 | PlasticSurgeon | [DressUp](https://github.com/Windower/Lua/tree/live/addons/DressUp) |
+| Spellcast | [GearSwap](https://github.com/Windower/Lua/tree/live/addons/DressUp) |
 | Timestamp | [timestamp](https://github.com/Windower/Lua/tree/live/addons/timestamp) |
 | TParty | [TParty](https://github.com/Windower/Lua/tree/live/addons/TParty) |
