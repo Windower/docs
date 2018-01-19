@@ -26,12 +26,14 @@ sidenav:
     url: /plugins/
 
 # Navigation Sidebar: Addons
-pluginnav:
+addonnav:
   - title: "Getting Started"
     url: /
   - title: Addons
     url: /addons/
     children:
+      - title: "Clock"
+        url: /addons/clock/
       - title: "GearSwap"
         url: /addons/gearswap/
   - title: Plugins
