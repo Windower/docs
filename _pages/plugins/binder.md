@@ -1,4 +1,5 @@
 ---
+permalink: /plugins/binder/
 title: Binder
 ---
 
