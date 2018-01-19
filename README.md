@@ -17,7 +17,7 @@ docs/             <-- Repository root
 This site uses the [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes) Jekyll theme.<br>
 Pages should be created as standard Markdown files with the following exceptions.
 
-#### Page Header
+### Page Header
 Include a Jekyll processing header at the top of each page, including the permalink for the page and the title.
 
 For example:
@@ -26,7 +26,8 @@ For example:
 ---
 permalink: /addons/
 title: Windower Addons
----```
+---
+```
 
 You may also include other Jekyll directives in the page header to override the theme defaults for your page location.
 
@@ -36,14 +37,16 @@ For example, if you wanted to create a page for a plugin that does not display t
 permalink: /plugins/coolplugin/
 title: Cool Plugin
 toc: no
----```
+---
+```
 
-#### Note Formatting
+### Note Formatting
 You can use formatting provided by the Jekyll theme to format a paragraph as various kinds of notes.
 
 For example:
 ```md
 **Note:** This paragraph is formatted as an informational note.
-{: .notice--info}```
+{: .notice--info}
+```
 
 Suggested notice types are: `success`, `info`, `warning`, `danger`
