@@ -2,7 +2,7 @@
 
 This repository contains the official Windower documentation.
 
-The Windower Documentation is rendered from the source files in this repo using the Jekyll static content creator. It is published to GitHub Pages, and is visible at https://docs.windower.net.
+The Windower Documentation is rendered from the source files in this repo using the Jekyll static content creator. It is published to GitHub Pages, and is visible at http://docs.windower.net.
 
 ## File Structure
 ```
