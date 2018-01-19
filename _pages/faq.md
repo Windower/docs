@@ -10,7 +10,7 @@ sidebar:
 ---
 ## Using Windower
 ### How do I use the Windower?
-See [[Getting Started]].
+See [Getting Started](../).
 
 ### What is true fullscreen?
 It disables Windower in terms of Windowing the game. You cant alt tab. It only gives you plugins.
