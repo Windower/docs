@@ -66,6 +66,7 @@ AutoExec can be used with either pre-defined XML files, or directly from within 
 `<import>` allows AutoExec to read additional XMLs and register their events as well.
 
 `register` registers an event. Whenever that event triggers, the Windower command specified between the `<register>` tags will execute. Additional options are as follows:
+
 |  Attribute  |  Default  |  Description  |
 |:---|:---|:---|
 | `event` | *None* | The event on which this rule should trigger. |
