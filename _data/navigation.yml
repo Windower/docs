@@ -70,6 +70,12 @@ addonnav:
         url: /addons/linker/
       - title: "OhShi"
         url: /addons/ohshi/
+      - title: "PlasMon"
+        url: /addons/plasmon/
+      - title: "PluginManager"
+        url: /addons/pluginmanager/
+      - title: "Porter"
+        url: /addons/porter/
   - title: Plugins
     url: /plugins/
 
