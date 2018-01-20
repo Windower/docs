@@ -70,6 +70,8 @@ addonnav:
         url: /addons/linker/
       - title: "OhShi"
         url: /addons/ohshi/
+      - title: "Organizer"
+        url: /addons/organizer/
       - title: "PlasMon"
         url: /addons/plasmon/
       - title: "PluginManager"
@@ -112,5 +114,7 @@ pluginnav:
         url: /plugins/autoexec/
       - title: "Binder"
         url: /plugins/binder/
+      - title: "ChatLink"
+        url: /plugins/chatlink/
       - title: "FFXIDB"
         url: /plugins/ffxidb/

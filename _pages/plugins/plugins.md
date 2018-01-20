@@ -20,17 +20,18 @@ The following noteworthy plugins are deprecated and no longer supported.
 
 | Plugin | Replacement |
 |:---|:---|
-| Attainment | [pointwatch](https://github.com/Windower/Lua/tree/live/addons/pointwatch) |
-| BlinkMeNot | [DressUp](https://github.com/Windower/Lua/tree/live/addons/DressUp) |
-| Cancel | [cancel](https://github.com/Windower/Lua/tree/live/addons/cancel) |
-| Clock | [Clock](https://github.com/Windower/Lua/tree/live/addons/Clock) |
-| ConsoleBG | [ConsoleBG](https://github.com/Windower/Lua/tree/live/addons/ConsoleBG) |
-| Distance | [distance](https://github.com/Windower/Lua/tree/live/addons/distance), [DistancePlus](https://github.com/Windower/Lua/tree/live/addons/DistancePlus) |
+| Attainment | [pointwatch](../addons/pointwatch) |
+| BlinkMeNot | [DressUp](../addons/dressup) |
+| Cancel | [cancel](../addons/cancel) |
+| Clock | [Clock](../addons/clock) |
+| ConsoleBG | [ConsoleBG](../addons/consolebg) |
+| Distance | [distance](../addons/distance), [DistancePlus](../addons/distanceplus) |
 | DrawDistance | [Config](config/) (Plugin) |
-| FFOChat | **None**<br> *The FFOChat server is no longer online.* |
-| Find | [findAll](https://github.com/Windower/Lua/tree/live/addons/findAll) |
-| Itemizer | [itemizer](https://github.com/Windower/Lua/tree/live/addons/itemizer) |
-| PlasticSurgeon | [DressUp](https://github.com/Windower/Lua/tree/live/addons/DressUp) |
-| Spellcast | [GearSwap](https://github.com/Windower/Lua/tree/live/addons/GearSwap) |
-| Timestamp | [timestamp](https://github.com/Windower/Lua/tree/live/addons/timestamp) |
-| TParty | [TParty](https://github.com/Windower/Lua/tree/live/addons/TParty) |
+| FFOChat | **None**: *The FFOChat server is no longer online.* |
+| Find | [findAll](../addons/findAll) |
+| GearCollector | [Organizer](../addons/organizer/)
+| Itemizer | [itemizer](../addons/itemizer) |
+| PlasticSurgeon | [DressUp](../addons/dressup) |
+| Spellcast | [GearSwap](../addons/gearswap), [Shortcuts](../addons/shortcuts/) |
+| Timestamp | [timestamp](../addons/timestamp) |
+| TParty | [TParty](../addons/tparty) |
