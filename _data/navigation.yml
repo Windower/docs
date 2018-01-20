@@ -84,6 +84,8 @@ addonnav:
         url: /addons/plasmon/
       - title: "PluginManager"
         url: /addons/pluginmanager/
+      - title: "PointWatch"
+        url: /addons/pointwatch/
       - title: "Porter"
         url: /addons/porter/
       - title: "Reive"

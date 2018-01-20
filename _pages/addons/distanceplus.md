@@ -21,7 +21,7 @@ dp help
 
 Shows help.
 
-### MadDecimal
+### maxdecimal
 ```
 dp MaxDecimal
 ```
