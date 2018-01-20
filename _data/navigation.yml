@@ -108,6 +108,8 @@ pluginnav:
   - title: Plugins
     url: /plugins/
     children:
+      - title: "AutoExec"
+        url: /plugins/autoexec/
       - title: "Binder"
         url: /plugins/binder/
       - title: "FFXIDB"
