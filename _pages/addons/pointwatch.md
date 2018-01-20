@@ -115,16 +115,16 @@ it however you wish. Be aware that the code will give very unhelpful errors when
 
 
 ## Version History
-0.150811 - Changed job_points from a char to a short.
-0.150201 - Added Unity Accolades.
-0.141111 - Adjusted Pointwatch to account for a recent packet change.
-0.141101 - Reversed my versioning scheme, adjusted the limit point and experience point calculations slightly.
-0.101214 - Made pointwatch hide itself while zoning.
-0.062014 - Added lp.maximum_merits.
-0.050214 - Fixed the Dynamis clock. Added Abyssea lights.
-0.042314 - Addition of strings system
-0.042014 - Addition of strings system
-0.041214 - Initial commit
+* 0.150811 - Changed job_points from a char to a short.
+* 0.150201 - Added Unity Accolades.
+* 0.141111 - Adjusted Pointwatch to account for a recent packet change.
+* 0.141101 - Reversed my versioning scheme, adjusted the limit point and experience point calculations slightly.
+* 0.101214 - Made pointwatch hide itself while zoning.
+* 0.062014 - Added lp.maximum_merits.
+* 0.050214 - Fixed the Dynamis clock. Added Abyssea lights.
+* 0.042314 - Addition of strings system
+* 0.042014 - Addition of strings system
+* 0.041214 - Initial commit
 
 ## Source
 The latest source and information for this addon can be found on [GitHub](https://github.com/Windower/Lua/tree/live/addons/pointwatch).
