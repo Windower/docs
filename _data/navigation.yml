@@ -58,6 +58,8 @@ addonnav:
         url: /addons/chatporter/
       - title: "Clock"
         url: /addons/clock/
+      - title: "DressUp"
+        url: /addons/dressup/
       - title: "Enternity"
         url: /addons/enternity/
       - title: "Eval"
