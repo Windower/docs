@@ -17,8 +17,7 @@ You might choose to have multiple profiles to run the game at different resoluti
 
 ## Launch Using a Profile
 In the **Profiles** tab:
-* Double-click the profile.
-OR
+* Double-click the profile.<br><br>OR
 * Select the profile and click the **launch** icon.
 
 ## Create a Profile Shortcut
@@ -39,7 +38,7 @@ Windower settings control the basic Windower behavior for the profile.
 | **Window Mode** | Sets the windowing mode:<br>Default: **Borderless Window** |
 
 ### Game Settings
-Game settings control aspects of the game rendering process. The game settings correspond to the settings available in the **FINAL FANTASY XI Config** app.
+Game settings control aspects of the game rendering process. Most game settings correspond to settings available in the **FINAL FANTASY XI Config** app, but frequently have larger allowable ranges.
 
 | Setting | Description |
 |:---|:---|
@@ -69,7 +68,8 @@ All advanced settings default to **Off**.
 ## Addons
 The **Addons** tab contains a list of the Windower addons that reside in the official Lua repository. The addons in this section are updated automatically by the Windower launcher.
 
-When you enable an addon in the **Addons** tab, it is turned on only for the profile currently selected in the **Profiles** tab.
+**Tip:** When you enable an addon in the **Addons** tab, it is turned on only for the profile currently selected in the **Profiles** tab.
+{: .notice--info}
 
 For more information about the available addons, see the [Addons Section](../addons/).
 
@@ -78,6 +78,7 @@ For more information about creating Windower addons, see the [Lua Development Wi
 ## Plugins
 The **Plugins** tab contains a list of Windower plugins maintained by the Windower development team. The plugins are updated automatically by the Windower launcher.
 
-When you enable an plugin in the **Plugins** tab, it is turned on only for the profile currently selected in the **Profiles** tab.
+**Tip:** When you enable an plugin in the **Plugins** tab, it is turned on only for the profile currently selected in the **Profiles** tab.
+{: .notice--info}
 
 For more information about the available plugins, see the [Plugins Section](../plugins/).
