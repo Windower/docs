@@ -16,7 +16,7 @@ This addon has no commands, it only works with custom Lua user files. Upon load,
 
 The file needs to return a table. The table is a key -> action mapping, where the key is a combination of keys to press (denoted by the **+** sign) and the action can either be a Windower command or another table. If it's another table, it will open that table and new keys will be looked up in that table.
 
-To go back to the base level, press the button that has been defined in the `data/settings.xml` file as **ResetKey**. To go back only one level, press the button that has been defined in the same file as **BackKey**. They default to ``\` and `Backspace` respectively.
+To go back to the base level, press the button that has been defined in the `data/settings.xml` file as **ResetKey**. To go back only one level, press the button that has been defined in the same file as **BackKey**. They default to `\`` and `Backspace` respectively.
 
 ## Example
 
