@@ -36,6 +36,12 @@ addonnav:
         url: /addons/aecho/
       - title: "AnsweringMachine"
         url: /addons/answeringmachine/
+      - title: "AutoControl"
+        url: /addons/autocontrol/
+      - title: "AutoInvite"
+        url: /addons/autoinvite/
+      - title: "AutoJoin"
+        url: /addons/autojoin/
       - title: "Clock"
         url: /addons/clock/
       - title: "GearSwap"
