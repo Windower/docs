@@ -9,7 +9,7 @@ AutoRA simply causes ranged attacks to behave like the melee Auto-Attack while y
 
 **AUTHOR'S DISCLAIMER:** AutoRA will not consider any ammo you have equipped! **BE WARNED**.  If you have your equipment window open, spellcast 
 **WILL NOT** change your ammo!!! I am not responsible for any lost ammo due to AutoRA.
-{: .notice--caution}
+{: .notice--warning}
 
 ## Keybinding
 
