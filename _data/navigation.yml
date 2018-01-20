@@ -60,6 +60,10 @@ addonnav:
         url: /addons/clock/
       - title: "DressUp"
         url: /addons/dressup/
+      - title: "Distance"
+        url: /addons/distance/
+      - title: "DistancePlus"
+        url: /addons/distanceplus/
       - title: "Enternity"
         url: /addons/enternity/
       - title: "Eval"
