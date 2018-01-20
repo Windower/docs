@@ -42,6 +42,12 @@ addonnav:
         url: /addons/autoinvite/
       - title: "AutoJoin"
         url: /addons/autojoin/
+      - title: "AutoRA"
+        url: /addons/autora/
+      - title: "AzureSets"
+        url: /addons/azuresets/
+      - title: "BattleMod"
+        url: /addons/battlemod/
       - title: "Clock"
         url: /addons/clock/
       - title: "GearSwap"

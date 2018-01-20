@@ -11,6 +11,7 @@ Automatically invites players when sent a tell with a specified keyword.
 All in-game commands are prefixed with `//ai` or `//autoinvite`
 
 |Command                       |Argument               |Description|
+|:---|:---|:---|
 |**whitelist** / **blacklist**|*add* *player*   |Adds a player to the whitelist or blacklist.|
 |                           |*remove* *player*|Removes a player from the whitelist or blacklist.|
 |**keyword**                   |*add* *word*     |Adds a word to the keyword list where "word" is specified.|
