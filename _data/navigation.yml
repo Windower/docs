@@ -34,6 +34,8 @@ addonnav:
     children:
       - title: "AEcho"
         url: /addons/aecho/
+      - title: "AnsweringMachine"
+        url: /addons/answeringmachine/
       - title: "Clock"
         url: /addons/clock/
       - title: "GearSwap"
