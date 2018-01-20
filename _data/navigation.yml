@@ -32,6 +32,8 @@ addonnav:
   - title: Addons
     url: /addons/
     children:
+      - title: "AEcho"
+        url: /addons/aecho/
       - title: "Clock"
         url: /addons/clock/
       - title: "GearSwap"
@@ -50,3 +52,5 @@ pluginnav:
     children:
       - title: "Binder"
         url: /plugins/binder/
+      - title: "FFXIDB"
+        url: /plugins/ffxidb/
