@@ -76,6 +76,12 @@ addonnav:
         url: /addons/pluginmanager/
       - title: "Porter"
         url: /addons/porter/
+      - title: "Reive"
+        url: /addons/reive/
+      - title: "Repsond"
+        url: /addons/respond/
+      - title: "Scoreboard"
+        url: /addons/scoreboard/
   - title: Plugins
     url: /plugins/
 
