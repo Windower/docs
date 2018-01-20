@@ -88,6 +88,14 @@ addonnav:
         url: /addons/shortcuts/
       - title: "StaggerTrack"
         url: /addons/staggertrack/
+      - title: "STNA"
+        url: /addons/stna/
+      - title: "Timestamp"
+        url: /addons/timestamp/
+      - title: "VWHL"
+        url: /addons/vwhl/
+      - title: "Yush"
+        url: /addons/yush/
   - title: Plugins
     url: /plugins/
 
