@@ -62,8 +62,14 @@ addonnav:
         url: /addons/enternity/
       - title: "Eval"
         url: /addons/eval/
+      - title: "FindAll"
+        url: /addons/findall/
       - title: "GearSwap"
         url: /addons/gearswap/
+      - title: "Linker"
+        url: /addons/linker/
+      - title: "OhShi"
+        url: /addons/ohshi/
   - title: Plugins
     url: /plugins/
 
