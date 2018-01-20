@@ -1,6 +1,6 @@
 ---
 permalink: /addons/scoreboard/
-title: ScoreBoard
+title: Scoreboard
 ---
 
 This addon allows players to see their DPS live while fighting enemies. Party and alliance member DPS is also displayed. DPS accumulation is active whenever anyone in your alliance is currently in battle. In addition to DPS, each player's total damage and their percent contribution is also displayed.
@@ -30,6 +30,7 @@ All in-game commands are prefixed with `//sb` or `//scoreboard`, for example: `/
 The settings file, located in `...addons/scoreboard/data/settings.xml`, contains additional configuration options: 
 
 |Value             |Description|
+|:---|:---|:---|
 |**posX**          |x coordinate for position of scoreboard.| 
 |**posY**          |y coordinate for position of scoreboard.|
 |**numPlayers**    |The maximum number of players to display damage for.|
@@ -40,7 +41,7 @@ The settings file, located in `...addons/scoreboard/data/settings.xml`, contains
 |**showallidps**   |Set to true to display the alliance DPS, false otherwise.|
 |**resetfilters**  |Set to true if you want filters reset when you `//sb reset`, false otherwise.|
 
-**Author's Warning** DPS is an approximation, although I tested it manually and found it to be very accurate. Because DPS accumulation is based on the game's notion of when you are in battle, if someone else engages before you, your DPS will suffer. Try to engage fast to get a better approximation. The methods used in here cause some discrepancies with the data reported by KParser. In some cases, Scoreboard will report more damage, which generally indicates that KParser is not including something (ie, Scoreboard will be more accurate). However, there are cases where KParser is reporting damage that Scoreboard is not, and I'm currently focused on resolving this issue in particular. **This addon is still in development**. 
+**Author's Warning:** DPS is an approximation, although I tested it manually and found it to be very accurate. Because DPS accumulation is based on the game's notion of when you are in battle, if someone else engages before you, your DPS will suffer. Try to engage fast to get a better approximation. The methods used in here cause some discrepancies with the data reported by KParser. In some cases, Scoreboard will report more damage, which generally indicates that KParser is not including something (ie, Scoreboard will be more accurate). However, there are cases where KParser is reporting damage that Scoreboard is not, and I'm currently focused on resolving this issue in particular. **This addon is still in development**. 
 {: .notice--warning}
 
 Please report any issues or feedback to Suji using the links above.

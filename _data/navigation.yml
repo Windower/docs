@@ -82,6 +82,12 @@ addonnav:
         url: /addons/respond/
       - title: "Scoreboard"
         url: /addons/scoreboard/
+      - title: "Send"
+        url: /addons/send/
+      - title: "Shortcuts"
+        url: /addons/shortcuts/
+      - title: "StaggerTrack"
+        url: /addons/staggertrack/
   - title: Plugins
     url: /plugins/
 
