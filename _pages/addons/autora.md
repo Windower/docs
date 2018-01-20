@@ -15,8 +15,8 @@ AutoRA simply causes ranged attacks to behave like the melee Auto-Attack while y
 
 **AutoRA will change any keybinds for the following keys**:
 
-**Ctrl + D:**  Start Ranged attacking.  (If no weapon drawn, fires a single ranged attack)
-**Alt + D:**  Force stop Ranged attacking.  (Automatically done when weapon is put away.)
+* **Ctrl + D:**  Start Ranged attacking.  (If no weapon drawn, fires a single ranged attack)
+* **Alt + D:**  Force stop Ranged attacking.  (Automatically done when weapon is put away.)
 
 ## Commands
 
