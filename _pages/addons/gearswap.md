@@ -3,8 +3,8 @@ permalink: /addons/gearswap/
 title: GearSwap
 ---
 
-**Author:** Byrth
-**Version:** 0.930
+**Author:** Byrth<br>
+**Version:** 0.930<br>
 **Date:** 06/13/2017
 
 ## Purpose

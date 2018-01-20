@@ -48,6 +48,12 @@ addonnav:
         url: /addons/azuresets/
       - title: "BattleMod"
         url: /addons/battlemod/
+      - title: "Blist"
+        url: /addons/blist/
+      - title: "Cancel"
+        url: /addons/cancel/
+      - title: "Chars"
+        url: /addons/chars/
       - title: "Clock"
         url: /addons/clock/
       - title: "GearSwap"
