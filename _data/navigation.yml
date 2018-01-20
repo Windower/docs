@@ -66,6 +66,8 @@ addonnav:
         url: /addons/findall/
       - title: "GearSwap"
         url: /addons/gearswap/
+      - title: "Itemizer"
+        url: /addons/itemizer/
       - title: "Linker"
         url: /addons/linker/
       - title: "OhShi"
@@ -94,6 +96,8 @@ addonnav:
         url: /addons/stna/
       - title: "Timestamp"
         url: /addons/timestamp/
+      - title: "Treasury"
+        url: /addons/treasury/
       - title: "VWHL"
         url: /addons/vwhl/
       - title: "Yush"

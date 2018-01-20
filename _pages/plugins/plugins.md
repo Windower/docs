@@ -20,18 +20,19 @@ The following noteworthy plugins are deprecated and no longer supported.
 
 | Plugin | Replacement |
 |:---|:---|
-| Attainment | [pointwatch](../addons/pointwatch) |
-| BlinkMeNot | [DressUp](../addons/dressup) |
-| Cancel | [cancel](../addons/cancel) |
-| Clock | [Clock](../addons/clock) |
-| ConsoleBG | [ConsoleBG](../addons/consolebg) |
-| Distance | [distance](../addons/distance), [DistancePlus](../addons/distanceplus) |
+| Attainment | [PointWatch](../addons/pointwatch/) |
+| BlinkMeNot | [DressUp](../addons/dressup/) |
+| Cancel | [Cancel](../addons/cancel/) |
+| Clock | [Clock](../addons/clock/) |
+| ConsoleBG | [ConsoleBG](../addons/consolebg/) |
+| Distance | [Distance](../addons/distance/), [DistancePlus](../addons/distanceplus/) |
 | DrawDistance | [Config](config/) (Plugin) |
 | FFOChat | **None**: *The FFOChat server is no longer online.* |
-| Find | [findAll](../addons/findAll) |
+| Find | [FindAll](../addons/findall/) |
 | GearCollector | [Organizer](../addons/organizer/)
-| Itemizer | [itemizer](../addons/itemizer) |
-| PlasticSurgeon | [DressUp](../addons/dressup) |
-| Spellcast | [GearSwap](../addons/gearswap), [Shortcuts](../addons/shortcuts/) |
-| Timestamp | [timestamp](../addons/timestamp) |
-| TParty | [TParty](../addons/tparty) |
+| Itemizer | [Itemizer](../addons/itemizer/) |
+| LightLuggage | [Treasury](../addons/treasury/) |
+| PlasticSurgeon | [DressUp](../addons/dressup/) |
+| Spellcast | [GearSwap](../addons/gearswap/), [Shortcuts](../addons/shortcuts/) |
+| Timestamp | [Timestamp](../addons/timestamp/) |
+| TParty | [TParty](../addons/tparty/) |
