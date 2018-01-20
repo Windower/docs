@@ -54,8 +54,14 @@ addonnav:
         url: /addons/cancel/
       - title: "Chars"
         url: /addons/chars/
+      - title: "ChatPorter"
+        url: /addons/chatporter/
       - title: "Clock"
         url: /addons/clock/
+      - title: "Enternity"
+        url: /addons/enternity/
+      - title: "Eval"
+        url: /addons/eval/
       - title: "GearSwap"
         url: /addons/gearswap/
   - title: Plugins
