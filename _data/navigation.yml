@@ -219,20 +219,32 @@ pluginnav:
       - title: "Binder"
         url: /plugins/binder/
       - title: "ChatMon"
+        url: /plugins/chatmon/
       - title: "Config"
+        url: /plugins/config/
       - title: "DelayMeNot"
+        url: /plugins/delaymenot/
       - title: "FFXIDB"
         url: /plugins/ffxidb/
       - title: "FishingCrashFix"
+        url: /plugins/fishingcrashfix/
       - title: "Guildwork"
+        url: /plugins/guildwork/
       - title: "IME"
         url: /plugins/ime/
       - title: "InfoBar"
+        url: /plugins/infobar/
       - title: "Run"
+        url: /plugins/run/
       - title: "Sandbox"
+        url: /plugins/sandbox/
       - title: "SSOrganizer"
+        url: /plugins/ssorganizer/
       - title: "Tickle"
-      - title: "WeatherMon"
+        url: /plugins/tickle/
       - title: "Timers"
+        url: /plugins/timers/
+      - title: "WeatherMon"
+        url: /plugins/weathermon/
       - title: "WinControl"
         url: /plugins/wincontrol/
