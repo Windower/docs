@@ -34,6 +34,8 @@ addonnav:
     children:
       - title: "AEcho"
         url: /addons/aecho/
+      - title: "AnnounceTarget"
+        url: /addons/announcetarget/
       - title: "AnsweringMachine"
         url: /addons/answeringmachine/
       - title: "AutoControl"
@@ -82,6 +84,10 @@ addonnav:
         url: /addons/linker/
       - title: "MacroChanger"
         url: /addons/macrochanger/
+      - title: "MobCompass"
+        url: /addons/mobcompass/
+      - title: "ObiAway"
+        url: /addons/obiaway/
       - title: "OhShi"
         url: /addons/ohshi/
       - title: "Organizer"
@@ -98,6 +104,8 @@ addonnav:
         url: /addons/reive/
       - title: "Respond"
         url: /addons/respond/
+      - title: "RollTracker"
+        url: /addons/rolltracker/
       - title: "Scoreboard"
         url: /addons/scoreboard/
       - title: "Send"
@@ -108,6 +116,8 @@ addonnav:
         url: /addons/staggertrack/
       - title: "STNA"
         url: /addons/stna/
+      - title: "TargetInfo"
+        url: /addons/targetinfo/
       - title: "Timestamp"
         url: /addons/timestamp/
       - title: "Treasury"

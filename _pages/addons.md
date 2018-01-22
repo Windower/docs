@@ -13,6 +13,7 @@ For more information about how to write Lua addons for use in Windower, see our 
 |Addon|Author|Description|
 |:---|:---|:---|
 |[AEcho](aecho/)|Nitrous|Automatically uses echo drops when you get silenced. Also, uses send to send a message to an alt that you got debuffed.|
+|[AnnounceTarget](announcetarget/)|JoshK6656,Sechs|Checks your current target and produces various chat messages according to settings.|
 |[AnsweringMachine](answeringmachine/)|Byrth|Stores tells that you receive for later recall.|
 |[Autocontrol](autocontrol/)|Nitrous|Automated automaton equipment setting and burden tracker.|
 |[Autoinvite](autoinvite/)|r3g1stry|Automatically invites players when sent a tell with a specified keyword.|
@@ -33,18 +34,23 @@ For more information about how to write Lua addons for use in Windower, see our 
 |[FindAll](findall/)|Zohno|Searches items stored on all your characters.|
 |[GearSwap](gearswap/)|Byrth|Changes gear in response to player actions..|
 |[Linker](linker/)|Arcon|Allows opening links to certain websites from within the game, with an optional search parameter.|
-|[MacroChanger](macrochanger)|Banggugyangu|Automatically switches Macro Book and Page according to job changes.|
+|[MacroChanger](macrochanger/)|Banggugyangu|Automatically switches Macro Book and Page according to job changes.|
+|[MobCompass](mobcompass/)|Sebyg666|A compass to show your position relative to the target (not players) for geo and has a setup for Sneak attack.|
+|[ObiAway](obiaway/)|Reaper X|Automatically remove elemental obis based on day/weather/storm conditions.|
 |[OhShi](ohshi/)|Nitrous|Keeps track of various event related things. Such as, VW proc messages, mob casting, mob tp moves, TH procs and cor rolls, as well as others.|
+|[Organizer](organizer/)|Byrth/Rooks|An inventory management plugin similar to GearCollector.|
 |[Plasmon](plasmon/)|Zohno|Tracks plasm, killed mobs and dropped airlixirs during a delve.|
 |[Plugin Manager](pluginmanager/)|Byrth|Allows you to specify which plugins and addons will be used with which characters.|
 |[Porter](porter/)|Zohno|Shows the slips' items highlighting those that are stored.|
 |[Respond](respond/)|Byrth|Respond to tells and FFOchat PMs using %%//%%r.|
 |[Reive](reive/)|Zohno|Tracks exp, bayld, momentum scores and bonuses during a reive.|
+|[RollTracker](rolltracker/)|Balloon|Simplifies Cor rolls, tells you the bonus they give, stops you from doubling up on lucky rolls and reports your chance to bust.|
 |[Scoreboard](scoreboard/)|Suji|Basic in-game damage parser. It displays live DPS and works even when chat filters are enabled.|
 |[Send](send/)|Arcon|Sends commands between windower instances using IPC.|
 |[Shortcuts](shortcuts/)|Byrth|Applies spellcast-like command completion (interpretation and target completion) to commands.|
 |[StaggerTrack](staggertrack/)|Nitrous|Catches voidwatch weakness messages and prints them to a textbox in case you miss them in the battle spam.|
 |[STNA](stna/)|Nitrous|One-button status removal for dual boxing.|
+|[TargetInfo](targetinfo/)|Arcon|Displays information about your current target in memory.|
 |[Timestamp](timestamp/)|Zohno|Prefixes any chat message with a timestamp. Based on Timestamp plugin.|
 |[VWHL](vwhl/)|Zohno|Redirects the nm's weaknesses (VW or Abyssea) to the "tell" stream so that they can be held using the chat filters' function and highlights the important info.|
 |[Yush](yush/)|Arcon|A portable macro engine based on customizable Lua files. Triggers faster than in-game macros and allows a significantly higher number of key combinations.|
