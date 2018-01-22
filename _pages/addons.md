@@ -22,13 +22,18 @@ For more information about how to write Lua addons for use in Windower, see our 
 |[BattleMod](battlemod/)|Byrth|Customizes battle chat messages.|
 |[Blist](blist/)|Ikonic|More detailed blist with tiered display options. Allows for blist to be active on any or all of several chat types.|
 |[Cancel](cancel/)|Byrth|Cancels buffs from the command line.|
+|[CellHelp](cellhelp/)|Krizz/Balloon|Tracks cells that are needed, displays your position in the lot order, and creates the appropriate LL profiles.|
 |[Chars](chars/)|Zohno|This addon lets you input special chars using simple tags (ex.: <note> for ♪).|
 |[ChatPorter](chatporter/)|Ikonic|Displays tell, party, and linkshell chat to alternate character and optional textbox. Also, allows you to reply from either character.|
+|[DynamisHelper](dynamishelper/)|Krizz|Displays a timer when a mob is procced, tracks currency obtained, and can create a LL to lot all currency.|
+|[Distance](distance/)|Arcon|Shows the distance towards the current target in yalms. Useful for range estimations.|
+|[DistancePlus](distanceplus/)|Sammeh|Enhances the functionality of the Distance addon.|
 |[Enternity](enternity/)|Zohno|Enters "Enter" automatically when prompted during a cutscene or when talking to NPCs. It will not skip choice dialog boxes.|
 |[Eval](eval/)|Aureus|Allows developers to run arbitrary lua code in the console.|
 |[FindAll](findall/)|Zohno|Searches items stored on all your characters.|
 |[GearSwap](gearswap/)|Byrth|Changes gear in response to player actions..|
 |[Linker](linker/)|Arcon|Allows opening links to certain websites from within the game, with an optional search parameter.|
+|[MacroChanger](macrochanger)|Banggugyangu|Automatically switches Macro Book and Page according to job changes.|
 |[OhShi](ohshi/)|Nitrous|Keeps track of various event related things. Such as, VW proc messages, mob casting, mob tp moves, TH procs and cor rolls, as well as others.|
 |[Plasmon](plasmon/)|Zohno|Tracks plasm, killed mobs and dropped airlixirs during a delve.|
 |[Plugin Manager](pluginmanager/)|Byrth|Allows you to specify which plugins and addons will be used with which characters.|

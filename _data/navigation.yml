@@ -52,6 +52,8 @@ addonnav:
         url: /addons/blist/
       - title: "Cancel"
         url: /addons/cancel/
+      - title: "CellHelp"
+        url: /addons/cellhelp/
       - title: "Chars"
         url: /addons/chars/
       - title: "ChatPorter"
@@ -64,6 +66,8 @@ addonnav:
         url: /addons/distance/
       - title: "DistancePlus"
         url: /addons/distanceplus/
+      - title: "DynamisHelper"
+        url: /addons/dynamishelper/
       - title: "Enternity"
         url: /addons/enternity/
       - title: "Eval"
@@ -76,6 +80,8 @@ addonnav:
         url: /addons/itemizer/
       - title: "Linker"
         url: /addons/linker/
+      - title: "MacroChanger"
+        url: /addons/macrochanger/
       - title: "OhShi"
         url: /addons/ohshi/
       - title: "Organizer"
