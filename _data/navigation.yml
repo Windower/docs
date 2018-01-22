@@ -108,6 +108,8 @@ addonnav:
         url: /addons/omen/
       - title: "Organizer"
         url: /addons/organizer/
+      - title: "PetTP"
+        url: /addons/pettp/
       - title: "PlasMon"
         url: /addons/plasmon/
       - title: "PluginManager"
@@ -116,10 +118,16 @@ addonnav:
         url: /addons/pointwatch/
       - title: "Porter"
         url: /addons/porter/
+      - title: "Pouches"
+        url: /addons/pouches/
+      - title: "RAWR"
+        url: /addons/rawr/
       - title: "Reive"
         url: /addons/reive/
       - title: "Respond"
         url: /addons/respond/
+      - title: "Rhombus"
+        url: /addons/rhombus/
       - title: "RollTracker"
         url: /addons/rolltracker/
       - title: "Scoreboard"

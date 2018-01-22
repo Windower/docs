@@ -49,11 +49,15 @@ For more information about how to write Lua addons for use in Windower, see our 
 |[OhShi](ohshi/)|Nitrous|Keeps track of various event related things. Such as, VW proc messages, mob casting, mob tp moves, TH procs and cor rolls, as well as others.|
 |[Organizer](organizer/)|Byrth/Rooks|An inventory management plugin similar to GearCollector.|
 |[Omen](omen/)|Braden/Sechs|Creates a custom window that tracks the current Omen floor's Primary and Secondary objectives.|
+|[PetTP](pettp/)|SnickySnacks|Displays current pet TP level.|
 |[Plasmon](plasmon/)|Zohno|Tracks plasm, killed mobs and dropped airlixirs during a delve.|
 |[Plugin Manager](pluginmanager/)|Byrth|Allows you to specify which plugins and addons will be used with which characters.|
 |[Porter](porter/)|Zohno|Shows the slips' items highlighting those that are stored.|
+|[Pouches](pouches/)||Allows you to open items in your inventory from a command.|
+|[RAWR](rawr/)||Plays a sound on Escha dragon pop notices.|
 |[Respond](respond/)|Byrth|Respond to tells and FFOchat PMs using %%//%%r.|
 |[Reive](reive/)|Zohno|Tracks exp, bayld, momentum scores and bonuses during a reive.|
+|[Rhombus](rhombus/)||Creates a click-able onscreen menu based on customizable user files.|
 |[RollTracker](rolltracker/)|Balloon|Simplifies Cor rolls, tells you the bonus they give, stops you from doubling up on lucky rolls and reports your chance to bust.|
 |[Scoreboard](scoreboard/)|Suji|Basic in-game damage parser. It displays live DPS and works even when chat filters are enabled.|
 |[Send](send/)|Arcon|Sends commands between windower instances using IPC.|
