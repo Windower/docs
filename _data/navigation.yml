@@ -68,6 +68,8 @@ addonnav:
         url: /addons/cellhelp/
       - title: "Chars"
         url: /addons/chars/
+      - title: "ChatLink"
+        url: /addons/chatlink/        
       - title: "ChatPorter"
         url: /addons/chatporter/
       - title: "Clock"
@@ -216,8 +218,6 @@ pluginnav:
         url: /plugins/autoexec/
       - title: "Binder"
         url: /plugins/binder/
-      - title: "ChatLink"
-        url: /plugins/chatlink/
       - title: "FFXIDB"
         url: /plugins/ffxidb/
       - title: "IME"
