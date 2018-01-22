@@ -74,14 +74,20 @@ addonnav:
         url: /addons/clock/
       - title: "ConsoleBG"
         url: /addons/consolebg/
-      - title: "DressUp"
-        url: /addons/dressup/
+      - title: "Craft"
+        url: /addons/craft/
+      - title: "Digger"
+        url: /addons/digger/
       - title: "Distance"
         url: /addons/distance/
       - title: "DistancePlus"
         url: /addons/distanceplus/
+      - title: "DressUp"
+        url: /addons/dressup/
       - title: "DynamisHelper"
         url: /addons/dynamishelper/
+      - title: "Enemybar"
+        url: /addons/enemybar/
       - title: "Enternity"
         url: /addons/enternity/
       - title: "Eval"
@@ -90,8 +96,12 @@ addonnav:
         url: /addons/fastcs/
       - title: "FindAll"
         url: /addons/findall/
+      - title: "Gametime"
+        url: /addons/gametime/
       - title: "GearSwap"
         url: /addons/gearswap/
+      - title: "Highlight"
+        url: /addons/highlight/
       - title: "InfoReplacer"
         url: /addons/inforeplacer/
       - title: "Itemizer"

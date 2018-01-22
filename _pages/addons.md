@@ -33,14 +33,20 @@ For more information about how to write Lua addons for use in Windower, see our 
 |[ChatPorter](chatporter/)|Ikonic|Displays tell, party, and linkshell chat to alternate character and optional textbox. Also, allows you to reply from either character.|
 |[Clock](clock/)|StarHawk|Displays the current time in various time zones around the world in a customizable format on the screen.|
 |[ConsoleBG](consolebg/)|StarHawk|Creates a background shadow for the console window to make it more readable.|
-|[DynamisHelper](dynamishelper/)|Krizz|Displays a timer when a mob is procced, tracks currency obtained, and can create a LL to lot all currency.|
+|[Craft](craft/)|Snaps|A Final Fantasy XI crafting addon.|
+|[Digger](digger/)|Acacia@Odin|A Chocobo digging addon.|
 |[Distance](distance/)|Windower|Shows the distance towards the current target in yalms. Useful for range estimations.|
 |[DistancePlus](distanceplus/)|Sammeh|Enhances the functionality of the Distance addon.|
+|[DressUp](dressup/)|Cair|Allows you to specify custom gear models for yourself, others, or individual players.|
+|[DynamisHelper](dynamishelper/)|Krizz|Displays a timer when a mob is procced, tracks currency obtained, and can create a LL to lot all currency.|
+|[EnemyBar](enemybar/)|mmckee|Creates a big health bar for the target to make it easy to see.|
 |[Enternity](enternity/)|Zohno|Enters "Enter" automatically when prompted during a cutscene or when talking to NPCs. It will not skip choice dialog boxes.|
 |[Eval](eval/)|Aureus|Allows developers to run arbitrary lua code in the console.|
 |[FastCS](fastcs/)|Cair|Uses the config plugin to automatically disable the frame rate cap during custcenes.|
 |[FindAll](findall/)|Zohno|Searches items stored on all your characters.|
+|[Gametime](gametime/)|Omnys|Displays gametime-based information.|
 |[GearSwap](gearswap/)|Byrth|Changes gear in response to player actions..|
+|[Highlight](highlight/)|Balloon|Highlights the names of the people in your party, and highlights their name when it appears in chat.|
 |[InfoReplacer](inforeplacer/)|Cair|Replaces outgoing text prefixed by % with respective information.|
 |[Itemizer](itemizer/)|Ihina|Provides a chat/console interface for moving items around between bags.|
 |[JobChange](jobchange/)|Sammeh|Allows command-line job change as long as you're within 6 yalms of a Job Change NPC.|
