@@ -38,3 +38,6 @@ The following all commands correspond to the burden tracker.
 ## Default Configuration
 
 Default configurations can be adjusted at the following location: `...addons\autocontrol\data\settings.xml`
+
+## Source
+The latest source and information for this addon can be found on [GitHub](https://github.com/Windower/Lua/tree/live/addons/autocontrol).

@@ -73,3 +73,6 @@ bl qa name [reason]
 ```
 
 Adds a user to your blist w/o requiring extra details (reason is optional).
+
+## Source
+The latest source and information for this addon can be found on [GitHub](https://github.com/Windower/Lua/tree/live/addons/blist).

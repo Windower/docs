@@ -18,3 +18,6 @@ This addon accepts multiple buffs (comma delimited) and supports wildcard matchi
 ```
 cancel <buffname1 or buffID1>,<buffname2 or buffID2>,...
 ```
+
+## Source
+The latest source and information for this addon can be found on [GitHub](https://github.com/Windower/Lua/tree/live/addons/cancel).

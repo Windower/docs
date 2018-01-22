@@ -13,3 +13,6 @@ Presses "Enter" automatically when prompted during a cutscene or when talking to
 
 #### v1.20130606
 * First release.
+
+## Source
+The latest source and information for this addon can be found on [GitHub](https://github.com/Windower/Lua/tree/live/addons/enternity).

@@ -66,3 +66,6 @@ Saves the current settings for *all* characters.
 ## Settings File
 
 All of the above arguments will make immediate changes to the `settings.xml` for that character only, except for `aj save` which saves all of those settings globally.
+
+## Source
+The latest source and information for this addon can be found on [GitHub](https://github.com/Windower/Lua/tree/live/addons/autojoin).

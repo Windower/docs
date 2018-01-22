@@ -29,3 +29,6 @@ Please report any bug or suggetion on the bug tracker @ https://github.com/giuli
 
 #### v1.20130421
 * first release.
+
+## Source
+The latest source and information for this addon can be found on [GitHub](https://github.com/Windower/Lua/tree/live/addons/chars).

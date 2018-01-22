@@ -13,3 +13,6 @@ Addon that automatically uses echo drops when you are silenced.
 ## Commands
 
 There are no commands for AEcho
+
+## Source
+The latest source and information for this addon can be found on [GitHub](https://github.com/Windower/Lua/tree/live/addons/aecho).

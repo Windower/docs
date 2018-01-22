@@ -20,3 +20,6 @@ Addon to enable 1 macro status removal with the help of [send](../send/).
 ## Commands
 
 The only command is `stna`. Using this command will remove the debuffs above in the priority listed. Also will use holy waters when doomed.
+
+## Source
+The latest source and information for this addon can be found on [GitHub](https://github.com/Windower/Lua/tree/live/addons/stna).

@@ -47,3 +47,6 @@ The settings file, located in `...addons/scoreboard/data/settings.xml`, contains
 Please report any issues or feedback to Suji using the links above.
 
 **Credits by Suji**: Thanks to **Flippant** for all of the helpful feedback and comments and to **Zumi** for encouraging me to write this in the first place.
+
+## Source
+The latest source and information for this addon can be found on [GitHub](https://github.com/Windower/Lua/tree/live/addons/scoreboard).

@@ -49,3 +49,6 @@ clock display <timezone> <name>
 ```
 
 Sets the display name for a time zone, instead of displaying the time zone identifier. So `clock display jst JP clock` would display `JP clock` before the time instead of `JST`.
+
+## Source
+The latest source and information for this addon can be found on [GitHub](https://github.com/Windower/Lua/tree/live/addons/Clock).

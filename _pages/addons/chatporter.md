@@ -238,3 +238,6 @@ cp [l|p|t|f] [blue|b] #
 ```
 
 Sets blue value for RGB color of text in textbox.
+
+## Source
+The latest source and information for this addon can be found on [GitHub](https://github.com/Windower/Lua/tree/live/addons/chatPorter).

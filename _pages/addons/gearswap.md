@@ -113,3 +113,6 @@ There is no settings file for GearSwap.
 
 ## Additional Assistance
 The `Windower/addons/GearSwap/beta_examples_and_information` folder has a file in it named `Variables.xlsx` that gives more specific information. If that is insufficient, you can go to BlueGartr's FFXI section or FFXIAH and ask for more assistance.
+
+## Source
+The latest source and information for this addon can be found on [GitHub](https://github.com/Windower/Lua/tree/live/addons/GearSwap).

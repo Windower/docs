@@ -22,10 +22,13 @@ For more information about how to write Lua addons for use in Windower, see our 
 |[AzureSets](azuresets/)|Nitrous|Automated blue magic spell setting.|
 |[BattleMod](battlemod/)|Byrth|Customizes battle chat messages.|
 |[Blist](blist/)|Ikonic|More detailed blist with tiered display options. Allows for blist to be active on any or all of several chat types.|
+|[BLUAlert](blualert)||Monitors monster abilities for Blue Magic spells that you don't know. When one is detected it will write a message into chat and play a sound to notify you.|
 |[Cancel](cancel/)|Byrth|Cancels buffs from the command line.|
 |[CellHelp](cellhelp/)|Krizz/Balloon|Tracks cells that are needed, displays your position in the lot order, and creates the appropriate LL profiles.|
 |[Chars](chars/)|Zohno|This addon lets you input special chars using simple tags (ex.: <note> for ♪).|
 |[ChatPorter](chatporter/)|Ikonic|Displays tell, party, and linkshell chat to alternate character and optional textbox. Also, allows you to reply from either character.|
+|[Clock](clock/)|Arcon|Displays the current time in various time zones around the world in a customizable format on the screen.|
+|[ConsoleBG](consolebg/)|StarHawk|Creates a background shadow for the console window to make it more readable.|
 |[DynamisHelper](dynamishelper/)|Krizz|Displays a timer when a mob is procced, tracks currency obtained, and can create a LL to lot all currency.|
 |[Distance](distance/)|Arcon|Shows the distance towards the current target in yalms. Useful for range estimations.|
 |[DistancePlus](distanceplus/)|Sammeh|Enhances the functionality of the Distance addon.|
@@ -48,7 +51,6 @@ For more information about how to write Lua addons for use in Windower, see our 
 |[Scoreboard](scoreboard/)|Suji|Basic in-game damage parser. It displays live DPS and works even when chat filters are enabled.|
 |[Send](send/)|Arcon|Sends commands between windower instances using IPC.|
 |[Shortcuts](shortcuts/)|Byrth|Applies spellcast-like command completion (interpretation and target completion) to commands.|
-|[StaggerTrack](staggertrack/)|Nitrous|Catches voidwatch weakness messages and prints them to a textbox in case you miss them in the battle spam.|
 |[STNA](stna/)|Nitrous|One-button status removal for dual boxing.|
 |[TargetInfo](targetinfo/)|Arcon|Displays information about your current target in memory.|
 |[Timestamp](timestamp/)|Zohno|Prefixes any chat message with a timestamp. Based on Timestamp plugin.|

@@ -29,3 +29,5 @@ All in-game commands are prefixed with `//ara` or `//autora`
 |**shoot**  |Force stop Ranged attacking. (Automatically done when weapon is put away.)|
 |**help**   |Shows version info and availible commands.|
 
+## Source
+The latest source and information for this addon can be found on [GitHub](https://github.com/Windower/Lua/tree/live/addons/AutoRA).

@@ -68,3 +68,6 @@ treasury save
 ```
 
 Saves the current character's settings for all characters.
+
+## Source
+The latest source and information for this addon can be found on [GitHub](https://github.com/Windower/Lua/tree/live/addons/Treasury).

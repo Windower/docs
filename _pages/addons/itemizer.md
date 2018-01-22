@@ -73,3 +73,6 @@ Both the full name and the abbrevited names are valid entries. Wildcards are all
 //get earth crystal 5
 //get *crystal
 ```
+
+## Source
+The latest source and information for this addon can be found on [GitHub](https://github.com/Windower/Lua/tree/live/addons/itemizer).

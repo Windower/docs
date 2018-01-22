@@ -13,3 +13,6 @@ Addon that makes it easier to communicate through FFOChat PMs.
 ## Commands
 
 None
+
+## Source
+The latest source and information for this addon can be found on [GitHub](https://github.com/Windower/Lua/tree/live/addons/respond).

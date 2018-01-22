@@ -32,3 +32,6 @@ web db estoq*body
 web gw
 web wa How much wood would a woodchuck chuck if a woodchuck could chuck wood?
 ```
+
+## Source
+The latest source and information for this addon can be found on [GitHub](https://github.com/Windower/Lua/tree/live/addons/linker).

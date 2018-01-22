@@ -16,3 +16,6 @@ Addon that interprets potential game commands and attempts to complete them as a
 ## Commands
 
 There are no formal commands for Shortcuts, though it will interpret many of the things you type.
+
+## Source
+The latest source and information for this addon can be found on [GitHub](https://github.com/Windower/Lua/tree/live/addons/shortcuts).

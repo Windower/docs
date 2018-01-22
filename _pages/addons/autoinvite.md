@@ -21,3 +21,6 @@ All in-game commands are prefixed with `//ai` or `//autoinvite`
 
 If tellback mode is turned on and you are unable to send an invite to the player who sent you a tell with the 
 specified keyword, you will automatically send them a tell back saying that you were unable to invite them. 
+
+## Source
+The latest source and information for this addon can be found on [GitHub](https://github.com/Windower/Lua/tree/live/addons/autoinvite).

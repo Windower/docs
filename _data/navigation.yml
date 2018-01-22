@@ -52,6 +52,8 @@ addonnav:
         url: /addons/battlemod/
       - title: "Blist"
         url: /addons/blist/
+      - title: "BLUAlert"
+        url: /addons/blualert/
       - title: "Cancel"
         url: /addons/cancel/
       - title: "CellHelp"
@@ -62,6 +64,8 @@ addonnav:
         url: /addons/chatporter/
       - title: "Clock"
         url: /addons/clock/
+      - title: "ConsoleBG"
+        url: /addons/consolebg/
       - title: "DressUp"
         url: /addons/dressup/
       - title: "Distance"
@@ -112,8 +116,6 @@ addonnav:
         url: /addons/send/
       - title: "Shortcuts"
         url: /addons/shortcuts/
-      - title: "StaggerTrack"
-        url: /addons/staggertrack/
       - title: "STNA"
         url: /addons/stna/
       - title: "TargetInfo"

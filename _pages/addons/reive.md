@@ -152,3 +152,6 @@ Please report any bug or suggetion on the bug tracker @ https:*github.com/giulia
 
 #### v1.20130416
 * First release.
+
+## Source
+The latest source and information for this addon can be found on [GitHub](https://github.com/Windower/Lua/tree/live/addons/reive).

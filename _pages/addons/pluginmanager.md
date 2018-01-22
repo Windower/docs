@@ -22,3 +22,6 @@ pm load
 ```
 
 Loads the appropriate plugins for your current account. Will not unload plugins that are already loaded.
+
+## Source
+The latest source and information for this addon can be found on [GitHub](https://github.com/Windower/Lua/tree/live/addons/plugin_manager).
