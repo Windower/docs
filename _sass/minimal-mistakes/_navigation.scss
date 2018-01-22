@@ -430,6 +430,10 @@
     color: inherit;
   }
 
+  a:hover {
+    color: $link-color;
+  }
+
   .active {
     margin-left: -0.5em;
     padding-left: 0.5em;
