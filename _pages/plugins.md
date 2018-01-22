@@ -25,6 +25,7 @@ The following noteworthy plugins are deprecated and no longer supported.
 | Attainment | [PointWatch](../addons/pointwatch/) |
 | BlinkMeNot | [DressUp](../addons/dressup/) |
 | Cancel | [Cancel](../addons/cancel/) |
+| ChatLink | [ChatLink](../addons/chatlink/) |
 | Clock | [Clock](../addons/clock/) |
 | ConsoleBG | [ConsoleBG](../addons/consolebg/) |
 | Distance | [Distance](../addons/distance/), [DistancePlus](../addons/distanceplus/) |

@@ -1,5 +1,5 @@
 ---
-permalink: /plugins/chatlink/
+permalink: /addons/chatlink/
 title: ChatLink
 ---
 
