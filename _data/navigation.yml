@@ -222,3 +222,5 @@ pluginnav:
         url: /plugins/ffxidb/
       - title: "IME"
         url: /plugins/ime/
+      - title: "WinControl"
+        url: /plugins/wincontrol/
