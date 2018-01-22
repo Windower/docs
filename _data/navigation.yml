@@ -182,16 +182,24 @@ addonnav:
         url: /addons/timestamp/
       - title: "TParty"
         url: /addons/tparty/
+      - title: "Translate"
+        url: /addons/translate/
       - title: "TreasurePool"
         url: /addons/treasurepool/
       - title: "Treasury"
         url: /addons/treasury/
+      - titile: "Update"
+        url: /addons/update/
       - title: "VisibleFavor"
         url: /addons/visiblefavor/
       - title: "VWHL"
         url: /addons/vwhl/
+      - title: "XIVBar"
+        url: /addons/xivbar/
       - title: "Yush"
         url: /addons/yush/
+      - title: "ZoneTimer"
+        url: /addons/zonetimer/
   - title: Plugins
     url: /plugins/
 

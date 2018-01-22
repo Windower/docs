@@ -86,8 +86,12 @@ For more information about how to write Lua addons for use in Windower, see our 
 |[THTracker](thtracker/)|Krizz|Displays the current treasure hunter level.|
 |[Timestamp](timestamp/)|Zohno|Prefixes any chat message with a timestamp. Based on Timestamp plugin.|
 |[TParty](tparty/)|Cliff|Shows a target's HP percentage next to their health bar and displays party and alliance member's TP.|
+|[Translate](translate/)|Byrth|Automatically translate chat text and search comments from JP to EN.|
 |[TreasurePool](treasurepool/)|Kenshi|Replacement for the Treasure Pool thats shows time till the item auto drop and who is the current winning lot.|
 |[Treasury](treasury/)|Ihina|Manages the treasure pool for you and keeps your inventory clean of unwanted items.|
+|[Update](update/)|Arcon|Updates all addons and plugins automatically or on-demand.|
 |[VisibleFavor](visiblefavor/)|Acacia@Odin|Displays a geomancy bubble around your avatar so that it's possible to see the area of effect of Avatar's Favor and Blood Pact: Wards.|
 |[VWHL](vwhl/)|Zohno|Redirects the nm's weaknesses (VW or Abyssea) to the "tell" stream so that they can be held using the chat filters' function and highlights the important info.|
+|[XIVBar](xivbar/)|Edeon|This addon displays vital bars for easy tracking.|
 |[Yush](yush/)|Arcon|A portable macro engine based on customizable Lua files. Triggers faster than in-game macros and allows a significantly higher number of key combinations.|
+|[ZoneTimer](zonetimer/)|Ihina|Displays the time you have been in zone.|
