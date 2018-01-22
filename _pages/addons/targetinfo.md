@@ -6,6 +6,7 @@ title: TargetInfo
 This addon shows some memory information of your current target, provided the target is an NPC. This information is otherwise not available in the game.
 
 ## Settings
+
 |Setting|Description|
 |:---|:---|
 |**ShowHexID**|This ID is usually used when specifying mob IDs for NM placeholders.|
