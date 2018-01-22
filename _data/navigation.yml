@@ -18,6 +18,21 @@ sidenav:
         url: /profiles/
       - title: "Commands"
         url: /commands/
+        children:
+          - title: "General"
+            url: /commands/general/
+          - title: "Alias"
+            url: /commands/alias/
+          - title: "Console"
+            url: /commands/console/
+          - title: "Game"
+            url: /commands/game/
+          - title: "Input"
+            url: /commands/input/
+          - title: "Plugin"
+            url: /commands/plugin/
+          - title: "Addon"
+            url: /commands/addon/
       - title: "FAQ"
         url: /faq/
   - title: Addons
