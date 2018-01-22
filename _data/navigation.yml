@@ -18,33 +18,18 @@ sidenav:
         url: /profiles/
       - title: "Commands"
         url: /commands/
-        children:
-          - title: "General"
-            url: /commands/general/
-          - title: "Alias"
-            url: /commands/alias/
-          - title: "Console"
-            url: /commands/console/
-          - title: "Game"
-            url: /commands/game/
-          - title: "Input"
-            url: /commands/input/
-          - title: "Plugin"
-            url: /commands/plugin/
-          - title: "Addon"
-            url: /commands/addon/
       - title: "FAQ"
         url: /faq/
-  - title: Addons
+  - title: "Addons"
     url: /addons/
-  - title: Plugins
+  - title: "Plugins"
     url: /plugins/
 
 # Navigation Sidebar: Addons
 addonnav:
   - title: "Getting Started"
     url: /
-  - title: Addons
+  - title: "Addons"
     url: /addons/
     children:
       - title: "AEcho"
@@ -215,16 +200,16 @@ addonnav:
         url: /addons/yush/
       - title: "ZoneTimer"
         url: /addons/zonetimer/
-  - title: Plugins
+  - title: "Plugins"
     url: /plugins/
 
 # Navigation Sidebar: Plugins
 pluginnav:
   - title: "Getting Started"
     url: /
-  - title: Addons
+  - title: "Addons"
     url: /addons/
-  - title: Plugins
+  - title: "Plugins"
     url: /plugins/
     children:
       - title: "AutoExec"
