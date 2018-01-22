@@ -14,7 +14,7 @@ When you use Windower, you can install plugins, write your own Lua scripts, and 
 ## Extending Windower
 Windower provides a framework for addons and plugins that you can use to extend and enhance the game interface and functions.
 
-Explore the Addons and Plugins sections to find out more about the options available.
+Explore the [Addons](addons/) and [Plugins](plugins/) sections to find out more about the options available.
 
 ## Resolving Issues
 If you have issues, you can:
