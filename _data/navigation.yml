@@ -218,9 +218,21 @@ pluginnav:
         url: /plugins/autoexec/
       - title: "Binder"
         url: /plugins/binder/
+      - title: "ChatMon"
+      - title: "Config"
+      - title: "DelayMeNot"
       - title: "FFXIDB"
         url: /plugins/ffxidb/
+      - title: "FishingCrashFix"
+      - title: "Guildwork"
       - title: "IME"
         url: /plugins/ime/
+      - title: "InfoBar"
+      - title: "Run"
+      - title: "Sandbox"
+      - title: "SSOrganizer"
+      - title: "Tickle"
+      - title: "WeatherMon"
+      - title: "Timers"
       - title: "WinControl"
         url: /plugins/wincontrol/
