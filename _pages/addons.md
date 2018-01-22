@@ -62,8 +62,13 @@ For more information about how to write Lua addons for use in Windower, see our 
 |[Scoreboard](scoreboard/)|Suji|Basic in-game damage parser. It displays live DPS and works even when chat filters are enabled.|
 |[Send](send/)|Arcon|Sends commands between windower instances using IPC.|
 |[Shortcuts](shortcuts/)|Byrth|Applies spellcast-like command completion (interpretation and target completion) to commands.|
+|[SpeedChecker](speedchecker/)|Arcon|Displays a small box indicating your current movement speed modifier.|
+|[SpellCheck](spellcheck/)|DamienDennehy|Lists spells you haven't unlocked yet.|
 |[STNA](stna/)|Nitrous|One-button status removal for dual boxing.|
+|[SubTarget](subtarget/)|Sebyg666|Facilites casting buffs to a chosen party member when dualboxing without having to write 6 macros for the same spell.|
 |[TargetInfo](targetinfo/)|Arcon|Displays information about your current target in memory.|
+|[Text](text/)|Arcon|Allows creation and manipulation of text objects on screen.|
 |[Timestamp](timestamp/)|Zohno|Prefixes any chat message with a timestamp. Based on Timestamp plugin.|
+|[TParty](tparty/)|Arcon|Shows a target's HP percentage next to their health bar and displays party and alliance member's TP.|
 |[VWHL](vwhl/)|Zohno|Redirects the nm's weaknesses (VW or Abyssea) to the "tell" stream so that they can be held using the chat filters' function and highlights the important info.|
 |[Yush](yush/)|Arcon|A portable macro engine based on customizable Lua files. Triggers faster than in-game macros and allows a significantly higher number of key combinations.|

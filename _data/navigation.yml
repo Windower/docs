@@ -136,12 +136,22 @@ addonnav:
         url: /addons/send/
       - title: "Shortcuts"
         url: /addons/shortcuts/
+      - title: "SpeedChecker"
+        url: /addons/speedchecker/
+      - title: "SpellCheck"
+        url: /addons/spellcheck/
       - title: "STNA"
         url: /addons/stna/
+      - title: "SubTarget"
+        url: /addons/subtarget/
       - title: "TargetInfo"
         url: /addons/targetinfo/
+      - title: "Text"
+        url: /addons/text/
       - title: "Timestamp"
         url: /addons/timestamp/
+      - title: "TParty"
+        url: /addons/tparty/
       - title: "Treasury"
         url: /addons/treasury/
       - title: "VWHL"
