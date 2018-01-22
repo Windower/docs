@@ -104,10 +104,14 @@ addonnav:
         url: /addons/highlight/
       - title: "InfoReplacer"
         url: /addons/inforeplacer/
+      - title: "InstaLS"
+        url: /addons/instals/
       - title: "Itemizer"
         url: /addons/itemizer/
       - title: "JobChange"
         url: /addons/jobchange/
+      - title: "LatentChecker"
+        url: /addons/latentchecker/
       - title: "Linker"
         url: /addons/linker/
       - title: "Logger"
@@ -152,6 +156,8 @@ addonnav:
         url: /addons/scoreboard/
       - title: "Send"
         url: /addons/send/
+      - title: "SetBGM"
+        url: /addons/setbgm/
       - title: "Shortcuts"
         url: /addons/shortcuts/
       - title: "SpeedChecker"
@@ -160,12 +166,18 @@ addonnav:
         url: /addons/spellcheck/
       - title: "STNA"
         url: /addons/stna/
+      - title: "Stopwatch"
+        url: /addons/stopwatch/
       - title: "SubTarget"
         url: /addons/subtarget/
       - title: "TargetInfo"
         url: /addons/targetinfo/
+      - title: "Temps"
+        url: /addons/temps/
       - title: "Text"
         url: /addons/text/
+      - title: "THTracker"
+        url: /addons/thtracker/
       - title: "Timestamp"
         url: /addons/timestamp/
       - title: "TParty"

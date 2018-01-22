@@ -48,8 +48,10 @@ For more information about how to write Lua addons for use in Windower, see our 
 |[GearSwap](gearswap/)|Byrth|Changes gear in response to player actions..|
 |[Highlight](highlight/)|Balloon|Highlights the names of the people in your party, and highlights their name when it appears in chat.|
 |[InfoReplacer](inforeplacer/)|Cair|Replaces outgoing text prefixed by % with respective information.|
+|[InstaLS](instals/)|Byrth|Allows linkshell chat immediately after zoning.|
 |[Itemizer](itemizer/)|Ihina|Provides a chat/console interface for moving items around between bags.|
 |[JobChange](jobchange/)|Sammeh|Allows command-line job change as long as you're within 6 yalms of a Job Change NPC.|
+|[LatentChecker](latentchecker/)|smd111|Checks weapon skill points of valid weapons.|
 |[Linker](linker/)|Arcon|Allows opening links to certain websites from within the game, with an optional search parameter.|
 |[Logger](logger/)|Aikar|Outputs all text that appears in the chat log into a text file under `Windower/logs/`.|
 |[MacroChanger](macrochanger/)|Banggugyangu|Automatically switches Macro Book and Page according to job changes.|
@@ -71,13 +73,17 @@ For more information about how to write Lua addons for use in Windower, see our 
 |[RollTracker](rolltracker/)|Balloon|Simplifies Cor rolls, tells you the bonus they give, stops you from doubling up on lucky rolls and reports your chance to bust.|
 |[Scoreboard](scoreboard/)|Suji|Basic in-game damage parser. It displays live DPS and works even when chat filters are enabled.|
 |[Send](send/)|Byrth|Sends commands between windower instances using IPC.|
+|[SetBGM](setbgm/)|Acacia@Odin|Allows you to set various types of music in the game.|
 |[Shortcuts](shortcuts/)|Byrth|Applies spellcast-like command completion (interpretation and target completion) to commands.|
 |[SpeedChecker](speedchecker/)|Arcon|Displays a small box indicating your current movement speed modifier.|
 |[SpellCheck](spellcheck/)|Zubis|Lists spells you haven't unlocked yet.|
 |[STNA](stna/)|Nitrous|One-button status removal for dual boxing.|
+|[Stopwatch](stopwatch/)|Puhfyn@Ragnarok|Provides stopwatch functionality.|
 |[SubTarget](subtarget/)|Sebyg666|Facilites casting buffs to a chosen party member when dualboxing without having to write 6 macros for the same spell.|
 |[TargetInfo](targetinfo/)|Arcon|Displays information about your current target in memory.|
+|[Temps](temps/)|Snaps|Makes buying temporary items and key items from Escha NPCs much easier.|
 |[Text](text/)|Dewin|Allows creation and manipulation of text objects on screen.|
+|[THTracker](thtracker/)|Krizz|Displays the current treasure hunter level.|
 |[Timestamp](timestamp/)|Zohno|Prefixes any chat message with a timestamp. Based on Timestamp plugin.|
 |[TParty](tparty/)|Cliff|Shows a target's HP percentage next to their health bar and displays party and alliance member's TP.|
 |[TreasurePool](treasurepool/)|Kenshi|Replacement for the Treasure Pool thats shows time till the item auto drop and who is the current winning lot.|
