@@ -4,6 +4,7 @@
 
 @charset "utf-8";
 
+$background-color: #242424;
 $link-color: #339933; // Windower Green
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
