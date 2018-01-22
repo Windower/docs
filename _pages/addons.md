@@ -34,14 +34,21 @@ For more information about how to write Lua addons for use in Windower, see our 
 |[DistancePlus](distanceplus/)|Sammeh|Enhances the functionality of the Distance addon.|
 |[Enternity](enternity/)|Zohno|Enters "Enter" automatically when prompted during a cutscene or when talking to NPCs. It will not skip choice dialog boxes.|
 |[Eval](eval/)|Aureus|Allows developers to run arbitrary lua code in the console.|
+|[FastCS](fastcs/)|Cair|Uses the config plugin to automatically disable the frame rate cap during custcenes.|
 |[FindAll](findall/)|Zohno|Searches items stored on all your characters.|
 |[GearSwap](gearswap/)|Byrth|Changes gear in response to player actions..|
+|[InfoReplacer](inforeplacer/)|Cair|Replaces outgoing text prefixed by % with respective information.|
+|[Itemizer](itemizer/)|Jayjs20|Provides a chat/console interface for moving items around between bags.|
+|[JobChange](jobchange/)|Sammeh|Allows command-line job change as long as you're within 6 yalms of a Job Change NPC.|
 |[Linker](linker/)|Arcon|Allows opening links to certain websites from within the game, with an optional search parameter.|
+|[Logger](logger/)|Arcon|Outputs all text that appears in the chat log into a text file under `Windower/logs/`.|
 |[MacroChanger](macrochanger/)|Banggugyangu|Automatically switches Macro Book and Page according to job changes.|
 |[MobCompass](mobcompass/)|Sebyg666|A compass to show your position relative to the target (not players) for geo and has a setup for Sneak attack.|
+|[Nostrum](nostrum/)||Creates a click-able onscreen macro to help avoid targeting issues while curing.|
 |[ObiAway](obiaway/)|Reaper X|Automatically remove elemental obis based on day/weather/storm conditions.|
 |[OhShi](ohshi/)|Nitrous|Keeps track of various event related things. Such as, VW proc messages, mob casting, mob tp moves, TH procs and cor rolls, as well as others.|
 |[Organizer](organizer/)|Byrth/Rooks|An inventory management plugin similar to GearCollector.|
+|[Omen](omen/)|Braden/Sechs|Creates a custom window that tracks the current Omen floor's Primary and Secondary objectives.|
 |[Plasmon](plasmon/)|Zohno|Tracks plasm, killed mobs and dropped airlixirs during a delve.|
 |[Plugin Manager](pluginmanager/)|Byrth|Allows you to specify which plugins and addons will be used with which characters.|
 |[Porter](porter/)|Zohno|Shows the slips' items highlighting those that are stored.|

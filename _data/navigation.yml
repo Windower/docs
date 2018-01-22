@@ -78,22 +78,34 @@ addonnav:
         url: /addons/enternity/
       - title: "Eval"
         url: /addons/eval/
+      - title: "FastCS"
+        url: /addons/fastcs/
       - title: "FindAll"
         url: /addons/findall/
       - title: "GearSwap"
         url: /addons/gearswap/
+      - title: "InfoReplacer"
+        url: /addons/inforeplacer/
       - title: "Itemizer"
         url: /addons/itemizer/
+      - title: "JobChange"
+        url: /addons/jobchange/
       - title: "Linker"
         url: /addons/linker/
+      - title: "Logger"
+        url: /addons/logger/
       - title: "MacroChanger"
         url: /addons/macrochanger/
       - title: "MobCompass"
         url: /addons/mobcompass/
+      - title: "Nostrum"
+        url: /addons/nostrum/
       - title: "ObiAway"
         url: /addons/obiaway/
       - title: "OhShi"
         url: /addons/ohshi/
+      - title: "Omen"
+        url: /addons/omen/
       - title: "Organizer"
         url: /addons/organizer/
       - title: "PlasMon"
