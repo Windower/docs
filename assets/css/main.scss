@@ -29,11 +29,11 @@ $base0f: #ff5370;
 $type-size-1: 1.953em !default; // ~31.248px
 $type-size-2: 1.563em !default; // ~25.008px
 $type-size-3: 1.25em !default; // ~20px
-$type-size-4: 1em !default; // ~16px
-$type-size-5: 0.75em !default; // ~12px
-$type-size-6: 0.6875em !default; // ~11px
-$type-size-7: 0.625em !default; // ~10px
-$type-size-1: 0.600em !default; // ~9px
+$type-size-4: 1.1em !default; // ~16px
+$type-size-5: 1.0em !default; // ~12px
+$type-size-6: 0.75em !default; // ~11px
+$type-size-7: 0.6875em !default; // ~10px
+$type-size-1: 0.625em !default; // ~9px
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
