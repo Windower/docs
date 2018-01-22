@@ -48,14 +48,22 @@ addonnav:
         url: /addons/autora/
       - title: "AzureSets"
         url: /addons/azuresets/
+      - title: "BarFiller"
+        url: /addons/barfiller/
       - title: "BattleMod"
         url: /addons/battlemod/
       - title: "Blist"
         url: /addons/blist/
       - title: "BLUAlert"
         url: /addons/blualert/
+      - title: "BluGuide"
+        url: /addons/bluguide/
+      - title: "BoxDestroyer"
+        url: /addons/boxdestroyer/
       - title: "Cancel"
         url: /addons/cancel/
+      - title: "CapeTrader"
+        url: /addons/capetrader/
       - title: "CellHelp"
         url: /addons/cellhelp/
       - title: "Chars"
@@ -152,8 +160,12 @@ addonnav:
         url: /addons/timestamp/
       - title: "TParty"
         url: /addons/tparty/
+      - title: "TreasurePool"
+        url: /addons/treasurepool/
       - title: "Treasury"
         url: /addons/treasury/
+      - title: "VisibleFavor"
+        url: /addons/visiblefavor/
       - title: "VWHL"
         url: /addons/vwhl/
       - title: "Yush"
