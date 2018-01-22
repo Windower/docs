@@ -11,5 +11,8 @@ When you use Windower, you can install plugins, write your own Lua scripts, and 
 1. [Set Up A Profile](profiles/)<br>Start Windower, and configure your Windower profile.
 1. [Launch Final Fantasy XI](profiles/#launch-using-a-profile)
 
-## Contact
-If you have issues, you can stop by our [Discord](https://discord.gg/v6pk6uy) server.
+## Issues
+If you have issues, you can:
+* Check the [FAQ](faq/).
+* Visit the [FFXIAH Windower forums](http://www.ffxiah.com/forum/forum/170/support/).
+* Stop by our [Discord](https://discord.gg/v6pk6uy) server.
