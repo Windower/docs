@@ -17,7 +17,7 @@ name                     : "Windower Documentation Team"
 description              : "Information about how to configure and use Windower v4."
 url                      : "http://docs.windower.net" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/" # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "Windower/docs" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -87,7 +87,7 @@ analytics:
 # Site Author
 author:
   name             : "Windower Documentation Team"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/mstile-150-150.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : #"I am an amazing person."
   location         : "Vana'diel"
   email            :
