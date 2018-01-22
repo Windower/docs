@@ -32,7 +32,7 @@ By default, binds activate on key press; specify `up` to bind on key release.
 | `$` | Keybind is valid while the game input line is active |
 | `%` | Keybind is valid while the game input line is inactive |
 
-For an exhaustive list of bindable keys, see the [Key Mappings]() section.
+For an exhaustive list of bindable keys, see the [Key Mappings](../keymapping/) section.
 
 ### unbind / keyboard_unbind
 ```

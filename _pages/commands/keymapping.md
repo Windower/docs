@@ -1,5 +1,5 @@
 ---
-permalink: /keymapping/
+permalink: /commands/keymap/
 title: Key Mapping
 ---
 
