@@ -12,21 +12,24 @@ At the moment it works for Incursion: if target is an Incursion Adherent it will
   
   
 ## Commands
-* //announcetarget reload  
-* //announcetarget unload  
-* //announcetarget chatmode say|party|linkshell|linkshell2|shout  
-* //announcetarget autoannounce on|true|off|false  
-* //announcetarget announce  
-* //announcetarget clear  
-  
+```
+//announcetarget reload  
+//announcetarget unload  
+//announcetarget chatmode say|party|linkshell|linkshell2|shout  
+//announcetarget autoannounce on|true|off|false  
+//announcetarget announce  
+//announcetarget clear  
+```
+
 ## Short Commands
-* //at reload  
-* //at unload  
-* //at cm s|p|l|l2|sh  
-* //at aa t|f|0|1  
-* //at a  
-* //at c  
-  
+```
+//at reload  
+//at unload  
+//at cm s/p/l/l2/sh  
+//at aa t/f/0/1  
+//at a  
+//at c  
+```  
   
 ## Commands Details
 * Reload/Unload: Reloads or Unloads the addon, respectively  
