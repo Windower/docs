@@ -5,6 +5,18 @@ title: Windower Commands
 
 Windower includes a variety of commands that allow you to control and configure the behavior of Windower.
 
+## Command Categories
+
+| Category | Description |
+|:---|:---|
+| [General](general/) | Control basic Windower features such as screenshots. |
+| [Alias](alias/) | Create Windower pseudo-commands that can be used in the same way as built-in commands. |
+| [Console](console/) | Control the appearance and behavior of the Windower console. |
+| [Game](game/) | Control various aspects of the game rendering engine. |
+| [Input](input/) | Create keybinds and manage the behavior of the keyboard and mouse. |
+| [Plugin](plugin/) | Load and unload Windower plugins. |
+| [Addon](addon/) | Load, unload, and interact with Windower addons. |
+
 ## Command Usage
 Windower commands can be used in several ways.
 
@@ -29,15 +41,3 @@ The commands in this section adhere to the following syntax.
 bind [modifier][state]<key> [up] <command>
 ```
 The **[bind](input/#bind--keyboard_bind)** command supports two required parameters (**key**, **command**) and three optional parameters (**modifier**, **state**, **up**).
-
-## Command Categories
-
-| Category | Description |
-|:---|:---|
-| [General](general/) | Control basic Windower features such as screenshots. |
-| [Alias](alias/) | Create Windower pseudo-commands that can be used in the same way as built-in commands. |
-| [Console](console/) | Control the appearance and behavior of the Windower console. |
-| [Game](game/) | Control various aspects of the game rendering engine. |
-| [Input](input/) | Create keybinds and manage the behavior of the keyboard and mouse. |
-| [Plugin](plugin/) | Load and unload Windower plugins. |
-| [Addon](addon/) | Load, unload, and interact with Windower addons. |
