@@ -46,6 +46,7 @@ The following noteworthy plugins are deprecated and no longer supported.
 |:---|:---|
 | Attainment | [PointWatch](../addons/pointwatch/) |
 | BlinkMeNot | [DressUp](../addons/dressup/) |
+| BoxHelper | [BoxDestroyer](../addons/boxdestroyer/) |
 | Cancel | [Cancel](../addons/cancel/) |
 | ChatLink | [ChatLink](../addons/chatlink/) |
 | Clock | [Clock](../addons/clock/) |
@@ -57,7 +58,15 @@ The following noteworthy plugins are deprecated and no longer supported.
 | GearCollector | [Organizer](../addons/organizer/)
 | Itemizer | [Itemizer](../addons/itemizer/) |
 | LightLuggage | [Treasury](../addons/treasury/) |
+| Logger | [Logger](../addons/logger/) |
+| PetTP | [PetTP](../addons/pettp/) |
 | PlasticSurgeon | [DressUp](../addons/dressup/) |
+| Silence | [Silence](../addons/silence/) |
 | Spellcast | [GearSwap](../addons/gearswap/), [Shortcuts](../addons/shortcuts/) |
+| Text | [Text](../addons/text/) |
 | Timestamp | [Timestamp](../addons/timestamp/) |
 | TParty | [TParty](../addons/tparty/) |
+| Unlimited | [Config](config/) (Plugin) |
+| UpdateResources | Windower Launcher |
+| VanaTunes | [SetBGM](../addons/setbgm/) |
+| ZoneTimer | [ZoneTimer](../addons/zonetimer/) |
