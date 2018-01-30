@@ -52,7 +52,7 @@ This is a listing of what keys are tied to what text version of the keys when tr
 |'|DIK_APOSTROPHE|
 |shift|DIK_LSHIFT|
 |lshift|DIK_LSHIFT|
-|\\|DIK_BACKSLASH|
+| \\ |DIK_BACKSLASH|
 |z|DIK_Z|
 |x|DIK_X|
 |c|DIK_C|
