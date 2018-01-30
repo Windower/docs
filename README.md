@@ -2,9 +2,14 @@
 
 This repository contains the official Windower documentation.
 
-The Windower Documentation is rendered from the source files in this repo using the Jekyll static content creator. It is published to GitHub Pages, and is visible at http://docs.windower.net.
+## Reporting Documentation Errors
+If you notice an error in the documentation, please create an issue in the [Issue Tracker](https://github.com/Windower/docs/issues).
 
-## File Structure
+## Contributing to the Documentation
+
+The Windower Documentation is rendered from the source files in this repo using the Jekyll static content creator. It is published to GitHub Pages, and is publicly available at http://docs.windower.net.
+
+### File Structure
 ```
 docs/             <-- Repository root
     _data/        <-- Configuration information for the Jekyll theme, such as the nav defaults
@@ -13,11 +18,11 @@ docs/             <-- Repository root
         plugins/  <-- All pages for individual plugins
 ```
 
-## Creating Pages
+### Creating Pages
 This site uses the [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes) Jekyll theme.<br>
 Pages should be created as standard Markdown files with the following exceptions.
 
-### Page Header
+#### Page Header
 Include a Jekyll processing header at the top of each page, including the permalink for the page and the title.
 
 For example:
@@ -40,7 +45,7 @@ toc: false
 ---
 ```
 
-### Note Formatting
+#### Note Formatting
 You can use formatting provided by the Jekyll theme to format a paragraph as various kinds of notes.
 
 For example:
@@ -51,7 +56,7 @@ For example:
 
 Suggested notice types are: `success`, `info`, `warning`, `danger`
 
-### Navigation
+#### Navigation
 New pages do not automatically appear in the navigation section on the left side. If you want your page to appear there, you need to add the appropriate entry to the defaults section in `_data/navigation.yml`.
 
 Most frequently, this will involve adding a new child node in the Addons nav bar:
