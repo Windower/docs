@@ -1,6 +1,7 @@
 ---
 permalink: /commands/keymapping/
 title: Key Mapping
+toc: false
 ---
 
 This is a listing of what keys are tied to what text version of the keys when trying to bind to them in Windower scripts.
