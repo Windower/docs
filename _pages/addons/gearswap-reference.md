@@ -51,3 +51,24 @@ change_target(new target)
 ```
 
 Changes the target to whatever value is passed. It can be a name or something like `<t>`, but be aware that there will be no correction done on it. Valid only in pretarget.
+
+## Spell Variables
+
+|Variable Name|Type|Description|
+|:--|:--|:--|
+|spell.name|string|Spell name in the language of your client|
+|spell.prefix|string|Default prefix for a given spell. Obtained from resources.|
+|spell.targets|table|Table of Booleans keyed to 'Self', 'Player', 'Party', 'Ally', 'NPC', 'Enemy', and 'Corpse'. True means that it's valid for that target.|
+|spell.type|string|String indicating the type of spell without spaces. So "JobAbility" for Provoke, "WhiteMagic" for Cure, "BardSong" for Marches, etc. Obtained from resources.|
+|spell.skill|string|String form of the skill a spell is based on, or "Ability" for abilities. So "Healing Magic" for Cure, "Ability" for Provoke, "Singing" for Marches, etc. Obtained from resources.|
+|spell.mp_cost|number|Number representing the base MP cost of a spell. Obtained from resources.|
+|spell.tp_cost|number|Number representing the base TP cost of a spell. Obtained from resources.|
+|spell.element|string|String form of the element name. Obtained from resources.|
+|spell.range|number|Number representing the spell's maximum range.|
+|spell.recast|number|Number representing the base recast time of the spell. Obtained from resources.|
+|spell.recast_id|number|Number representing the spell's timer ID, which can be used with the LuaCore get_spell_recasts() function to determine the current spell recast.|
+|spell.cast_time|number|Number representing the base cast time of the spell. Obtained from resources.|
+|spell.wsA|string|String indicating the primary WS property. Blank string if it doesn't exist. Obtained from resources.|
+|spell.wsB|string|String indicating the secondary WS property. Blank string if it doesn't exist. Obtained from resources.|
+|spell.wsC|string|String indicating the tertiary WS property. Blank string if it doesn't exist. Obtained from resources.|
+|spell.interrupted|boolean|True if the spell (or job ability) failed to execute. Only valid in the aftercast/pet_aftercast phase.|
