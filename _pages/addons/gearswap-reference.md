@@ -52,7 +52,9 @@ change_target(new target)
 
 Changes the target to whatever value is passed. It can be a name or something like `<t>`, but be aware that there will be no correction done on it. Valid only in pretarget.
 
-## Spell Variables
+
+## Variables
+### Spell
 
 |Variable Name|Type|Description|
 |:--|:--|:--|
@@ -72,3 +74,84 @@ Changes the target to whatever value is passed. It can be a name or something li
 |spell.wsB|string|String indicating the secondary WS property. Blank string if it doesn't exist. Obtained from resources.|
 |spell.wsC|string|String indicating the tertiary WS property. Blank string if it doesn't exist. Obtained from resources.|
 |spell.interrupted|boolean|True if the spell (or job ability) failed to execute. Only valid in the aftercast/pet_aftercast phase.|
+
+### Spell Target
+
+|Variable Name|Type|Description|
+|:--|:--|:--|
+|spell.target.name|string|Name of the spell's target.|
+|spell.target.raw|string|Unaltered name of the spell's target. (can be <t>, <bt>, etc.)|
+|spell.target.type|string|'SELF', 'PLAYER', 'NPC', or 'MONSTER'. Should be re-keyed to match validtarget.|
+|spell.target.hpp|number|Number from 0 to 100 indicating the current HP% of the spell's target.|
+|spell.target.distance|number|Number from 0 to 50 indicating the current distance (in yalms) from the spell's target. Does account for vertical distance.|
+|spell.target.isallymember|boolean|Boolean indicating whether or not the spell's target is an alliance member.|
+|spell.target.is_npc|boolean|Boolean that indicates whether your current spell target is an NPC or player.|
+|spell.target.tp|number|TP of the current spell target if it is available.|
+|spell.target.mpp|number|MPP of the current spell target if it is available.|
+|spell.target.model_size|number|Spell target's model size.|
+|spell.target.mob_type|number|No one seems to know what this value means.|
+|spell.target.race|string|String indicating the spell target's race.|
+|spell.target.race_id|number|Number indicating the spell target's race. IDs correspond to the values outlined in ../addons/libs/races.lua|
+|spell.target.status|string|String indicating the spell target's status.|
+|spell.target.status_id|number|Number indicating the user's status. IDs correspond to the values outlined in ../addons/libs/status.lua|
+|spell.target.speed|number|Speed of your current spell target.|
+|spell.target.speed_base|number|Base speed of your current spell target. It is unclear whether this is maximum speed or the amount before enhancement.|
+|spell.target.x|number|X position of your current spell target. (east/west)|
+|spell.target.y|number|Y position of your current spell target. (up/down)|
+|spell.target.z|number|Z position of your current spell target. (north/south)|
+|spell.target.facing|number|Value indicating the direction your current spell target is facing. This is in radians and takes a value of +/- pi with 0 representing facing east.|
+|spell.target.index|number|Index value of your current spell target.|
+|spell.target.id|number|ID of your current spell target.|
+|spell.target.claim_id|number|ID of the player with claim over the spell target (if relevant).|
+
+### Player
+
+|Variable Name|Type|Description|
+|:--|:--|:--|
+|player.name|string|User's name.|
+|player.mob_name|string|User's name from the monster array. This will be different from player.name when you are a monipulator.|
+|player.status|string|User's current status.|
+|player.hp|number|User's current HP.|
+|player.mp|number|User's current MP.|
+|player.tp|number|User's current TP.|
+|player.max_hp|number|User's current max HP.|
+|player.max_mp|number|User's current max MP.|
+|player.hpp|number|User's current HPP. Varies from 0 to 100.|
+|player.mpp|number|User's current MPP. Varies from 0 to 100.|
+|player.main_job_id|number|User's current main job ID. IDs correspond to jobs as outlined in ../addons/libs/jobs.lua|
+|player.main_job|string|User's current shortened main job code. Uses "MON" as the code for monipulator. Value determines which Lua file is loaded.|
+|player.main_job_full|string|User's current full main job name.|
+|player.main_job_level|number|User's current main job level. Varies from 1 to 99.|
+|player.sub_job_id|number|User's current sub job ID. IDs correspond to jobs as outlined in ../addons/libs/jobs.lua|
+|player.sub_job|string|User's current shortened sub job code.|
+|player.sub_job_full|string|User's current full sub job name.|
+|player.sub_job_level|number|User's current sub job level. Varies from 1 to 49.|
+|player.isallymember|boolean|Boolean that indicates whether you are in an alliance.|
+|player.in_combat|boolean|Boolean that indicates whether or not battle music is playing.|
+|player.skills.<skill name>|number|User's current skill level. <skill name> can be replaced with any of the skills found in ../addons/libs/skills.lua|
+|player.jobs.<shortened job code>|number|User's current maximum job levels. <shortened job code> can be replaced with any of the codes found in ../addons/libs/jobs.lua|
+|player.linkshell|string|Name of the user's current linkshell.|
+|player.linkshell_rank|number|User's current linkshell rank. Unsure how this maps onto Shellholder, Sackholder, Member, Broken, (and potentially unopened).|
+|player.linkshell_slot|number|Inventory slot of the user's currently equipped linkshell.|
+|player.nation|number|Nation of player's current allegiance. Unsure how this maps onto San d'Oria, Bastok, and Windurst.|
+|player.id|number|User's ID. This does not change within an FFXI session, but can change when you log out and back in.|
+|player.index|number|User's index. This can change when you zone.|
+|player.target_index|number|Index value of the user's target.|
+|player.model_size|number|User's model size.|
+|player.mob_type|number|No one seems to know what this value means.|
+|player.race|string|String indicating the user's race.|
+|player.race_id|number|Number indicating the user's race. IDs correspond to the values outlined in ../addons/libs/races.lua|
+|player.species|table|Resources line for the player's current species. Only valid for monipulators.|
+|player.status_id|number|Number indicating the user's status. IDs correspond to the values outlined in ../addons/libs/status.lua|
+|player.speed|number|User's current speed.|
+|player.speed_base|number|User's base speed. It is unclear whether this is maximum speed or the amount before enhancement.|
+|player.x|number|User's X position. (east/west)|
+|player.y|number|User's Y position. (up/down)|
+|player.z|number|User's Z position. (north/south)|
+|player.facing|number|Value indicating the direction your current target is facing. This is in radians and takes a value of +/- pi with 0 representing facing east.|
+|player.inventory|table|Table keyed with the name of equipment pieces.  Keys for both short name and long name exist, if applicable.  Value is a table containing containing item id, count, short name (shortname), and optionally long name (longname).|
+|player.sack|table|Table keyed with the name of equipment pieces.  Keys for both short name and long name exist, if applicable.  Value is a table containing containing item id, count, short name (shortname), and optionally long name (longname).|
+|player.satchel|table|Table keyed with the name of equipment pieces.  Keys for both short name and long name exist, if applicable.  Value is a table containing containing item id, count, short name (shortname), and optionally long name (longname).|
+|player.case|table|Table keyed with the name of equipment pieces.  Keys for both short name and long name exist, if applicable.  Value is a table containing containing item id, count, short name (shortname), and optionally long name (longname).|
+|player.wardrobe|table|Table keyed with the name of equipment pieces.  Keys for both short name and long name exist, if applicable.  Value is a table containing containing item id, count, short name (shortname), and optionally long name (longname).|
+|player.indi|table|Table with values "element" (string name), "element_id" (resources ID number), "target" (Ally or Enemy), and "size" (1-4). May not be accurate if GearSwap is reloaded while an Indi spell is active.|
