@@ -44,11 +44,15 @@ There are several known issues when using the IME plugin for Windower 4:
 * [Set the non-Unicode input language to Japanese](#nonunicode10)
 * [Reconfigure the input mode keyboard shortcut](#inputmode10)
 
+> **Note:** Configuration for Windows 10 generally takes place in the **Region and Language** settings:
+>
+> **Windows Settings** > **Time & Language** > **Region and Language**
+
+
+
 ## <a name="ime10"></a>Install the Japanese IME Keyboard
 
-1. Open the Region and Language settings: <br> **Windows Settings** > **Time & Language** > **Region and Language**
-
-1. Click **Add a language** and search for Japanese.
+1. In Region and Language settings, click **Add a language** and search for Japanese.
 
 1. Select the language, click **Next**, and proceed to install.
 
@@ -56,9 +60,7 @@ There are several known issues when using the IME plugin for Windower 4:
 
 > **Tip:** You may be able to use AppLocale-style programs such as Locale Emulator, but this is currently untested.
 
-1. Open the Region and Language settings: <br> **Windows Settings** > **Time & Language** > **Region and Language**
-
-1. Under **Related settings**, click **Additional date, time, & regional settings**.
+1. In Region and Language settings, click **Additional date, time, & regional settings** under **Related settings**.
 
 1. Click **Region**.
 
@@ -70,9 +72,7 @@ There are several known issues when using the IME plugin for Windower 4:
 
 ## <a name="inputmode10"></a>Reconfigure the Input Mode Keyboard Shortcut
 
-1. Open the Region and Language settings: <br> **Windows Settings** > **Time & Language** > **Region and Language**
-
-1. Select the Japanese keyboard, and click **Options**.
+1. In Region and Language settings, select the Japanese keyboard, and click **Options**.
 
 1. Select **Microsoft IME**, and click **Options**.
 
