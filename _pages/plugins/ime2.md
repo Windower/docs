@@ -3,7 +3,7 @@ permalink: /plugins/ime2/
 title: IME
 ---
 
-IME implements the Japanese Input Method Editor (IME) in Final Fantasy XI, allowing you to type text in Japanese. 
+IME restores support for the Japanese Input Method Editor (IME) in Final Fantasy XI, allowing you to type text in Japanese. 
 
 In order to use it, Japanese language support must be installed, and Japanese must be selected as the default language for non-Unicode programs in Windows.
 
