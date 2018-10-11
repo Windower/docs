@@ -7,7 +7,7 @@ IME implements the Japanese Input Method Editor in FFXI. This allows you to type
 
 # Basic Usage
 
-1. Correctly [configure the Japanese IME](#config10).
+1. Configure the Japanese IME for [Windows 7](#config7) or [Windows 10](#config10).
 1. Log into Final Fantasy XI and load the IME plugin.
 1. Use the Windows language bar to change your language.
 1. In the chat log, use the keyboard shortcut to change your input mode.
@@ -41,8 +41,8 @@ There are several known issues when using the IME plugin for Windower 4:
 # <a name="config10"></a>Configuration (Windows 10)
 
 * [Install the Japanese IME Keyboard](#ime10)
-* [Set the non-Unicode input language to Japanese](#set-the-non-unicode-program-input-language)
-* [Reconfigure the input mode keyboard shortcut](#reconfigure-the-input-mode-keyboard-shortcut)
+* [Set the non-Unicode input language to Japanese](#nonunicode10)
+* [Reconfigure the input mode keyboard shortcut](#inputmode10)
 
 ## <a name="ime10"></a>Install the Japanese IME Keyboard
 
@@ -52,7 +52,7 @@ There are several known issues when using the IME plugin for Windower 4:
 
 1. Select the language, click **Next**, and proceed to install.
 
-## Set the non-Unicode program input language
+## <a name="nonunicode10"></a>Set the non-Unicode program input language
 
 > **Tip:** You may be able to use AppLocale-style programs such as Locale Emulator, but this is currently untested.
 
@@ -68,7 +68,7 @@ There are several known issues when using the IME plugin for Windower 4:
 
 > **Note:** You will need to reboot your computer for the locale change to take effect.
 
-## Reconfigure the Input Mode Keyboard Shortcut
+## <a name="inputmode10"></a>Reconfigure the Input Mode Keyboard Shortcut
 
 1. Open the Region and Language settings: <br> **Windows Settings** > **Time & Language** > **Region and Language**
 
@@ -89,3 +89,17 @@ There are several known issues when using the IME plugin for Windower 4:
 1. Specify a more useful key combination such as **Ctrl**+**F2**, and click **OK**.
 
 1. Verify the new key combination in the table, and then click **OK**.
+
+---
+
+# <a name="config7"></a>Configuration (Windows 7)
+
+* [Install the Japanese IME Keyboard](#ime7)
+* [Set the non-Unicode input language to Japanese](#nonunicode7)
+* [Reconfigure the input mode keyboard shortcut](#inputmode7)
+
+## <a name="ime7"></a>Install the Japanese IME Keyboard
+
+## <a name="nonunicode7"></a>Set the non-Unicode program input language
+
+## <a name="inputmode7"></a>Reconfigure the Input Mode Keyboard Shortcut
