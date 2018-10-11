@@ -86,7 +86,7 @@ There are several known issues when using the IME plugin for Windower 4:
 
 1. Double-click the currently assigned key in the first column.
 
-1. Specify a new key combination such as **Ctrl**+**F2**, and click **OK**.
+1. Specify a new combination such as **Ctrl**+**F2**, and click **OK**.
 
 1. Verify the key combination in the table, and click **OK**.
 
