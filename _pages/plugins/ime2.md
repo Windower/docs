@@ -44,7 +44,7 @@ There are several known issues when using the IME plugin for Windower 4:
 * [Set the non-Unicode input language to Japanese](#nonunicode10)
 * [Reconfigure the input mode keyboard shortcut](#inputmode10)
 
-> **Note:** Configuration for Windows 10 generally takes place in the **Region and Language** settings:
+> **Note:** The configuration steps for Windows 10 are generally performed in the Windows **Region and Language** settings:
 >
 > **Windows Settings** > **Time & Language** > **Region and Language**
 
