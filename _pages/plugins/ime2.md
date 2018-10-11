@@ -7,13 +7,10 @@ IME implements the Japanese Input Method Editor in FFXI. This allows you to type
 
 # Basic Usage
 
-1. Configure the IME appropriately in Windows.
-
-1. Use Windower to log into Final Fantasy XI and load the IME plugin.
-
-1. From the Windows language bar, change your language to Japanese.
-
-1. Open the chat log, and use the keyboard shortcut to change your input mode.
+1. Correctly configure the Japanese IME.
+1. Log into Final Fantasy XI and load the IME plugin.
+1. Use the Windows language bar to change your language.
+1. In the chat log, use the keyboard shortcut to change your input mode.
 
 ---
 
