@@ -3,7 +3,11 @@ permalink: /plugins/ime2/
 title: IME
 ---
 
-IME implements the Japanese Input Method Editor in FFXI. This allows you to type text in Japanese. In order to use it, Japanese language support must be installed, and Japanese must be selected as the default non-unicode language in Windows.
+IME implements the Japanese Input Method Editor (IME) in Final Fantasy XI, allowing you to type text in Japanese. 
+
+In order to use it, Japanese language support must be installed, and Japanese must be selected as the default language for non-Unicode programs in Windows.
+
+> **Note:** You may be able to use AppLocale-style programs such as Locale Emulator, but this is currently untested.
 
 # Basic Usage
 
@@ -57,8 +61,6 @@ There are several known issues when using the IME plugin for Windower 4:
 1. Select the language, click **Next**, and proceed to install.
 
 ## <a name="nonunicode10"></a>Set the non-Unicode program input language
-
-> **Tip:** You may be able to use AppLocale-style programs such as Locale Emulator, but this is currently untested.
 
 1. In Region and Language settings, click **Additional date, time, & regional settings** under **Related settings**.
 
