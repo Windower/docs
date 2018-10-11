@@ -82,7 +82,7 @@ There are several known issues when using the IME plugin for Windower 4:
 
 1. Locate the **IME ON/OFF** function in the table.
 
-    > **Note:** This function is generally assigned to a key that only physically exists on Japanese keyboards.
+    > **Note:** This function is generally assigned to a key that physically exists only on Japanese keyboards.
 
 1. Double-click the currently assigned key in the first column.
 
