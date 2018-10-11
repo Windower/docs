@@ -5,6 +5,18 @@ title: IME
 
 IME implements the Japanese Input Method Editor in FFXI. This allows you to type text in Japanese. In order to use it, Japanese language support must be installed, and Japanese must be selected as the default non-unicode language in Windows.
 
+# Basic Usage
+
+1. Configure the IME appropriately in Windows.
+
+1. Use Windower to log into Final Fantasy XI and load the IME plugin.
+
+1. From the Windows language bar, change your language to Japanese.
+
+1. Open the chat log, and use the keyboard shortcut to change your input mode.
+
+---
+
 # Known Issues
 
 There are several known issues when using the IME plugin for Windower 4:
@@ -27,13 +39,13 @@ There are several known issues when using the IME plugin for Windower 4:
 
     Because the Japanese *Romaji-Input* mode is similar to the English layout, you may want to stick with the Japanese layout and keep it in Romaji mode most of the time. You'll get used to it, and if you didn't want to use Japanese input anyways, why do you have the IME plugin loaded? It doesn't have to be on auto-load.
 
+---
+
 # Configuration (Windows 10)
 
-* Install the Japanese IME Keyboard 
-* Set the non-Unicode input language to Japanese
-* Reconfigure the input mode keyboard shortcut
-
----
+* [Install the Japanese IME Keyboard](#install-the-japanese-ime-keyboard)
+* [Set the non-Unicode input language to Japanese](#set-the-non-unicode-program-input-language)
+* [Reconfigure the input mode keyboard shortcut](#reconfigure-the-input-mode-keyboard-shortcut)
 
 ## Install the Japanese IME Keyboard
 
@@ -80,11 +92,3 @@ There are several known issues when using the IME plugin for Windower 4:
 1. Specify a more useful key combination such as **Ctrl**+**F2**, and click **OK**.
 
 1. Verify the new key combination in the table, and then click **OK**.
-
-# Basic Usage
-
-1. Use Windower to log into Final Fantasy XI and load the IME plugin.
-
-1. From the Windows language bar, change your language to Japanese.
-
-1. Open the chat log, and use the keyboard shortcut to change your input mode.
