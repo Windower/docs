@@ -7,7 +7,7 @@ IME implements the Japanese Input Method Editor (IME) in Final Fantasy XI, allow
 
 In order to use it, Japanese language support must be installed, and Japanese must be selected as the default language for non-Unicode programs in Windows.
 
-> **Note:** You may be able to use AppLocale-style programs such as Locale Emulator, but this is currently untested.
+> **Note:** You may be able to use AppLocale-style programs such as Locale Emulator instead of setting the default non-Unicode language, but this is currently untested.
 
 # Basic Usage
 
