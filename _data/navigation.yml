@@ -104,6 +104,8 @@ addonnav:
         url: /addons/gearswap/
       - title: "Highlight"
         url: /addons/highlight/
+      - title: "InfoBar"
+        url: /addons/infobar/
       - title: "InfoReplacer"
         url: /addons/inforeplacer/
       - title: "InstaLS"
