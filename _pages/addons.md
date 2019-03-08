@@ -47,6 +47,7 @@ For more information about how to write Lua addons for use in Windower, see our 
 |[Gametime](gametime/)|Omnys|Displays gametime-based information.|
 |[GearSwap](gearswap/)|Byrth|Changes gear in response to player actions..|
 |[Highlight](highlight/)|Balloon|Highlights the names of the people in your party, and highlights their name when it appears in chat.|
+|[InfoBar](infobar/)|Kenshi|Displays a configurable bar showing information on your targets.|
 |[InfoReplacer](inforeplacer/)|Cair|Replaces outgoing text prefixed by % with respective information.|
 |[InstaLS](instals/)|Byrth|Allows linkshell chat immediately after zoning.|
 |[Itemizer](itemizer/)|Ihina|Provides a chat/console interface for moving items around between bags.|
