@@ -22,6 +22,7 @@ When a key is pressed on one of the supported devices below an alias of the form
 | [Logitech G19 Gaming Keyboard](http://www.logitech.com/en-us/gaming/mice-keyboard-combos/g19-keyboard-for-gaming) | **g19** | `alias g19_m1g1 input /ma "Sudden Lunge" <t>;` |
 | [Logitech G110 Gaming Keyboard](http://www.logitech.com/en-us/gaming/mice-keyboard-combos/gaming-keyboard-g110) | **g110** | `alias g110_m1g1 input /so "Mage's Ballad III" <me>;` |
 | [Logitech G510 Gaming Keyboard](http://www.logitech.com/en-us/gaming/mice-keyboard-combos/gaming-keyboard-g510) | **g510** | `alias g510_m1g1 input /ja "Provoke" <t>;` |
+| [Logitech G600 Gaming Mouse](https://www.logitechg.com/en-us/products/gaming-mice/g600-mmo-gaming-mouse.html) | **g600** | `alias g600_m1g1 input /ma "Carbuncle" <me>; |
 | [Logitech G700 Gaming Mouse](http://www.logitech.com/en-us/gaming/mice-keyboard-combos/wireless-gaming-mouse-g700) | **g700** | `alias g700_g4 input /ma "Carbuncle" <me>;`<br> *In order to function correctly G4 through G11 must be mapped to Numpad 1 through 8 in SetPoint.* |
 | [Microsoft Sidewinder X4 Keyboard](http://www.microsoft.com/hardware/en-us/p/sidewinder-x4-keyboard) | **swx4** | `alias swx4_m1s1 input /pet "Wind Blade" <t>;` |
 | [Razer BlackWidow Gaming Keyboard](http://www.razerzone.com/gaming-keyboards-keypads/razer-blackwidow-ultimate-2013) | **bw** | `alias bw_m1 input /pet "Snarl" <me>;`  |
