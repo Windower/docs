@@ -85,7 +85,7 @@ Reloads the current user file.
 gs export <options>
 ```
 
-Exports your currently equipped gear, inventory, or all the items in your current Lua files' sets into GearSwap .lua or spellcast .xml format. Takes options "inventory", "all", "sets", "xml", "mainjob", "subjob", and "f some_file_name." Most options also take the optional "overwrite" command at the end. Defaults to currently equipped gear and lua otherwise. Also exports appropriate advanced set tables with augments for currently equipped gear and inventory.
+Exports your currently equipped gear, inventory, or all the items in your current Lua files' sets into GearSwap .lua or spellcast .xml format. Takes options "inventory", "all", "sets", "xml", "mainjob", "mainsubjob", and "file some_file_name." Most options also take the optional "overwrite" command at the end. Defaults to currently equipped gear and lua otherwise. Also exports appropriate advanced set tables with augments for currently equipped gear and inventory.
 
 ### enable
 ```
