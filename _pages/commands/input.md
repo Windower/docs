@@ -24,6 +24,7 @@ By default, binds activate on key press; specify `up` to bind on key release.
 | `!` | **Alt** |
 | `@` | **Win** |
 | `#` | **Apps** |
+| `~` | **Shift** |
 
 #### Supported Chat Input States
 
