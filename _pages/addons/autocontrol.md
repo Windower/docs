@@ -39,5 +39,9 @@ The following all commands correspond to the burden tracker.
 
 Default configurations can be adjusted at the following location: `...addons\autocontrol\data\settings.xml`
 
+To hide maneuver timers set `<maneuvertimers>false</maneuvertimers>`. Toggle in game with `//acon maneuvertimers` or `//acon mt`.
+
+To hide burden tracker set `<burdentracker>false</burdentracker>`. Toggle in game with `//acon show` and `//acon hide`.
+
 ## Source
 The latest source and information for this addon can be found on [GitHub](https://github.com/Windower/Lua/tree/live/addons/autocontrol).
