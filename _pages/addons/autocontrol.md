@@ -43,5 +43,11 @@ To hide maneuver timers set `<maneuvertimers>false</maneuvertimers>`. Toggle in 
 
 To hide burden tracker set `<burdentracker>false</burdentracker>`. Toggle in game with `//acon show` and `//acon hide`.
 
+## Default Sets
+
+Two attachments sets are included by default:
+* healer
+* melrng
+
 ## Source
 The latest source and information for this addon can be found on [GitHub](https://github.com/Windower/Lua/tree/live/addons/autocontrol).
