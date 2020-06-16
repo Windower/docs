@@ -35,7 +35,25 @@ title: DressUp
 7. load/save/delete <profile name>
 	- Creates a profile to be used for your own characters appearance.
 	- Profiles named JOB or NAME_JOB will be checked for on job changes.
+### Example Commands
+`//du self race tarutaru f`
 	
+`//du self face 3a`
+
+`//du player Bob face 1b`
+
+`//du clear player Bob race`
+
+`//du blinking party combat off`
+
+`//bmn self always on`
+
+`//du autoupdate`
+
+`//du save BLM`
+
+`//du self body "Usukane Haramaki"`
+
 ## To Do
 * Add weapons, ranged weapons, and shield models.
 * Allow for monster models.
