@@ -40,6 +40,8 @@ addonnav:
         url: /addons/answeringmachine/
       - title: "AutoControl"
         url: /addons/autocontrol/
+      - title: "AutoEnterKey"
+        url: /addons/autoenterkey
       - title: "AutoInvite"
         url: /addons/autoinvite/
       - title: "AutoJoin"
@@ -52,18 +54,24 @@ addonnav:
         url: /addons/barfiller/
       - title: "BattleMod"
         url: /addons/battlemod/
+      - title: "BattleStations"
+        url: /addons/BattleStations
       - title: "Blist"
         url: /addons/blist/
       - title: "BLUAlert"
         url: /addons/blualert/
       - title: "BluGuide"
         url: /addons/bluguide/
+      - title: "Bonanza"
+        url: /addons/Bonanza
       - title: "BoxDestroyer"
         url: /addons/boxdestroyer/
       - title: "Cancel"
         url: /addons/cancel/
       - title: "CapeTrader"
         url: /addons/capetrader/
+      - title: "cBlock"
+        url: /addons/cBlock
       - title: "CellHelp"
         url: /addons/cellhelp/
       - title: "Chars"
@@ -72,14 +80,20 @@ addonnav:
         url: /addons/chatlink/        
       - title: "ChatPorter"
         url: /addons/chatporter/
+      - title: "CheckParam"
+        url: /addons/checkparam
       - title: "Clock"
         url: /addons/clock/
       - title: "ConsoleBG"
         url: /addons/consolebg/
       - title: "Craft"
         url: /addons/craft/
+      - title: "Debuffed"
+        url: /addons/Debuffed
       - title: "Digger"
         url: /addons/digger/
+      - title: "Dimmer"
+        url: /addons/Dimmer
       - title: "Distance"
         url: /addons/distance/
       - title: "DistancePlus"
@@ -88,42 +102,64 @@ addonnav:
         url: /addons/dressup/
       - title: "DynamisHelper"
         url: /addons/dynamishelper/
+      - title: "EasyNuke"
+        url: /addons/EasyNuke
       - title: "Enemybar"
         url: /addons/enemybar/
+      - title: "EmpyPopTracker"
+        url: /addons/EmpyPopTracker
       - title: "Enternity"
         url: /addons/enternity/
       - title: "Eval"
         url: /addons/eval/
       - title: "FastCS"
         url: /addons/fastcs/
+      - title: "FFOColor"
+        url: /addons/ffocolor
       - title: "FindAll"
         url: /addons/findall/
       - title: "Gametime"
         url: /addons/gametime/
       - title: "GearSwap"
         url: /addons/gearswap/
+      - title: "GilTracker"
+        url: /addons/giltracker
       - title: "Highlight"
         url: /addons/highlight/
+      - title: "IndiNope"
+        url: /addons/indinope
       - title: "InfoBar"
         url: /addons/infobar/
       - title: "InfoReplacer"
         url: /addons/inforeplacer/
       - title: "InstaLS"
         url: /addons/instals/
+      - title: "InvTracker"
+        url: /addons/invtracker
       - title: "Itemizer"
         url: /addons/itemizer/
       - title: "JobChange"
         url: /addons/jobchange/
       - title: "LatentChecker"
         url: /addons/latentchecker/
+      - title: "Libs"
+        url: /addons/libs
       - title: "Linker"
         url: /addons/linker/
       - title: "Logger"
         url: /addons/logger/
+      - title: "Lottery"
+        url: /addons/lottery
       - title: "MacroChanger"
         url: /addons/macrochanger/
       - title: "MobCompass"
         url: /addons/mobcompass/
+      - title: "MountRoulette"
+        url: /addons/MountRoulette
+      - title: MyHome
+        url: /addons/MyHome
+      - title: NoCampaignMusic
+        url: /addons/NoCampaignMusic
       - title: "Nostrum"
         url: /addons/nostrum/
       - title: "ObiAway"
@@ -134,6 +170,10 @@ addonnav:
         url: /addons/omen/
       - title: "Organizer"
         url: /addons/organizer/
+      - title: "Pet Fix"
+        url: /addons/pet_fix
+      - title: "PetSchool"
+        url: /addons/PetSchool
       - title: "PetTP"
         url: /addons/pettp/
       - title: "PlasMon"
@@ -144,37 +184,60 @@ addonnav:
         url: /addons/pointwatch/
       - title: "Porter"
         url: /addons/porter/
+      - title: "Position Manager"
+        url: /addons/position_manager
       - title: "Pouches"
         url: /addons/pouches/
       - title: "RAWR"
         url: /addons/rawr/
       - title: "Reive"
         url: /addons/reive/
+      - title: "Remember"
+        url: /addons/remember
       - title: "Respond"
         url: /addons/respond/
       - title: "Rhombus"
         url: /addons/rhombus/
+      - title: "Roe"
+        url: /addons/Roe
       - title: "RollTracker"
         url: /addons/rolltracker/
+      - title: "Salvage2"
+        url: /addons/salvage2
+      - title: SATACast
+        url: /addons/SATACast
       - title: "Scoreboard"
         url: /addons/scoreboard/
       - title: "Send"
         url: /addons/send/
       - title: "SetBGM"
         url: /addons/setbgm/
+      - title: "SetTarget"
+        url: /addons/SetTarget
       - title: "Shortcuts"
         url: /addons/shortcuts/
+      - title: "ShoutHelper"
+        url: /addons/shoutHelper
+      - title: Silence
+        url: /addons/Silence
       - title: "SpeedChecker"
         url: /addons/speedchecker/
+      - title: "SpellBook"
+        url: /addons/SpellBook
       - title: "SpellCheck"
         url: /addons/spellcheck/
       - title: "STNA"
         url: /addons/stna/
       - title: "Stopwatch"
         url: /addons/stopwatch/
+      - title: "StratHelper"
+        url: /addons/StratHelper
       - title: "SubTarget"
         url: /addons/subtarget/
+      - title: "Tab"
+        url: /addons/Tab
       - title: "TargetInfo"
+        url: /addons/targetinfo/
         url: /addons/targetinfo/
       - title: "Temps"
         url: /addons/temps/
@@ -192,6 +255,8 @@ addonnav:
         url: /addons/treasurepool/
       - title: "Treasury"
         url: /addons/treasury/
+      - title: "Trusts"
+        url: /addons/Trusts
       - titile: "Update"
         url: /addons/update/
       - title: "VisibleFavor"
