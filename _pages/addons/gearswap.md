@@ -106,7 +106,7 @@ Disables equip commands targeting a given slot. "All" will prevent all equip com
 gs validate <sets|inv> <filter>
 ```
 
-This command checks to see whether the equipment in the sets table also exists in your inventory (default), or (by passing "inv") whether the equipment in your inventory exists in your sets table. <filter> is an optional list of words that restricts the output to only those items that contain text from one of the filter's words.
+This command checks to see whether the equipment in the sets table also exists in your inventory (default), or (by passing "inv") whether the equipment in your inventory exists in your sets table. &lt;filter&gt; is an optional list of words that restricts the output to only those items that contain text from one of the filter's words.
 
 ## Settings File
 There is no settings file for GearSwap.
