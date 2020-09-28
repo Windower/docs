@@ -10,6 +10,8 @@ The list is stored on the machine on which the addon is executed, being updated 
 The addon has a deferral time of 20 seconds when it's loaded, you are logging in or zoning to give the game enough time to load all the items.  
 If you notice that this time is too short, please create an issue report in the bug tracker.
 
+It also offers an on-screen tracker that keeps track of items you specify or of your used/free space in specified bags.
+
 ## Commands
 ### findall
 ```
@@ -48,6 +50,70 @@ findall :omega
 
 Show all the items stored on "omega".
 
+## Tracker
+The settings file has a field that you can use to define what is being tracked in a text box on the screen.
+The text supports variables denoted by curly braces preceded by a dollar sign `${}`.
+Each variable consists of two parts, the bag indicator and the item name, separated by a colo `:`.
+For example, to track the amount of shihei in your inventory, you would do this:
+```xml
+        <Track>${inventory:shihei}</Track>
+```
+
+This will merely display a number on the screen. You can add flavor text outside of the variable:
+```xml
+        <Track>Shihei: ${inventory:shihei}</Track>
+```
+
+You can also use wildcards for item names:
+```xml
+        <Track>Crystals: ${inventory:*crystal}</Track>
+```
+
+You can use any of the bag names defined [here](https://github.com/Windower/Resources/blob/master/lua/bags.lua) as well as the key word `all` to search all bags. Every variable name is case-insensitive.
+
+There are a three variables that can be used instead of item names: `$freespace`, `$usedspace` and `$maxspace`
+If those are used, the respective value will be displayed:
+```xml
+        <Track>Inventory: ${inventory:$freespace}, Wardrobe: ${wardrobe:$freespace}</Track>
+```
+
+### Formatting
+
+Since the tracker uses XML for formatting and XML is shitty, this will not work:
+```xml
+        <Track>
+Inventory: ${inventory:$freespace}
+Satchel:   ${satchel:$freespace}
+Sack:      ${sack:$freespace}
+Case:      ${case:$freespace}
+Wardrobe:  ${wardrobe:$freespace}
+        </Track>
+```
+
+The spaces and new lines will all collapse into a single space and you'll get one long and unreadable line.
+To make the format appear as you have it in the XML settings file you need to wrap the entire text in `<![CDATA[` and `]]>` tags:
+```xml
+        <Track>
+<![CDATA[Inventory: ${inventory:$freespace}
+Satchel:   ${satchel:$freespace}
+Sack:      ${sack:$freespace}
+Case:      ${case:$freespace}
+Wardrobe:  ${wardrobe:$freespace}]]>
+        </Track>
+```
+
+That will correctly preserve any formatting you have inside the text.
+With that, you can even do something like this:
+```xml
+        <Track>
+<![CDATA[Inventory: ${inventory:$usedspace||%2i}/${inventory:$maxspace||%2i} → ${inventory:$freespace||%2i}
+Satchel:   ${satchel:$usedspace||%2i}/${satchel:$maxspace||%2i} → ${satchel:$freespace||%2i}
+Sack:      ${sack:$usedspace||%2i}/${sack:$maxspace||%2i} → ${sack:$freespace||%2i}
+Case:      ${case:$usedspace||%2i}/${case:$maxspace||%2i} → ${case:$freespace||%2i}
+Wardrobe:  ${wardrobe:$usedspace||%2i}/${wardrobe:$maxspace||%2i} → ${wardrobe:$freespace||%2i}]]>
+        </Track>
+```
+
 ## TODO
 
 * Use IPC to notify the addon about any change to the character's items list to reduce the amount of file rescans.
@@ -57,6 +123,28 @@ Show all the items stored on "omega".
 Please report any bug or suggetion on the bug tracker @ https://github.com/Windower/Lua/issues?state=open
 
 ## Changelog
+
+#### v1.20170501
+* **add**: Added a setting to stop the display of keyitems. Maybe someone will add a command toggle for it later?
+
+#### v1.20170405
+* **fix**: Adjusted the conditions for updating the shared storages.json to make it more robust.
+* **add**: Added key item tracking.
+
+#### v1.20150521
+* **fix**: Fixed after May 2015 FFXI update
+* **change**: Future proofed the addon to be less prone to breaks
+
+#### v1.20140328
+* **change**: Changed the inventory structure refresh rate using packets.
+* **add**: IPC usage to track changes across simultaneously active accounts.
+
+#### v1.20140210
+* **fix**: Fixed bug that occasionally deleted stored inventory structures.
+* **change**: Increased the inventory structure refresh rate using packets.
+
+#### v1.20131008
+* **add**: Added new case storage support.
 
 #### v1.20130610
 * **add**: Added slips as searchable storages for the current character.
