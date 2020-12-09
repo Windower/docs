@@ -81,6 +81,7 @@ This is a listing of what keys are tied to what text version of the keys when tr
 |f9|DIK_F9|
 |f10|DIK_F10|
 |numlock|DIK_NUMLOCK|
+|numpad/|DIK_DIVIDE|
 |scrolllock|DIK_SCROLL|
 |numpad7|DIK_NUMPAD7|
 |numpad8|DIK_NUMPAD8|
