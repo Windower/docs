@@ -3,7 +3,9 @@ permalink: /plugins/ffxidb/
 title: FFXIDB
 ---
 
-Things and stuff. Very much a work in progress and nowhere near completion (version number - 0.2.1.4). You can drag/drop and scroll the map to zoom, but the settings from that won't even be saved yet.
+Displays an in-game minimap.
+
+You can position and zoom the map by dragging and scrolling with the mouse or by using commands.
 
 ## General Commands
 All the current info is displayed with:
