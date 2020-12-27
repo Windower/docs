@@ -363,9 +363,15 @@ world.area|string|Name of the current zone - the same as world.zone
 world.time|number|Current game time in hours.minutes format. Currently takes the floating point value, which is not precise.
 world.day|string|Name of the current day.
 world.day_element|string|Element of the current day.
-world.weather_id|number|Game's weather ID code, per ../addons/libs/weather.lua
-world.weather|string|Current weather's name.
-world.weather_element|string|Current weather's element.
+world.weather_id|number|Game's weather ID code, per ../addons/libs/weather.lua SCH storm's will be reported over actual in-game weather if one is up.
+world.weather|string|Current weather's name. SCH storm's will be reported over actual in-game weather if one is up.
+world.weather_element|string|Current weather's element. SCH storm's will be reported over actual in-game weather if one is up.
+world.weather_intensity|number|Current weather's intensity. SCH storm's will be reported over actual in-game weather if one is up.
+world.real_weather_id|number|Same as above but reports only actual weather not SCH Storms.
+world.real_weather|string|Same as above but reports only actual weather not SCH Storms.
+world.real_weather_element|string|Same as above but reports only actual weather not SCH Storms.
+world.real_weather_intensity|number|Same as above but reports only actual weather not SCH Storms.
+
 world.moon|string|The current moon phase.
 world.moon_pct|number|Current moon percentage. Ranges from 0 to 100 and changes on day change.
 world.zone|string|Zone name - the same as world.area.
