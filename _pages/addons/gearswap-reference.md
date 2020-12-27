@@ -154,6 +154,9 @@ Changes the target to whatever value is passed. It can be a name or something li
 |player.satchel|table|Table keyed with the name of equipment pieces.  Keys for both short name and long name exist, if applicable.  Value is a table containing containing item id, count, short name (shortname), and optionally long name (longname).|
 |player.case|table|Table keyed with the name of equipment pieces.  Keys for both short name and long name exist, if applicable.  Value is a table containing containing item id, count, short name (shortname), and optionally long name (longname).|
 |player.wardrobe|table|Table keyed with the name of equipment pieces.  Keys for both short name and long name exist, if applicable.  Value is a table containing containing item id, count, short name (shortname), and optionally long name (longname).|
+|player.wardrobe2|table|Table keyed with the name of equipment pieces.  Keys for both short name and long name exist, if applicable.  Value is a table containing containing item id, count, short name (shortname), and optionally long name (longname).|
+|player.wardrobe3|table|Table keyed with the name of equipment pieces.  Keys for both short name and long name exist, if applicable.  Value is a table containing containing item id, count, short name (shortname), and optionally long name (longname).|
+|player.wardrobe4|table|Table keyed with the name of equipment pieces.  Keys for both short name and long name exist, if applicable.  Value is a table containing containing item id, count, short name (shortname), and optionally long name (longname).|
 |player.indi|table|Table with values "element" (string name), "element_id" (resources ID number), "target" (Ally or Enemy), and "size" (1-4). May not be accurate if GearSwap is reloaded while an Indi spell is active.|
 
 ### Player Equipment
