@@ -371,7 +371,6 @@ world.real_weather_id|number|Same as above but reports only actual weather not S
 world.real_weather|string|Same as above but reports only actual weather not SCH Storms.
 world.real_weather_element|string|Same as above but reports only actual weather not SCH Storms.
 world.real_weather_intensity|number|Same as above but reports only actual weather not SCH Storms.
-
 world.moon|string|The current moon phase.
 world.moon_pct|number|Current moon percentage. Ranges from 0 to 100 and changes on day change.
 world.zone|string|Zone name - the same as world.area.
