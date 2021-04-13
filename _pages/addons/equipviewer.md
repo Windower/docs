@@ -1,3 +1,8 @@
+---
+permalink: /addons/equipviewer/
+title: equipviewer
+---
+
 **Author:**  Tako, Rubenator<br>
 **Version:**  3.3.0<br>
 **Date:** April 13, 2021<br>
