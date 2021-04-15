@@ -41,7 +41,7 @@ For more information about how to write Lua addons for use in Windower, see our 
 |[DynamisHelper](dynamishelper/)|Krizz|Displays a timer when a mob is procced, tracks currency obtained, and can create a LL to lot all currency.|
 |[EnemyBar](enemybar/)|mmckee|Creates a big health bar for the target to make it easy to see.|
 |[Enternity](enternity/)|Zohno|Enters "Enter" automatically when prompted during a cutscene or when talking to NPCs. It will not skip choice dialog boxes.|
-|[equipviewer](equipviewer/)|Tako, Rubenator|Displays current equipment grid on screen. Also can show current Ammo count and current Encumbrance.|
+|[Equipviewer](equipviewer/)|Tako, Rubenator|Displays current equipment grid on screen. Also can show current Ammo count and current Encumbrance.|
 |[Eval](eval/)|Aureus|Allows developers to run arbitrary lua code in the console.|
 |[FastCS](fastcs/)|Cair|Uses the config plugin to automatically disable the frame rate cap during custcenes.|
 |[FindAll](findall/)|Zohno|Searches items stored on all your characters.|
