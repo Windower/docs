@@ -30,6 +30,7 @@ title: Equipviewer
 12. help: displays explanations of each command
 
 Legacy Command:
+
 game_path <path>: sets path to FFXI folder where you want dats extracted from. Backslashes `\` must be escaped (like so: `\\`) or use forewardslash `/` instead. (legacy command as of `3.3.1` in which the game path is now pulled from the registry, but this command is still here in case you want to pull from dats that exist elsewhere)
 	
 ### Example Commands
