@@ -45,6 +45,13 @@ Edit `settings.xml` in your Windower directory, you can set the supersampling mu
 
 Values less than 1 will undersample, which may speed up performance on low-powered PCs.
 
+### The game crashes when I load a second character through Windower
+Windower alone cannot prevent issues related to FFXI trying to claim exclusive use of your graphics adapter. 
+
+You can prevent crashes related to exclusive GPU use when multiboxing in a few ways. For example:
+* Change your Windows User Account Control (UAC) settings by lowering it at least one setting to prevent desktop dimming. To access the UAC settings, open the **Start** menu, type `User Account Control`, and choose **Change User Account Control Settings**.
+* Use a DirectX proxy that virtualizes your graphics adapter, such as DGVoodoo2.
+
 ### Windower will not load (Crashes on Play)!
 Search for your issue in the following locations:
 * [Windower Support on FFXIAH Forums](http://www.ffxiah.com/forum/forum/170/support/)
