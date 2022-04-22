@@ -1,12 +1,15 @@
-# Windower 4 and FFXI on Steam Deck (WIP)
+---
+permalink: /steamdeck/
+title: Windower 4 and FFXI on Steam Deck (WIP)
+---
 
-## Prerequisites
+# Prerequisites
 
 1. Download and configure Windower 4 on a Windows PC.
 2. Copy your configured Windower 4 folder to a USB drive or network-accessible location.
 3. Usable keyboard and mouse
 
-## Install and Update Final Fantasy XI
+# Install and Update Final Fantasy XI
 
 1. Switch your Steam Deck to Desktop Mode.
 
@@ -15,7 +18,7 @@
    
 3. Open Steam in Desktop Mode.
 
-### Create a non-Steam game entry in your library
+## Create a non-Steam game entry in your library
 1. Choose **Games** > **Add a Non-Steam Game to My Library...**
 
 1. Click **Browse** and navigate to the downloaded client files.<br>
@@ -45,7 +48,7 @@
 
 10. Close the application configuration window.
 
-### Extract the client installer
+## Extract the client installer
 1. In your non-Steam library entry, click **PLAY**.
 
     After some time, a **WinRAR self-extracting archive** window should appear. <br>It may appear underneath the Steam window, so watch your task bar.
@@ -54,7 +57,7 @@
 
 3. After the extraction finishes, return to the application in the Steam library.
 
-### Run the Final Fantasy XI installer
+## Run the Final Fantasy XI installer
 
 1. In your non-Steam library entry, click the configuration icon again.
 
@@ -75,8 +78,8 @@
    > ***BE PATIENT AND WAIT***. This step may take a long time (5-10+ minutes), but you will eventually be able to click **Next**.
 
 
-## Known Issues
+# Known Issues
 
-### Broken Addons/Plugins
+## Broken Addons/Plugins
 
 - FFXIDB - Causes instant crash to OS
