@@ -10,7 +10,7 @@ title: Playing on Steam Deck (WIP)
    - Resolution: `1280x800`
    - Display Mode: `Borderless Windowed`
 2. Add the `linuxfix` addon to your Windower install:
-   1. Download linuxfix: https://cdn.discordapp.com/attachments/338713865812574219/907688771036782652/linuxfix.lua
+   1. Download [linuxfix](https://cdn.discordapp.com/attachments/338713865812574219/907688771036782652/linuxfix.lua)
    2. Place `linuxfix.lua` in `windower/addons/linuxfix/`.
    3. Add `lua l linuxfix` to the end of `windower/scripts/init.txt`.
 3. Copy your configured Windower 4 folder to a USB drive or network-accessible location.
@@ -101,7 +101,7 @@ Further steps will refer to this directory as `<prefix_dir>`.
 6. Click **Gamepad Settings**.
 7. Select **Enable Game** and click **XInput (F)**.
 8. (Optional) Click **Test Gamepad (T)** and verify that the controls work as expected.
-9. Click **OK*, save the settings, and **Close** the config tool.
+9. Click **OK**, save the settings, and **Close** the config tool.
 
 # Configure Windower
 1. Insert your USB drive or open your network location containing your configured Windower 4 folder.
