@@ -3,7 +3,7 @@ permalink: /steamdeck/
 title: Playing on Steam Deck (WIP)
 ---
 
-## Prerequisites
+# Prerequisites
 
 1. On a Windows PC, download and configure Windower 4 to your liking.<br/>
    Recommended settings:
