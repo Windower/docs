@@ -52,13 +52,13 @@ title: Playing on Steam Deck (WIP)
    > When the **FINAL FANTASY XI Setup** window appears, it will indicate that it is *Computing space requirements* and appear to be stalled.
    > ***BE PATIENT AND WAIT***. This step may take a long time (5-10+ minutes), but you will eventually be able to click **Next**.
 
-## Update PlayOnline
+## Update PlayOnline and Final Fantasy XI
 1. Locate your non-Steam app directory.
    1. Open Dolphin and navigate to your Steam compatdata directory:<br/>
       `/home/deck/.local/share/Steam/steamapps/compatdata/`<br/>
       Each numbered directory here represents a virtual Windows installation (Wine Prefix) for a Steam Proton application.
-   2. Browse the `pfx/drive_c/Program Files (x86)` directory in each directory until you locate the one that contains **PlayOnline**.
-   3. Make a note of the complete path to the `pfx` directory that contains **Program Files (x86)/PlayOnline**.<br/>
+   2. Browse the `pfx/drive_c/Program Files (x86)` directory in each directory until you locate the one that contains `PlayOnline`.
+   3. Make a note of the complete path to the `pfx` directory that contains `drive_c/Program Files (x86)/PlayOnline`.<br/>
       e.g. `/home/deck/.local/share/Steam/steamapps/compatdata/12345678/pfx/`
    Further steps will refer to this directory as `<prefix_dir>`.
 2. In your non-Steam app, click the configuration icon.
@@ -67,6 +67,7 @@ title: Playing on Steam Deck (WIP)
 5. Close the configuraiton window and click **PLAY**.<br/>
    After some time, the PlayOnline viewer appears.
 6. Update and configure your account in PlayOnline as normal.
+7. After PlayOnline restarts, update Final Fantasy XI.
 
 # Known Issues
 
