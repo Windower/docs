@@ -16,7 +16,7 @@ title: Playing on Steam Deck (WIP)
    http://www.playonline.com/ff11us/download/media/install_win.html
 3. Open Steam in Desktop Mode.
 
-## Create a non-Steam game entry in your library
+## Add a non-Steam game to your library
 1. Choose **Games** > **Add a Non-Steam Game to My Library...**
 1. Click **Browse** and navigate to the downloaded client files.<br/>
    *By default, Firefox downloads to `/home/deck/Downloads`*
@@ -39,7 +39,7 @@ title: Playing on Steam Deck (WIP)
 2. Note the Destination Folder, and click **Extract**.
 3. After the extraction finishes, return to the application in the Steam library.
 
-## Run the Final Fantasy XI installer
+## Install Final Fantasy XI
 1. In your non-Steam app, click the configuration icon.
 2. Click **Browse** and navigate to the newly extracted directory.<br/>
     e.g. `/home/deck/Downloads/FFXIFullSetup_US`
@@ -52,7 +52,7 @@ title: Playing on Steam Deck (WIP)
    > When the **FINAL FANTASY XI Setup** window appears, it will indicate that it is *Computing space requirements* and appear to be stalled.
    > ***BE PATIENT AND WAIT***. This step may take a long time (5-10+ minutes), but you will eventually be able to click **Next**.
 
-## Run and update PlayOnline
+## Update PlayOnline
 1. Locate your non-Steam app directory.
    1. Open Dolphin and navigate to your Steam compatdata directory:<br/>
       `/home/deck/.local/share/Steam/steamapps/compatdata/`<br/>
