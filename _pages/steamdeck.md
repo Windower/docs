@@ -18,7 +18,7 @@ title: Playing on Steam Deck (WIP)
 
 ## Known Issues
 - **FFXIDB** *Causes instant crash to OS*
-- **linuxfix** *This addon is necessary to allow the keyboard (including software keyboard) to work with Windower 4, but essentially sacrifices the ability to use normal Windower keybinds.
+- **linuxfix** *This addon is necessary to allow the keyboard (including software keyboard) to work with Windower 4, but essentially sacrifices the ability to use normal Windower keybinds.*
 
 # Install and Update Final Fantasy XI
 
