@@ -10,7 +10,7 @@ title: Playing on Steam Deck (WIP)
    - Resolution: `1280x800`
    - Display Mode: `Borderless Windowed`
 2. Add the `linuxfix` addon to your Windower install:
-   1. Download [linuxfix](https://cdn.discordapp.com/attachments/338713865812574219/907688771036782652/linuxfix.lua)
+   1. Download [linuxfix](https://cdn.discordapp.com/attachments/641259466494574602/982471684474949672/linuxfix.lua)
    2. Place `linuxfix.lua` in `windower/addons/linuxfix/`.
    3. Add `lua l linuxfix` to the end of `windower/scripts/init.txt`.
 3. Copy your configured Windower 4 folder to a USB drive or network-accessible location.
