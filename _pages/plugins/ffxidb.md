@@ -14,6 +14,12 @@ ffxidb
 ```
 If specified with no parameters, displays the plugin help.
 
+### Reload Settings
+```
+ffxidb {r|reload}
+```
+Reloads the settings file.
+
 ## Available Map Commands
 
 ### Position
@@ -25,12 +31,12 @@ Sets the minimap x and y positions.
 ```
 ffxidb {px|posx|positionx} <x>
 ```
-Set the minimap x position.
+Sets the minimap x position.
 
 ```
 ffxidb {py|posy|positiony} <y>
 ```
-Set the minimap y position.
+Sets the minimap y position.
 
 ### Scale
 ```
@@ -56,12 +62,6 @@ Increases (+) or reduces (-) the minimap zoom by 10.
 ffxidb {o|opacity} <percentage>
 ```
 Sets the minimap's opacity between 0 and 100, inclusive.
-
-### Reload Settings
-```
-ffxidb {r|reload}
-```
-Reloads the settings file.
 
 ### Entity Visibility
 ```
