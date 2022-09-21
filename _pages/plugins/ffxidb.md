@@ -8,91 +8,80 @@ Displays an in-game minimap.
 You can position and zoom the map by dragging and scrolling with the mouse or by using commands.
 
 ## General Commands
-All the current info is displayed with:
-```
-//ffxidb
-```
 
-## Minimap Commands
-
-All minimap commands begin with `ffxidb m` or `ffxidb map`.
-
-### map position
-Set the minimap x and y positions.
 ```
-ffxidb [m|map] {p|pos|position} <x> <y>
+ffxidb
 ```
+If specified with no parameters, displays the plugin help.
 
+## Available Map Commands
+
+### Position
+```
+ffxidb {p|pos|position} <x> <y>
+```
+Sets the minimap x and y positions.
+
+```
+ffxidb {px|posx|positionx} <x>
+```
 Set the minimap x position.
-```
-ffxidb [m|map] {px|posx|positionx} <x>
-```
 
+```
+ffxidb {py|posy|positiony} <y>
+```
 Set the minimap y position.
-```
-ffxidb [m|map] {py|posy|positiony} <y>
-```
 
-### map zoom
-Set the minimap zoom between 0 and 1000, inclusive.
+### Scale
 ```
-ffxidb [m|map] {z|zoom} <percentage>
+ffxidb {sc|scale} <factor>
 ```
+Sets the minimap scale factor. For example, `1` for 1.0x scale.
 
-Reduce the minimap zoom by 10.
-```
-ffxidb [m|map] {z-|zoom-}
-```
+**Default:** `1`
 
-Increase the minimap zoom by 10.
+### Zoom
 ```
-ffxidb [m|map] {z+|zoom+}
+ffxidb {z|zoom} <percentage>
 ```
+Sets the minimap zoom between 0 and 1000, inclusive.
 
-### map opacity
+```
+ffxidb {z+|z-|zoom+|zoom-}
+```
+Increases (+) or reduces (-) the minimap zoom by 10.
+
+### Opacity
+```
+ffxidb {o|opacity} <percentage>
+```
 Sets the minimap's opacity between 0 and 100, inclusive.
-```
-ffxidb [m|map] {o|opacity} <percentage>
-```
 
-### map settings reload
+### Reload Settings
+```
+ffxidb {r|reload}
+```
 Reloads the settings file.
-```
-ffxidb [m|map] {r|reload}
-```
 
-### map features
-Toggles PCs visibility on the minimap.
+### Entity Visibility
 ```
-ffxidb [m|map] pc
+ffxidb {pc|npc|mob|marker}
 ```
+Toggles visibility for the specified entity type on the minimap.
 
-Toggles NPCs visibility on the minimap.
+### Ranges
 ```
-ffxidb [m|map] npc
+ffxidb {rn|range} <radius> [<red> <green> <blue>]
 ```
-
-Toggles mobs visibility on the minimap.
-```
-ffxidb [m|map] mob
-```
-
-Toggles markers visibility on the minimap.
-```
-ffxidb [m|map] marker
-```
-
 Defines a new range to show on the map.
-```
-ffxidb [m|map] {rn|range} <radius> [<red> <green> <blue>]
-```
 
+```
+ffxidb {drn|delete-range} <radius>
+```
 Deletes a previously defined range.
-```
-ffxidb [m|map] {drn|delete-range} <radius>
-```
 
+### Target Lines
+```
+ffxidb {tl|target-line}
+```
 Toggles target line visibility on the minimap.
-```
-ffxidb [m|map] {tl|target-line}
-```
