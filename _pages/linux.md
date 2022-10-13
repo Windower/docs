@@ -20,13 +20,13 @@ Download the following Lutris scripts to your local system:
 
 ### Procedure
 #### Install FINAL FANTASY XI
-1. Click the **+** icon in Lutris and choose **Install from a local install script**.
+1. In Lutris, click **+** and choose **Install from a local install script**.
 2. Select the `ffxi_us_new32.yaml` script and click **OK**.
 3. Click **Install** and complete the installation process.
 > To configure PlayOnline and FINAL FANTASY XI, use the launcher options when you run it from Lutris. <br/>For example, configure your gamepad, if necessary.
 
 #### Install Windower 4
-1. Click the **+** icon in Lutris and choose **Install from a local install script**.
+1. In Lutris, click **+** and choose **Install from a local install script**.
 2. Select the `windower_4_32.yaml` script and click **OK**.
 3. Click **Install** and complete the installation process.
 
