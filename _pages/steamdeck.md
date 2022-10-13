@@ -3,6 +3,11 @@ permalink: /steamdeck/
 title: Playing on Steam Deck (WIP)
 ---
 
+> ## Deprecated Content
+> The methods on this page are considered deprecated and no longer preferred. 
+> 
+> For the latest information on the preferred installation method, see the Lutris instructions in [Linux Installations](lutris).
+
 # Prerequisites
 
 1. On a Windows PC, download and configure Windower 4 to your liking.<br/>
