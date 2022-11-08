@@ -30,6 +30,14 @@ Download the following Lutris scripts to your local system:
 2. Select the `windower_4_32.yaml` script and click **OK**.
 3. Click **Install** and complete the installation process.
 
+### Run Windower 4 and Configure
+The older version of Wine required to use Windower 4 without the `linuxfix` addon does not support the version of SSL needed to update `hook.dll` and download plugins. To work around this:
+1. Start Windower 4 from Lutris before changing the Wine version.
+2. In the **Plugins** tab, enable any plugins that you need.
+3. Close the launcher before starting the game.
+
+You may need to repeat this step to update Windower in the future or enable other Plugins.
+
 ### Add Wine 4.21 to Lutris
 1. In the **Runners** list, click the **Manage Versions** button next to **Wine**.
 2. Check the box for `lutris-4.21` in the list and click **OK**.
