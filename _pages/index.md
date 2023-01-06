@@ -16,6 +16,11 @@ Windower provides a framework for addons and plugins that you can use to extend 
 
 Explore the [Addons](addons/) and [Plugins](plugins/) sections to find out more about the options available.
 
+## Linux / Steam Deck
+Full Linux support for Windower 4 is not guaranteed, but you can get it to work with a few caveats.
+
+For more information about our suggested method (Lutris), see [Linux Installations](linux/).
+
 ## Resolving Issues
 If you have issues, you can:
 * Check the [FAQ](faq/).
