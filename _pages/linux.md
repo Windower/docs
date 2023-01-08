@@ -48,3 +48,10 @@ You may need to repeat this step to update Windower in the future or enable othe
 
 ### Link to Steam (Optional)
 1. Right-click on **Windower 4** and choose **Create Steam shortcut**.
+
+## Updating Windower and Downloading Plugins
+You may need to temporarily set the Wine version to something current (7.x) to update Windower and download plugins. Note that this does not apply for Addons.
+
+1. Change the Wine version as described above, start the launcher and download any plugins.
+2. Close the launcher, and re-set the Wine version to 4.21.
+3. Restart the launcher and play the game.
