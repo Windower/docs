@@ -5,10 +5,57 @@ title: Linux Installations
 
 While we cannot *guarantee* full support for Windower 4 on Linux systems, it does generally work through the magic of Wine and/or Proton, depending on your system.
 
-> ***General Known Issues***
-> - `FFXIDB` plugin does not work and causes a crash
+***Basic Requirements***
+
+In general, the following requirements apply for compatibility with minimal workarounds:
+* Wine Staging 8.5 or newer (or equivalent)
+* dotnet462, gdiplus, corefonts installed via winetricks
+* DirectX 8 compatibilty layer or shim such as D8VK or dgVoodoo2
+
+The suggested Lutris installation method meets these requirements, but you can certainly install without Lutris as well.
 
 # Lutris
+
+> **Preferred method.**
+> **Updated 2023-06-19**
+
+The easiest way to use Windower 4 on Linux is through Lutris. The scripts available in the Lutris database enable a fully functional launcher UI and do not require the use of the `linuxfix` addon.
+
+## Prerequisites
+Install Lutris on your system. Refer to the [Lutris documentation](https://lutris.net/downloads) for the best way to do this for your system.
+
+## Installing FINAL FANTASY XI
+Install Final Fantasy XI with the script that is configured to use D8VK. This installer uses a modern version of Wine and D8VK for better compatibility and performance.
+
+1. In Lutris, click **+** and choose **Search the Lutris website for installers**.
+1. Enter `FINAL FANTASY XI Online` and press **Enter**.
+1. Click **FINAL FANTASY XI Online** in the search results.
+1. Select **Full (US) Version with D8VK** and click **Install**.
+
+At this point, you can start Final Fantasy XI from Lutris and update it. We recommend that you back up your game directory after updating  to save time if something goes wrong and you need to reinstall.
+
+### (Optional) Configuring the Gamepad
+By default, gamepad support is not enabled in Final Fantasy XI.
+
+1. Select the **FINAL FANTASY XI Online** entry in your Lutris games library.
+1. Click the **^** button annd choose **Run EXE inside Wine prefix**.
+1. Navigate to `drive_c/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ToolsUS/`.
+1. Double-click `FINAL FANTASY XI Config.exe`.
+1. Configure your gamepad as you would on Windows.
+
+> **Tip:** You can also enable the gamepad in PlayOnline by repeating the same steps with `polcfg.exe` under `drive_c/Program Files (x86)/PlayOnline/SquareEnix/PlayOnlineViewer/polcfg/`.
+
+## Installing Windower 4
+Install Windower with the script that is compatible with the D8VK installation of Final Fantasy XI.
+1. In Lutris, click **+** and choose **Search the Lutris website for installers**.
+1. Enter `FINAL FANTASY XI Online` and press **Enter**.
+1. Click **FINAL FANTASY XI Online** in the search results.
+1. Select **Windower 4 Live** and click **Install**.
+
+# Lutris (Previous Method)
+
+> **Deprecated method as of 2023-06-19.**
+
 By far the easiest way to use Windower 4 on Linux is through Lutris. By using the provided installation scripts, you will have a working Windower 4 installation that includes a functioning launcher GUI and does not require the `linuxfix` addon required by other methods.
 
 ## Prerequisites
