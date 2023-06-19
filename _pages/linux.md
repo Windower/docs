@@ -38,7 +38,7 @@ At this point, you can start Final Fantasy XI from Lutris and update it. We reco
 By default, gamepad support is not enabled in Final Fantasy XI.
 
 1. Select the **FINAL FANTASY XI Online** entry in your Lutris games library.
-1. Click the **^** button annd choose **Run EXE inside Wine prefix**.
+1. Click the **^** button and choose **Run EXE inside Wine prefix**.
 1. Navigate to `drive_c/Program Files (x86)/PlayOnline/SquareEnix/FINAL FANTASY XI/ToolsUS/`.
 1. Double-click `FINAL FANTASY XI Config.exe`.
 1. Configure your gamepad as you would on Windows.
