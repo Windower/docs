@@ -22,7 +22,8 @@ The suggested Lutris installation method meets these requirements, but you can c
 The easiest way to use Windower 4 on Linux is through Lutris. The scripts available in the Lutris database enable a fully functional launcher UI and do not require the use of the `linuxfix` addon.
 
 ## Prerequisites
-Install Lutris on your system. Refer to the [Lutris documentation](https://lutris.net/downloads) for the best way to do this for your system.
+* Install Lutris on your system. Refer to the [Lutris documentation](https://lutris.net/downloads) for the best way to do this for your system.
+* Configure Lutris to use the most recent version of Wine. (`lutris-GE-Proton8-10` as of July 18, 2023)
 
 ## Installing FINAL FANTASY XI
 Install Final Fantasy XI with the script that is configured to use D8VK. This installer uses a modern version of Wine and D8VK for better compatibility and performance.
