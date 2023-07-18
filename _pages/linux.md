@@ -32,7 +32,10 @@ Install Final Fantasy XI with the script that is configured to use D8VK. This in
 1. Click **FINAL FANTASY XI Online** in the search results.
 1. Select **Full (US) Version with D8VK** and click **Install**.
 
-At this point, you can start Final Fantasy XI from Lutris and update it. We recommend that you back up your game directory after updating  to save time if something goes wrong and you need to reinstall.
+> **Backup Recommended**<br/>
+> At this point, you can start Final Fantasy XI from Lutris and update it.
+>
+> We strongly recommend that you back up your game directory after updating to save time if something goes wrong and you need to reinstall. If you plan to configure the gamepad, back up the game directory after doing so.
 
 ### (Optional) Configuring the Gamepad
 By default, gamepad support is not enabled in Final Fantasy XI.
@@ -43,7 +46,7 @@ By default, gamepad support is not enabled in Final Fantasy XI.
 1. Double-click `FINAL FANTASY XI Config.exe`.
 1. Configure your gamepad as you would on Windows.
 
-> **Tip:** You can also enable the gamepad in PlayOnline by repeating the same steps with `polcfg.exe` under `drive_c/Program Files (x86)/PlayOnline/SquareEnix/PlayOnlineViewer/polcfg/`.
+You can also enable the gamepad in PlayOnline by repeating the same steps with `polcfg.exe` under `drive_c/Program Files (x86)/PlayOnline/SquareEnix/PlayOnlineViewer/polcfg/`.
 
 ## Installing Windower 4
 Install Windower with the script that is compatible with the D8VK installation of Final Fantasy XI.
