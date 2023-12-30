@@ -4,8 +4,10 @@ title: Playing on Steam Deck (OLD)
 toc: false
 ---
 
-For the latest installation method, see the Lutris instructions:<br/>
-[Linux Installations (Current)](../linux/){: .btn .btn--success}
+> **CURRENT INSTALLATION METHOD**<br/>
+> For the latest installation method, see the Lutris-based instructions:<br/>
+> [Linux Installations (Current)](/linux){: .btn .btn--success .btn--large}
+{: .notice--success}
 
 > **DEPRECATED CONTENT**<br/>
 > The methods previously found on this page are considered deprecated and<br/> are NOT RECOMMENDED.
