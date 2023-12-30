@@ -3,7 +3,7 @@ permalink: /linux-deprecated/
 title: Linux Installations (OLD)
 ---
 
-> **CURRENT INSTALLATION METHOD**
+> **CURRENT INSTALLATION METHOD**<br/>
 > For the latest installation method, see the Lutris-based instructions:<br/>
 > [Linux Installations (Current)](/linux){: .btn .btn--success}
 {: .notice--success}
