@@ -1,17 +1,22 @@
 ---
 permalink: /linux-deprecated/
-title: Linux Installations (DEPRECATED)
+title: Linux Installations (OLD)
 ---
 
-# REFERENCE USE ONLY
 
-These configuration methods are NO LONGER RECOMMENDED and remain documented here for **information and historical reference purposes only**.
+> **FOR REFERENCE USE ONLY**
+> 
+> These configuration methods are NO LONGER RECOMMENDED and remain documented here for **information and historical reference purposes only**.
+{: .notice--danger}
 
- > For the latest installation and configuration instructions, see [Linux Installations](/linux).
+> For the latest installation and configuration instructions, see the Lutris-based instructions:<br/>
+> [Linux Installations (Current)](/linux){: .btn .btn--success}
+{: .notice--success}
 
 # Lutris (Previous Method)
 
-> **Deprecated method as of 2023-06-19.**
+**Deprecated method as of 2023-06-19.**
+{: .notice--warning}
 
 By far the easiest way to use Windower 4 on Linux is through Lutris. By using the provided installation scripts, you will have a working Windower 4 installation that includes a functioning launcher GUI and does not require the `linuxfix` addon required by other methods.
 
