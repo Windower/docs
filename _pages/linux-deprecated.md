@@ -5,11 +5,11 @@ title: Linux Installations (OLD)
 
 > **CURRENT INSTALLATION METHOD**<br/>
 > For the latest installation method, see the Lutris-based instructions:<br/>
-> [Linux Installations (Current)](/linux){: .btn .btn--success}
+> [Linux Installations (Current)](/linux){: .btn .btn--success .btn--large}
 {: .notice--success}
 
 > **FOR REFERENCE USE ONLY**<br/>
-> The configuration methods documented on this page are NO LONGER RECOMMENDED and remain here for **information and historical reference purposes only**.
+> The configuration methods listed on this page are outdated and NOT RECOMMENDED. They remain documented here for **reference purposes only**.
 {: .notice--danger}
 
 # Lutris
