@@ -8,7 +8,7 @@ For the latest installation method, see the Lutris instructions:<br/>
 [Linux Installations (Current)](../linux/){: .btn .btn--success}
 
 > **DEPRECATED CONTENT**<br/>
-> The methods previously found on this page are considered deprecated and NOT RECOMMENDED.
+> The methods previously found on this page are considered deprecated and<br/> are NOT RECOMMENDED.
 {: .notice--danger}
 
 > **FOR REFERENCE ONLY**<br/>
