@@ -3,17 +3,16 @@ permalink: /linux-deprecated/
 title: Linux Installations (OLD)
 ---
 
-
-> **FOR REFERENCE USE ONLY**
-> 
-> These configuration methods are NO LONGER RECOMMENDED and remain documented here for **information and historical reference purposes only**.
-{: .notice--danger}
-
-> For the latest installation and configuration instructions, see the Lutris-based instructions:<br/>
+> **CURRENT INSTALLATION METHOD**
+> For the latest installation method, see the Lutris-based instructions:<br/>
 > [Linux Installations (Current)](/linux){: .btn .btn--success}
 {: .notice--success}
 
-# Lutris (Previous Method)
+> **FOR REFERENCE USE ONLY**<br/>
+> The configuration methods documented on this page are NO LONGER RECOMMENDED and remain here for **information and historical reference purposes only**.
+{: .notice--danger}
+
+# Lutris
 
 **Deprecated method as of 2023-06-19.**
 {: .notice--warning}
@@ -65,7 +64,7 @@ You may need to temporarily set the Wine version to something current (7.x) to u
 2. Close the launcher, and re-set the Wine version to 4.21.
 3. Restart the launcher and play the game.
 
-# Steam Deck (WIP)
+# Steam Deck
 
 ## Prerequisites
 
@@ -79,7 +78,7 @@ You may need to temporarily set the Wine version to something current (7.x) to u
    3. Add `lua l linuxfix` to the end of `windower/scripts/init.txt`.
 3. Copy your configured Windower 4 folder to a USB drive or network-accessible location.
 
-### Known Issues
+## Known Issues
 - **FFXIDB** *Causes instant crash to OS*
 - **linuxfix** *This addon is necessary to allow the keyboard (including software keyboard) to work with Windower 4, but essentially sacrifices the ability to use normal Windower keybinds.*
 
