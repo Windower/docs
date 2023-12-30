@@ -5,7 +5,7 @@ toc: false
 ---
 
 For the latest installation method, see the Lutris instructions:<br/>
-[Linux Installations](../linux/){: .btn .btn--success}
+[Linux Installations (Current)](../linux/){: .btn .btn--success}
 
 > ### DEPRECATED CONTENT
 > The methods previously found on this page are considered deprecated and NOT RECOMMENDED.
