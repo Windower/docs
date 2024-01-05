@@ -60,7 +60,8 @@ Install Windower with the script that is compatible with the D8VK installation o
 
 > **FOR REFERENCE ONLY**<br/>
 > For historical reference, the previous methods remain documented here:<br/>
-
+> [Linux Installations - Deprecated](/linux-deprecated){: .btn .btn--warning .btn--small}
+{: .notice--warning}
 
 <a href="https://github.com/GloriousEggroll/wine-ge-custom/releases/latest"><span id="latestrelease">Checking...</span></a>
 <script type="text/javascript">
@@ -77,5 +78,3 @@ fetch('https://api.github.com/repos/GloriousEggroll/wine-ge-custom/releases/late
   document.getElementById("latestrelease").innerHTML = 'Unknown';
 });
 </script>
-> [Linux Installations - Deprecated](/linux-deprecated){: .btn .btn--warning .btn--small}
-{: .notice--warning}
