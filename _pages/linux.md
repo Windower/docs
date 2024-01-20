@@ -24,7 +24,7 @@ The easiest way to use Windower 4 on Linux is through Lutris. The scripts availa
 
 ## Prerequisites
 * Install Lutris on your system.<br/>Refer to the [Lutris documentation](https://lutris.net/downloads) for the best way to do this for your system.
-* Configure Lutris to use the most recent version of Wine.<br/>(`wine-ge-8-25` as of 2024-01-04)
+* Configure Lutris to use the most recent version of Wine.<br/>(<a href="https://github.com/GloriousEggroll/wine-ge-custom/releases/latest"><span id="latestrelease">Checking...</span></a> as of 2024-01-04)
 
 ## Installing FINAL FANTASY XI
 Install Final Fantasy XI with the script that is configured to use D8VK. This installer uses a modern version of Wine and D8VK for better compatibility and performance.
@@ -63,5 +63,4 @@ Install Windower with the script that is compatible with the D8VK installation o
 > [Linux Installations - Deprecated](/linux-deprecated){: .btn .btn--warning .btn--small}
 {: .notice--warning}
 
-<a href="https://github.com/GloriousEggroll/wine-ge-custom/releases/latest"><span id="latestrelease">Checking...</span></a>
 <script src="/assets/js/wine-ver.js"/>
