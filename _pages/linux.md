@@ -24,7 +24,7 @@ The easiest way to use Windower 4 on Linux is through Lutris. The scripts availa
 
 ## Prerequisites
 * Install Lutris on your system.<br/>Refer to the [Lutris documentation](https://lutris.net/downloads) for the best way to do this for your system.
-* Configure Lutris to use the most recent version of Wine.<br/>(<a href="https://github.com/GloriousEggroll/wine-ge-custom/releases/latest"><span id="latestrelease">Checking...</span></a> as of 2024-01-04)
+* Configure Lutris to use the most recent version of Wine.<br/>(Currently <a href="https://github.com/GloriousEggroll/wine-ge-custom/releases/latest"><span id="latestrelease">Checking...</span></a>)
 
 ## Installing FINAL FANTASY XI
 Install Final Fantasy XI with the script that is configured to use D8VK. This installer uses a modern version of Wine and D8VK for better compatibility and performance.
@@ -62,5 +62,21 @@ Install Windower with the script that is compatible with the D8VK installation o
 > For historical reference, the previous methods remain documented here:<br/>
 > [Linux Installations - Deprecated](/linux-deprecated){: .btn .btn--warning .btn--small}
 {: .notice--warning}
+
+# Post-Installation Tips
+
+## Renaming the Lutris Entry
+By default, the Lutris entry for Windower 4 keeps the same name as FINAL FANTASY XI itself. To easily distinguish which one is Windower, you can identify its entry and rename it.
+1. Right-click one of the **FINAL FANTASY XI Online** entries and choose **Configure**.
+1. In the **Game options** tab, check whether the path for **Executable** ends with `windower.exe`.
+* If the path is for Windower, specify a new **Name** (e.g. `Windower 4`) in the **Game info** tab, and click **Save**.
+* If the path is for `polboot.exe`, click **Cancel** and try a different **FINAL FANTASY XI Online** entry.
+
+## Hiding the FPS Display
+By default, the Lutris scripts display FPS using the DXVK HUD. If you don't want this display, you can disable it in the Lutris system options for Windower.
+1. In Lutris, right-click your Windower 4 entry and choose **Configure**.
+1. In the **System options** tab, locate the **Environment variables** under **Game execution**.
+1. Highlight the **DXVK_HUD** key, and click **Delete**.
+1. Click **Save** and the FPS display should no longer appear.
 
 <script src="/assets/js/wine-ver.js"/>
