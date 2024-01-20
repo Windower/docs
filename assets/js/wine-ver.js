@@ -1,4 +1,4 @@
-fetch('https://api.github.com/repos/GloriousEggroll/wine-ge-custom/releases/latest', {headers: {accept:'application/vnd.github+json',redirect: "follow",referrerPolicy: "no-referrer"}}).then(
+fetch('https://api.github.com/repos/GloriousEggroll/wine-ge-custom/releases/latest', {headers: {accept:'application/vnd.github+json',referrerPolicy: "no-referrer"}}).then(
   res => {
     if (res.ok) return res.json();
     throw new Error();
