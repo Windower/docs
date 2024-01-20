@@ -17,7 +17,7 @@ In general, the following requirements apply for compatibility with minimal work
 
 # Lutris
 
-> **Preferred method, Last Updated 2024-01-20*
+> **Preferred method, Last Updated 2024-01-20**
 {: .notice--success}
 
 The easiest way to use Windower 4 on Linux is through Lutris. The scripts available in the Lutris database enable a fully functional launcher UI and do not require the use of the `linuxfix` addon.
