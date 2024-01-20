@@ -58,11 +58,6 @@ Install Windower with the script that is compatible with the D8VK installation o
 1. Click **FINAL FANTASY XI Online** in the search results.
 1. Select **Windower 4 Live** and click **Install**.
 
-> **FOR REFERENCE ONLY**<br/>
-> For historical reference, the previous methods remain documented here:<br/>
-> [Linux Installations - Deprecated](/linux-deprecated){: .btn .btn--warning .btn--small}
-{: .notice--warning}
-
 # Post-Installation Tips
 
 ## Renaming the Lutris Entry
@@ -80,3 +75,9 @@ By default, the Lutris scripts display FPS using the DXVK HUD. If you don't want
 1. Click **Save** and the FPS display should no longer appear.
 
 <script src="/assets/js/wine-ver.js"/>
+  
+<hr/>
+> **FOR REFERENCE ONLY**<br/>
+> For historical reference, the previous methods remain documented here:<br/>
+> [Linux Installations - Deprecated](/linux-deprecated){: .btn .btn--warning .btn--small}
+{: .notice--warning}
