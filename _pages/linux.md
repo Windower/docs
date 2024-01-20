@@ -64,17 +64,4 @@ Install Windower with the script that is compatible with the D8VK installation o
 {: .notice--warning}
 
 <a href="https://github.com/GloriousEggroll/wine-ge-custom/releases/latest"><span id="latestrelease">Checking...</span></a>
-<script type="text/javascript">
-fetch('https://api.github.com/repos/GloriousEggroll/wine-ge-custom/releases/latest', {headers: {accept:'application/vnd.github+json',redirect: "follow",referrerPolicy: "no-referrer"}}).then(
-  res => {
-    if (res.ok) return res.json();
-    throw new Error();
-  }).then(
-  res => {
-    var match = res.name.match(/(.*) Released$/i);
-    document.getElementById("latestrelease").innerHTML = match && match.at(1) || res.name;
-  }
-).catch(err => {
-  document.getElementById("latestrelease").innerHTML = 'Unknown';
-});
-</script>
+
