@@ -32,7 +32,7 @@ Windower settings control the basic Windower behavior for the profile.
 
 | Setting | Description |
 |:---|:---|
-| **Console Key** | Specifies the key that opens the Windower console.<br>Default: **Insert** |
+| **Console Key** | Specifies the key that opensand closes the Windower console.<br>Default: **Insert** |
 | **Resolution** | Sets the game resolution.<br>Default: Primary display resolution |
 | **Region** | Specifies the installed game client region.<br>Default: **Auto-Detect** |
 | **Window Mode** | Sets the windowing mode:<br>Default: **Borderless Window** |
