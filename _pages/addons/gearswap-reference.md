@@ -80,7 +80,7 @@ Changes the target to whatever value is passed. It can be a name or something li
 |Variable Name|Type|Description|
 |:--|:--|:--|
 |spell.target.name|string|Name of the spell's target.|
-|spell.target.raw|string|Unaltered name of the spell's target. (can be <t>, <bt>, etc.)|
+|spell.target.raw|string|Unaltered name of the spell's target. (can be &lt;t&gt;, &lt;bt&gt;, etc.)|
 |spell.target.type|string|'SELF', 'PLAYER', 'NPC', or 'MONSTER'. Should be re-keyed to match validtarget.|
 |spell.target.hpp|number|Number from 0 to 100 indicating the current HP% of the spell's target.|
 |spell.target.distance|number|Number from 0 to 50 indicating the current distance (in yalms) from the spell's target. Does account for vertical distance.|
