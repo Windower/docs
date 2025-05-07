@@ -78,7 +78,7 @@ Attempts to load the first version of `<string>` found, assuming it is a file pa
 gs reload
 ```
 
-Reloads the current user file.
+Unloads the current user file and loads the appropriate one based on your current Job(s) (Like how it loads files automatically when you change main jobs).
 
 ### export 
 ```
