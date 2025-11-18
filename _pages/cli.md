@@ -6,7 +6,7 @@ title: Windower Command Line Interface
 Windower supports a number of command-line arguments when launching. You can create various shortcuts to launch Windower with different settings, override specific parameters, set up private servers, etc.
 
 ## Profile Arguments
-The specified default values are just the default values when creating a profile. If a profile is specified, and the default for any missing value is taken from that profile, instead of the default specified in the table below.
+These arguments are all tied to a profile, and except for the last two, can also be set in the UI for each profile. The specified default values here are just the default values when creating a profile. If a profile is specified, and the default for any missing value is taken from that profile, instead of the default specified in the table below.
 
 | Argument | Description |
 |:---|:---|
@@ -22,6 +22,8 @@ The specified default values are just the default values when creating a profile
 | `--args <arg-string>` | Sets teh arguments to pass to the executable. Only meant to be used together with `--executable`. One string expected, if multiple arguments need to be passed, they need to be quoted. <br>Default: None. |
 
 ## Functional Arguments
+These arguments control the behavior of the application.
+
 | Argument | Description |
 |:---|:---|
 | `-h|--hide` | Hides the UI. Only makes sense in combination with specifying a profile, or with the `--quit` or `--update` flags. <br>Default: Not set. |
@@ -29,6 +31,8 @@ The specified default values are just the default values when creating a profile
 | `-u|--update` | Forces an update, and implies `--hide` and `--quit`. Will update even if other Windower instances are running. May corrupt running instances. <br>Default: Not set. |
 
 ## Technical Arguments
+These arguments are not meant to be used outside of a debugging context.
+
 | Argument | Description |
 |:---|:---|
 | `--debug` | Sets the internal debug flag, passed onto plugins. Unspecified use case, not meant for users. <br>Default: Not set. |
