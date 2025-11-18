@@ -10,25 +10,25 @@ These arguments are all tied to a profile, and except for the last two, can also
 
 | Argument | Description |
 |:---|:---|
-| `-p|--profile <profile>` | Sets the profile to use to `profile`. If present, it will skip the interactive UI and launch the game directly. <br>Default: The empty (default) profile. |
-| `-r|--region <region>` | Sets the POL region to use to `region`. Allows one of `Auto`, `JP`, `US`, or `EU`. <br>Default: Automatic detection (`Auto`). |
-| `-c|--console-key <key>` | Sets the key to use to open the Windower console to `key`. <br>Default: Insert. |
-| `-w|--width <x>` | Sets the horizontal resolution to `x`. <br>Default: The horizontal display resolution. |
-| `-h|--height <y>` | Sets the vertical resolution to `y`. <br>Default: The vertical display resolution. |
+| `-p <profile>`<br>`--profile <profile>` | Sets the profile to use to `profile`. If present, it will skip the interactive UI and launch the game directly. <br>Default: The empty (default) profile. |
+| `-r <region>`<br>`--region <region>` | Sets the POL region to use to `region`. Allows one of `Auto`, `JP`, `US`, or `EU`. <br>Default: Automatic detection (`Auto`). |
+| `-c <key>`<br>`--console-key <key>` | Sets the key to use to open the Windower console to `key`. <br>Default: Insert. |
+| `-w <x>`<br>`--width <x>` | Sets the horizontal resolution to `x`. <br>Default: The horizontal display resolution. |
+| `-h <y>`<br>`--height <y>` | Sets the vertical resolution to `y`. <br>Default: The vertical display resolution. |
 | `--borderless` | Sets the window mode to **Borderless**. <br>Default: Set. |
 | `--windowed` | Sets the window mode to **Windows**. <br>Default: Not set. |
 | `--fullscreen` | Sets the window mode to **Fullscreen**. <br>Default: Not set. |
 | `--executable <path>` | Sets the path to the executable to use. <br>Default: `&lt;FFXIPath&gt;/pol.exe`. |
-| `--args <arg-string>` | Sets teh arguments to pass to the executable. Only meant to be used together with `--executable`. One string expected, if multiple arguments need to be passed, they need to be quoted. <br>Default: None. |
+| `--args <arguments>` | Sets teh arguments to pass to the executable. Only meant to be used together with `--executable`. One string expected, if multiple arguments need to be passed, they need to be quoted. <br>Default: None. |
 
 ## Functional Arguments
 These arguments control the behavior of the application.
 
 | Argument | Description |
 |:---|:---|
-| `-h|--hide` | Hides the UI. Only makes sense in combination with specifying a profile, or with the `--quit` or `--update` flags. <br>Default: Not set. |
-| `-q|--quit` | Exits Windower immediately after the update step. <br>Default: Not set. |
-| `-u|--update` | Forces an update, and implies `--hide` and `--quit`. Will update even if other Windower instances are running. May corrupt running instances. <br>Default: Not set. |
+| `-h`<br>`--hide` | Hides the UI. Only makes sense in combination with specifying a profile, or with the `--quit` or `--update` flags. <br>Default: Not set. |
+| `-q`<br>`--quit` | Exits Windower immediately after the update step. <br>Default: Not set. |
+| `-u`<br>`--update` | Forces an update, and implies `--hide` and `--quit`. Will update even if other Windower instances are running. May corrupt running instances. <br>Default: Not set. |
 
 ## Technical Arguments
 These arguments are not meant to be used outside of a debugging context.
