@@ -18,6 +18,8 @@ sidenav:
         url: /profiles/
       - title: "Commands"
         url: /commands/
+      - title: "CLI"
+        url: /cli/
       - title: "FAQ"
         url: /faq/
   - title: "Addons"
@@ -69,7 +71,7 @@ addonnav:
       - title: "Chars"
         url: /addons/chars/
       - title: "ChatLink"
-        url: /addons/chatlink/        
+        url: /addons/chatlink/
       - title: "ChatPorter"
         url: /addons/chatporter/
       - title: "Clock"
