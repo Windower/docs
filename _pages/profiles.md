@@ -59,10 +59,6 @@ All advanced settings default to **Off**.
 
 | Setting | Description |
 |:---|:---|
-| **Debug Log** | Logs Windower debug messages. |
-| **Error Log** | Logs Windower error messages. |
-| **Input Log** | Logs game client input. |
-| **IPC Log** | Logs Windower IPC communication. |
 | **Allow Windows Key** | Allows the Windows key to pass out of the game to open the Start menu. |
 
 ## Addons
