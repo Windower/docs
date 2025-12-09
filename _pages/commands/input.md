@@ -26,12 +26,12 @@ By default, binds activate on key press; specify `up` to bind on key release.
 | `#` | **Apps** |
 | `~` | **Shift** |
 
-#### Supported Chat Input States
+#### Supported Chat Box States
 
 | State | Description |
 |:---|:---|
-| `$` | Keybind is valid while the game input line is active |
-| `%` | Keybind is valid while the game input line is inactive |
+| `$` | Keybind is valid while the game's chat box is open |
+| `%` | Keybind is valid while the game's chat box is closed |
 
 For an exhaustive list of bindable keys, see the [Key Mappings](../keymapping/) section.
 
