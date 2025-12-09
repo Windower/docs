@@ -30,8 +30,8 @@ By default, binds activate on key press; specify `up` to bind on key release.
 
 | State | Description |
 |:---|:---|
-| `$` | Keybind is valid while the game's chat box is open |
-| `%` | Keybind is valid while the game's chat box is closed |
+| `$` | Keybind is valid while the game's chat input box is open (valid while typing into chat box) |
+| `%` | Keybind is valid while the game's chat input box is closed (valid while not typing into chat box) |
 
 For an exhaustive list of bindable keys, see the [Key Mappings](../keymapping/) section.
 
