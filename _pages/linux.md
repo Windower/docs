@@ -8,9 +8,9 @@ While we cannot *guarantee* full support for Windower 4 on Linux systems, it doe
 ***Basic Requirements***
 
 In general, the following requirements apply for compatibility with minimal workarounds:
-* Wine Staging 8.5 or newer (or equivalent)
-* dotnet462, gdiplus, corefonts installed via winetricks
-* DirectX 8 compatibilty layer or shim such as D8VK or dgVoodoo2
+* runner based on Wine 10 or newer, or preferably a gaming optimized one like Proton.
+* dotnet48, gdiplus, corefonts installed via winetricks
+* DirectX 8 compatibilty layer, preferably DXVK
 
 > **Note:** The suggested Lutris installation method meets these requirements, but you can certainly install without Lutris as well.
 {: .notice--info}
