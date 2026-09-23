@@ -1,6 +1,6 @@
 ---
-permalink: /linux/
-title: Linux Installations
+permalink: /lutris-deprecated/
+title: Linux Installations (Lutris, OLD)
 ---
 
 While we cannot *guarantee* full support for Windower 4 on Linux systems, it does generally work through the magic of Wine and/or Proton, depending on your system.
