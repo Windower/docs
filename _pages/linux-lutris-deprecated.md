@@ -1,5 +1,5 @@
 ---
-permalink: /lutris-deprecated/
+permalink: /linux-lutris-deprecated/
 title: Linux Installations (Lutris, OLD)
 ---
 
