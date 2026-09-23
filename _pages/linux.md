@@ -12,7 +12,7 @@ In general, the following requirements apply for compatibility with minimal work
 * dotnet48, gdiplus, corefonts installed via winetricks
 * DirectX 8 compatibilty layer, preferably DXVK
 
-> **Note:** The suggested Lutris installation method meets these requirements, but you can certainly install without Lutris as well.
+> **Note:** The suggested Lumoria installation method meets these requirements, but you can certainly install without Lumoria as well.
 {: .notice--info}
 
 # Lumoria
