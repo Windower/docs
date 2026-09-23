@@ -19,7 +19,7 @@ Explore the [Addons](addons/) and [Plugins](plugins/) sections to find out more 
 ## Linux / Steam Deck
 Full Linux support for Windower 4 is not guaranteed, but you can get it to work with a few caveats.
 
-For more information about our suggested method (Lutris), see [Linux Installations](linux/).
+For more information about our suggested method (Lumoria), see [Linux Installations](linux/).
 
 ## Resolving Issues
 If you have issues, you can:
