@@ -5,7 +5,7 @@ toc: false
 ---
 
 > **CURRENT INSTALLATION METHOD**<br/>
-> For the latest installation method, see the Lutris-based instructions:<br/>
+> For the latest installation method, see the Linux instructions:<br/>
 > [Linux Installations (Current)](/linux){: .btn .btn--success .btn--large}
 {: .notice--success}
 
